@@ -1,10 +1,205 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Welcome</title>
+    <meta charset="utf-8">
+    <meta name="description"
+          content="StarDojo: Benchmarking Open-Ended Behaviors of Agentic Multimodal LLMs in Production–Living Simulations with Stardew Valley">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>StarDojo: Benchmarking Open-Ended Behaviors of Agentic Multimodal LLMs in Production–Living Simulations with Stardew Valley</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=??"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', '???');
+    </script>
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/bulma.min.css">
+    <link rel="stylesheet" href="./css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="./css/bulma-slider.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.all.min.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="icon" href="./images/favicon.svg">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./js/fontawesome.all.min.js"></script>
+    <script src="./js/bulma-carousel.min.js"></script>
+    <script src="./js/bulma-slider.min.js"></script>
+    <script src="./js/index.js"></script>
 </head>
+
 <body>
-  <h1>Hello, world!</h1>
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <h1 class="title is-1 publication-title"><span style="font-weight: bold">StarDojo</span>: 
+                        Benchmarking Open-Ended Behaviors of Agentic Multimodal LLMs in Production–Living Simulations with Stardew Valley</h1>
+                    <div class="column has-text-centered">
+                        <div class="publication-links">
+                            <span class="link-block">
+                                <a href="https://github.com/StarDojo2025/stardojo"
+                                class="external-link button is-normal is-rounded is-dark">
+                                <span class="icon">
+                                    <i class="fab fa-github"></i>
+                                </span>
+                                <span>Code</span>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="hero teaser">
+    <div class="container is-max-desktop">
+        <div class="hero-body">
+            <img src="./images/StarDojo_structure.png" height="100%">
+            <h2 class="subtitle has-text-centered">
+                The <span class="dnerf">StarDojo</span> environment is initiated by configurable task files. 
+                It communicates with parallel game engines through StarDojoMod to obtain internal game states and execute commands, 
+                which will be encapsulated as observations and actions by the Python Wrapper.
+            </h2>
+        </div>
+    </div>
+</section>
+
+<section class="hero teaser">
+    <div class="container is-max-desktop">
+        <div class="hero-body">
+            <video width="100%" controls autoplay muted>
+                <source src="./video/whole_video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <!-- Abstract. -->
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Abstract</h2>
+                <div class="content has-text-justified">
+                    <p>
+                        Autonomous agents navigating human society must master both production activities and social interactions, 
+                        yet existing benchmarks rarely evaluate these skills simultaneously. To bridge this gap, we introduce StarDojo, 
+                        a novel benchmark based on Stardew Valley, designed to assess AI agents in open-ended production–living simulations. 
+                        In StarDojo, agents are tasked to perform essential livelihood activities such as farming and crafting, 
+                        while simultaneously engaging in social interactions to establish relationships within a vibrant community. 
+                        StarDojo features 1,000 meticulously curated tasks across five key domains: farming, crafting, exploration, combat, 
+                        and social interactions. Additionally, we provide a compact subset of 100 representative tasks for efficient model evaluation. 
+                        The benchmark is designed with a unified, user-friendly interface without the need for keyboard and mouse control, 
+                        supports all mainstream operating systems, and enables parallelized execution of multiple environment instances, 
+                        making it particularly suited for evaluating the most capable foundation agents with multimodal large language models (MLLMs). 
+                        Extensive evaluations of state-of-the-art MLLMs agents demonstrate substantial limitations, with the best-performing model, 
+                        GPT-4.1, achieving only a 12.7% success rate, primarily due to challenges in visual understanding, 
+                        multimodal reasoning and low-level manipulation. As a user-friendly environment and benchmark, 
+                        StarDojo aims to facilitate further research towards robust, open-ended agents in complex production-living environments.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+<section class="section">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered">
+            <div class="column is-full-width">
+                <h2 class="title is-3" style="text-align: center;">Empirical Studies</h2>
+                <p>
+                </p>
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <figure style="margin: 0 10px; text-align: center; width: 80%;">
+                        <img src="./images/StarDojo_tasks.jpg" alt="1000 Tasks" style="width: 100%; height: auto;">
+                        <figcaption>Distribution of tasks across five categories: Farming, Crafting, Exploration, Combat and Social in StarDojo, 
+                            each with Easy, Medium, and Hard difficulties.</figcaption>
+                    </figure>
+                    <figure style="margin: 0 10px; text-align: center; width: 80%;">
+                        <img src="./images/StarDojo_Lite.png" alt="StarDojo-Lite" style="width: 100%; height: auto;">
+                        <figcaption>Task statistics of StarDojo-Lite. The task suite is made up of the most representative early-stage tasks from each category.</figcaption>
+                    </figure>
+                </div>
+                <br> <br/>
+                <h2 class="title is-4" style="text-align: center;">Major Results</h2>
+                <figure style="margin: 0 10px; text-align: center; width: 95%;">
+                    <img src="./images/StarDojo_results.png" alt="Major Results" style="width: 100%; height: auto;">
+                    <figcaption>Success rates(%) and standard deviation of agents with different base models on StarDojo-Lite task set, 
+                        ranging over five categories (Farming, Crafting, Exploration, Combat and Social) and three levels of difficulty. 
+                        Each task is evaluated over three runs.</figcaption>
+                </figure>
+                <br></br>
+
+                <h2 class="title is-4" style="text-align: center;">Ablation</h2>
+                <figure style="margin: 0 10px; text-align: center; width: 95%;">
+                    <img src="./images/StarDojo_ablation.png" alt="Ablation" style="width: 100%; height: auto;">
+                    <figcaption>Ablation results of the GPT-4.1-based agent on five representative tasks under four different settings: 
+                        Image + Text (default setting), Image Only, Text Only, and Real-Time (without game pausing). 
+                        Except for Chop 20 Wood, which is a medium-level task with a maximum of 50 steps, the remaining four are easy-level tasks capped at 30 steps. Each task is evaluated over three runs.</figcaption>
+                </figure>
+                <br></br>
+                
+                <div style="text-align: center;">
+                    <h3 class="title is-4">Conclusion</h3>
+                </div>
+                <br></br>
+                <div class="content has-text-justified">
+                    <p>
+                        Overall, 
+                        we introduce StarDojo, a novel environment and benchmark designed to evaluate the open-ended behaviors of MLLM agents in Stardew Valley. 
+                        StarDojo bridges the gap in existing environments by enabling comprehensive assessment of agents 
+                        across both production and daily living activities within a simulated nature and society. 
+                        Featuring a set of diverse tasks, StarDojo exposes significant challenges in current agents’ visual understanding, 
+                        multimodal reasoning, long-term planning, and real-time inference, highlighting key areas for future research and development.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+        <h2 style="margin-left: 14%">BibTeX</h2>
+        <pre>
+            <code>
+                
+            </code>
+        </pre>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-8">
+                <div class="content">
+                    <p>
+                        This website template is licensed under a <a rel="license"
+                                                                     href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                        Commons Attribution-ShareAlike 4.0 International License</a> and adapted from source at <a
+                            href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
