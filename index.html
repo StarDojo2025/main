@@ -70,19 +70,6 @@
 <section class="hero teaser">
     <div class="container is-max-desktop">
         <div class="hero-body">
-            <img src="./images/StarDojo_structure.png" height="100%">
-            <h2 class="subtitle has-text-centered">
-                The <span class="dnerf">StarDojo</span> environment is initiated by configurable task files. 
-                It communicates with parallel game engines through StarDojoMod to obtain internal game states and execute commands, 
-                which will be encapsulated as observations and actions by the Python Wrapper.
-            </h2>
-        </div>
-    </div>
-</section>
-
-<section class="hero teaser">
-    <div class="container is-max-desktop">
-        <div class="hero-body">
             <video width="100%" controls autoplay muted>
                 <source src="./video/whole_video.mp4" type="video/mp4">
             </video>
@@ -118,7 +105,131 @@
         </div>
     </div>
 </section>
-        
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered">
+            <div class="column is-full-width">
+                <h2 class="title is-3" style="text-align: center;">Stardew Valley: A Production-Living System</h2>
+                <img src="./images/StarDojo_intro.png"/>
+                <div class="content has-text-justified">
+                    <br></br>
+                    <p>
+                        Stardew Valley is an open-ended simulation RPG where players inherit a run-down farm. 
+                        Players must thoughtfully manage their farming strategies, explore the surrounding village, 
+                        and gather diverse resources to revitalize the farm. 
+                        Players are encouraged to build meaningful relationships with local villagers and participate in community events. 
+                    </p>
+                    <p>
+                        <span style="font-weight: bold">Realistic Dynamics</span>. Each in-game day in Stardew Valley lasts from 6 AM to 2 AM. 
+                        When nightfall occurs, outdoor activities will be affected due to the darkness. 
+                        Staying awake past midnight will result in penalties. Players start each day with 270 energy points, 
+                        spent through activities like farming and mining, and restored by sleeping or eating. 
+                        The game features four 28-day seasons and different daily weather conditions, each affecting farming, forage and other events. 
+                        Effective management of time and energy is crucial to maximizing productivity and overcoming the game's primary challenges.
+                    </p>
+                    <p>
+                        <span style="font-weight: bold">Rich Production Activities</span>. 
+                        Various production activities form the core gameplay of Stardew Valley. 
+                        Players perform essential tasks such as clearing debris, chopping wood, tilling soil, 
+                        planting, watering, and harvesting crops, as well as raising livestock like cows and chickens. 
+                        Other activities include fishing at the beach, mining and combat in the mines, and foraging in the forest. 
+                        Engaging in these tasks gradually improves character skills, unlocking more than 100 crafting recipes. 
+                        Crafting allows players to create useful tools, machinery, and decorative items, 
+                        significantly enhancing farm productivity and exploration efficiency.
+                    </p>
+                    <p>
+                        <span style="font-weight: bold">Diverse Social Interaction</span>. 
+                        Beyond farm production, Stardew Valley features 45 unique NPCs, each with distinct personalities, 
+                        daily routines, and special heart events. Players can build friendships by offering gifts, 
+                        and may even date, marry, and raise children with villagers. Periodically, the town hosts festivals and special events, 
+                        such as the Egg Festival and Stardew Valley Fair, which provide valuable opportunities to strengthen community relationships. 
+                        Additionally, various quests guide players to explore the village, interact with citizens and collect valuable resources. 
+                        Additionally, the game's comprehensive economic system requires strategic resource management, investment, 
+                        and efficient planning to generate income from production activities, 
+                        adapting strategically to seasonal demands and market conditions to achieve long-term financial success.
+                    </p>
+                    <p>
+                        Overall, Stardew Valley serves as an ideal environment for decision-making agents in the production–living simulation. 
+                        Its well-integrated systems of time management, resource allocation, economic planning, 
+                        and social interaction provide a dynamic and complex environment that requires strategic thinking and adaptability. 
+                        The game's structured yet open-ended nature makes it an excellent testbed for evaluating decision-making capabilities 
+                        in simulated real-world conditions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- <section class="hero teaser">
+    <div class="container is-max-desktop">
+        <div class="hero-body">
+            <img src="./images/StarDojo_structure.png" height="100%">
+            <h2 class="subtitle has-text-centered">
+                The <span class="dnerf">StarDojo</span> environment is initiated by configurable task files. 
+                It communicates with parallel game engines through StarDojoMod to obtain internal game states and execute commands, 
+                which will be encapsulated as observations and actions by the Python Wrapper.
+            </h2>
+        </div>
+    </div>
+</section> -->
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered">
+            <div class="column is-full-width">
+                <h2 class="title is-3" style="text-align: center;">StarDojo Architecture</h2>
+                <img src="./images/StarDojo_structure.png"/>
+                <div class="content has-text-justified">
+                    <br></br>
+                    <p>
+                        As a classical video game, Stardew Valley only supports human-like interaction, e.g., 
+                        observing gameplay through screenshots and using keyboard and mouse to control. The game must remain active and focused in the foreground, 
+                        which severely limits the ability to automate gameplay or run multiple instances simultaneously. 
+                        We introduce our carefully designed StarDojo environment to facilitate agents' interaction and assessment. 
+                    </p>
+                    <p>
+                        <span style="font-weight: bold">Unified User-friendly Interface</span>. 
+                        We present StarDojoMod, a novel extension built upon the Stardew Modding API (SMAPI), 
+                        which is a widely adopted, open-source modding framework designed specifically for Stardew Valley. 
+                        SMAPI offers developers extensive APIs that expose key game events and internal states, 
+                        facilitating the creation of interactive and sophisticated mods. Based on SMAPI, 
+                        StarDojoMod provides structured and efficient interactions between agents and the game environment. 
+                        It communicates in real-time with the Stardew Valley game engine through a socket server, 
+                        granting agents direct access to rendered gameplay images, saving the time-consuming screen captures, 
+                        internal game states (such as character positions, statuses, and environmental details), 
+                        and enabling diverse callable functions as action skills beyond traditional keyboard and mouse inputs. 
+                        Moreover, we implemented a configurable pause-and-resume mechanism by directly modifying the inner states of the game, 
+                        allowing the game to pause during agent planning and resume before action execution. 
+                        Inherited from SMAPI, StarDojoMod is implemented in C\# to be consistent with the game engine. 
+                        To enhance ease-of-use and accessibility of the environment, 
+                        we provide a user-friendly Python Wrapper based on the StarDojoMod for observation retrieval, action execution, 
+                        and task customization, empowering users to engage with the StarDojo environment effortlessly.
+                    </p>
+                    <p>
+                        <span style="font-weight: bold">System Compatibility</span>. 
+                        Stardew Valley is one of the few games that can be played on all mainstream operating systems (Linux, macOS and Windows). 
+                        We also ensured the compatibility of StarDojoMod and the Python Wrapper, 
+                        enabling the entire environment to run seamlessly across different systems.
+                    </p>
+                    <p>
+                        <span style="font-weight: bold">Parallel Execution</span>. 
+                        Our architecture is designed for scalability and parallel execution. 
+                        Each instance of Stardew Valley is independently managed through unique ports, 
+                        enabling simultaneous control of multiple game instances without interference. 
+                        Communication efficiency is further enhanced through the use of shared memory, 
+                        reducing observation retrieval time to as little as 30 milliseconds. Furthermore, 
+                        StarDojoMod supports headless operation through the X Virtual Framebuffer (Xvfb), 
+                        enabling compatibility with Linux systems without graphical interfaces, 
+                        thus broadening accessibility across diverse hardware and system configurations.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="section">
     <div class="container is-max-desktop">
         <div class="columns is-centered">
@@ -126,34 +237,84 @@
                 <h2 class="title is-3" style="text-align: center;">Empirical Studies</h2>
                 <p>
                 </p>
-                <div style="display: flex; justify-content: center; align-items: center;">
+                <div style="display: flex; justify-content: center; align-items: center; width: 80%; margin: 0 auto;">
                     <figure style="margin: 0 10px; text-align: center; width: 80%;">
                         <img src="./images/StarDojo_tasks.jpg" alt="1000 Tasks" style="width: 100%; height: auto;">
-                        <figcaption>Distribution of tasks across five categories: Farming, Crafting, Exploration, Combat and Social in StarDojo, 
-                            each with Easy, Medium, and Hard difficulties.</figcaption>
+                        <!-- <figcaption>Distribution of tasks across five categories: Farming, Crafting, Exploration, Combat and Social in StarDojo, 
+                            each with Easy, Medium, and Hard difficulties.</figcaption> -->
                     </figure>
                     <figure style="margin: 0 10px; text-align: center; width: 80%;">
                         <img src="./images/StarDojo_Lite.png" alt="StarDojo-Lite" style="width: 100%; height: auto;">
-                        <figcaption>Task statistics of StarDojo-Lite. The task suite is made up of the most representative early-stage tasks from each category.</figcaption>
+                        <!-- <figcaption>Task statistics of StarDojo-Lite. The task suite is made up of the most representative early-stage tasks from each category.</figcaption> -->
                     </figure>
                 </div>
-                <br> <br/>
+                <br><br/>
+                <div class="content has-text-justified">
+                    <p>
+                        We carefully curate 1000 tasks to benchmark agents' various behaviors in StarDojo. 
+                        These tasks are divided into five distinct categories, <span style="font-weight: bold">Farming</span>, 
+                        <span style="font-weight: bold">Crafting</span>, <span style="font-weight: bold">Exploration</span>, 
+                        <span style="font-weight: bold">Combat</span> and <span style="font-weight: bold">Social</span>, 
+                        which covers most of the production-living activities in the early and middle stages of the game. 
+                        Each task is classified into three difficulties, easy, medium, and hard, 
+                        with a heuristic maximum steps of 30, 50 and 150, based on their complexity and the time consuming. 
+                        To facilitate efficient agent evaluation, we curate a representative smaller task suite, called StarDojo-Lite, 
+                        comprising 100 core tasks from the full task collection, balancing coverage and practicality. 
+                        This lite task set covers most of the representative activities in the early stage of the game. 
+                    </p>
+                </div>
+                <br></br>
+
                 <h2 class="title is-4" style="text-align: center;">Major Results</h2>
-                <figure style="margin: 0 10px; text-align: center; width: 95%;">
-                    <img src="./images/StarDojo_results.png" alt="Major Results" style="width: 100%; height: auto;">
-                    <figcaption>Success rates(%) and standard deviation of agents with different base models on StarDojo-Lite task set, 
+                <figure style="margin: 0 10px; text-align: center; width: 100%;">
+                    <img src="./images/StarDojo_results.png" alt="Major Results" style="width: 70%; height: auto;">
+                    <!-- <figcaption>Success rates(%) and standard deviation of agents with different base models on StarDojo-Lite task set, 
                         ranging over five categories (Farming, Crafting, Exploration, Combat and Social) and three levels of difficulty. 
-                        Each task is evaluated over three runs.</figcaption>
+                        Each task is evaluated over three runs.</figcaption> -->
                 </figure>
+                <br></br>
+                <div class="content has-text-justified">
+                    <p>
+                        Across all evaluated models, GPT-4.1 achieves the highest overall success rate of 12.7% across all tasks, 
+                        while other models perform below 11%. Among open-source models, Llama 4 Maverick demonstrates the strongest performance, 
+                        benefiting from its larger model size. Most successful completions are limited to easy tasks, 
+                        whereas all models struggle significantly with medium and hard tasks, 
+                        achieving near-zero success rates due to increased task complexity and longer sequences of required actions. 
+                        Models show some proficiency in farming and crafting tasks but exhibit considerable difficulty in exploration, 
+                        combat, and social interactions.
+                    </p>
+                </div>
                 <br></br>
 
                 <h2 class="title is-4" style="text-align: center;">Ablation</h2>
                 <figure style="margin: 0 10px; text-align: center; width: 95%;">
                     <img src="./images/StarDojo_ablation.png" alt="Ablation" style="width: 100%; height: auto;">
-                    <figcaption>Ablation results of the GPT-4.1-based agent on five representative tasks under four different settings: 
+                    <!-- <figcaption>Ablation results of the GPT-4.1-based agent on five representative tasks under four different settings: 
                         Image + Text (default setting), Image Only, Text Only, and Real-Time (without game pausing). 
-                        Except for Chop 20 Wood, which is a medium-level task with a maximum of 50 steps, the remaining four are easy-level tasks capped at 30 steps. Each task is evaluated over three runs.</figcaption>
+                        Except for Chop 20 Wood, which is a medium-level task with a maximum of 50 steps, 
+                        the remaining four are easy-level tasks capped at 30 steps. Each task is evaluated over three runs.</figcaption> -->
                 </figure>
+                <br></br>
+                <div class="content has-text-justified">
+                    <p>
+                        Removing textual input (<span style="font-weight: bold">Image Only</span>) significantly affects agents' performance across all tasks, 
+                        reflecting the defect of base models' poor visual-based control, 
+                        emphasizing textual information's importance in grounding detailed action decisions for the current stage of agents. 
+                        On the other side, eliminating visual input (<span style="font-weight: bold">Text Only</span>) 
+                        substantially reduces success in tasks that require navigation like <span style="font-weight: bold">Ship 1 Parsnip</span> 
+                        and <span style="font-weight: bold">Go to Bus Stop</span>, 
+                        demonstrating the essential contribution of visual cues to spatial reasoning and movement. 
+                        Disabling the feature to pause the environment (<span style="font-weight: bold">Real-time</span>) 
+                        remarkably affects performance across tasks demanding timely reactions or prolonged action sequences.
+                        For example, in combat scenarios like <span style="font-weight: bold">Kill 1 Bug</span>, 
+                        the target (bug) continues moving during model inference, which can take over 10 seconds per request for GPT-4.1 via API. 
+                        By the time the action is executed, the bug has often moved far from its previous position, 
+                        rendering the action ineffective. Similarly, in long-horizon tasks like <span style="font-weight: bold">Chop 20 Wood</span>, 
+                        the in-game clock advances continuously during inference. With pausing enabled, the task may be completed in just 2 in-game hours; 
+                        without pausing, it can take over 12 in-game hours, frequently pushing completion into the night or spanning multiple in-game days. 
+                        These findings highlight the practical importance of real-time evaluation, an aspect often overlooked in prior benchmarks. 
+                    </p>
+                </div>
                 <br></br>
                 
                 <div style="text-align: center;">
