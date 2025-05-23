@@ -192,7 +192,6 @@ test*
 /tmp
 /papers
 
-*.mp4
 tensorboard_log/
 # VScode
 
@@ -203,45 +202,7 @@ screenshot.jpg
 skill_lib_basic.json
 env/api_test.py
 env/env_test.py
-*.jpeg
 
-env/tensorboard_log/PPO_0/events.out.tfevents.1738635959.DESKTOP-D8CCF1R.2656.0
-env/tensorboard_log/PPO_0/events.out.tfevents.1738636002.DESKTOP-D8CCF1R.9788.0
-env/tensorboard_log/PPO_0/events.out.tfevents.1738636106.DESKTOP-D8CCF1R.5068.0
-env/tensorboard_log/PPO_0/events.out.tfevents.1738636224.DESKTOP-D8CCF1R.19144.0
-env/tensorboard_log/PPO_0/events.out.tfevents.1738636354.DESKTOP-D8CCF1R.29252.0
-env/tensorboard_log/PPO_0/events.out.tfevents.1738636671.DESKTOP-D8CCF1R.41732.0
-env/wandb/run-20250204_102543-ubt92b9i/files/config.yaml
-env/wandb/run-20250204_102543-ubt92b9i/files/requirements.txt
-env/wandb/run-20250204_102543-ubt92b9i/files/wandb-metadata.json
-env/wandb/run-20250204_102543-ubt92b9i/files/wandb-summary.json
-env/wandb/run-20250204_102543-ubt92b9i/run-ubt92b9i.wandb
-env/wandb/run-20250204_102628-ze62mbj6/files/config.yaml
-env/wandb/run-20250204_102628-ze62mbj6/files/requirements.txt
-env/wandb/run-20250204_102628-ze62mbj6/files/wandb-metadata.json
-env/wandb/run-20250204_102628-ze62mbj6/files/wandb-summary.json
-env/wandb/run-20250204_102628-ze62mbj6/run-ze62mbj6.wandb
-env/wandb/run-20250204_102757-sxd7knvo/files/config.yaml
-env/wandb/run-20250204_102757-sxd7knvo/files/requirements.txt
-env/wandb/run-20250204_102757-sxd7knvo/files/wandb-metadata.json
-env/wandb/run-20250204_102757-sxd7knvo/files/wandb-summary.json
-env/wandb/run-20250204_102757-sxd7knvo/run-sxd7knvo.wandb
-env/wandb/run-20250204_103011-8ojqpspb/files/config.yaml
-env/wandb/run-20250204_103011-8ojqpspb/files/requirements.txt
-env/wandb/run-20250204_103011-8ojqpspb/files/wandb-metadata.json
-env/wandb/run-20250204_103011-8ojqpspb/files/wandb-summary.json
-env/wandb/run-20250204_103011-8ojqpspb/run-8ojqpspb.wandb
-env/wandb/run-20250204_103220-mld3m3hy/files/config.yaml
-env/wandb/run-20250204_103220-mld3m3hy/files/requirements.txt
-env/wandb/run-20250204_103220-mld3m3hy/files/wandb-metadata.json
-env/wandb/run-20250204_103220-mld3m3hy/files/wandb-summary.json
-env/wandb/run-20250204_103220-mld3m3hy/run-mld3m3hy.wandb
-env/wandb/run-20250204_103739-b7h1yayx/files/config.yaml
-env/wandb/run-20250204_103739-b7h1yayx/files/requirements.txt
-env/wandb/run-20250204_103739-b7h1yayx/files/wandb-metadata.json
-env/wandb/run-20250204_103739-b7h1yayx/files/wandb-summary.json
-env/wandb/run-20250204_103739-b7h1yayx/run-b7h1yayx.wandb
-*.png
 /env/wandb
 /env/tensorboard_log
 /env/wandb
