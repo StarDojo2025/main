@@ -45,7 +45,6 @@ STARDEW_APP_PATH=/absolute/path/to/StardewModdingAPI
 
 # Optional (for LLM integrations)
 OA_OPENAI_KEY=your-openai-api-key
-OPEN_SRC_KEY=your-other-key
 ```
 
 #### Step 2: Initialize the Environment
@@ -68,11 +67,11 @@ The benchmarking system is located in the `env/` directory.
 
 Run StarDojo benchmark by running the python files as listed below. Don't forget to check the settings as listed in 2.2 and 2.3.
 
-| Mode                    | File                        | Description                      |
+| Mode                    | Command                        | Description                      |
 | ----------------------- | ------------------------------ | -------------------------------- |
-| 🧪 Single Task          | `llm_env.py`                      | Runs a single benchmark task     |
-| 🔁 Multi-task (serial)  | `llm_env_multi_tasks.py`          | Runs multiple tasks sequentially |
-| ⚡ Multi-task (parallel) | `llm_env_multi_tasks_parallel.py` | Runs multiple tasks in parallel  |
+| 🧪 Single Task          | `python llm_env.py`                      | Runs a single benchmark task     |
+| 🔁 Multi-task (serial)  | `python llm_env_multi_tasks.py`          | Runs multiple tasks sequentially |
+| ⚡ Multi-task (parallel) | `python llm_env_multi_tasks_parallel.py` | Runs multiple tasks in parallel  |
 
 > These Python files are located in the `StarDojo/env/` directory.
 
