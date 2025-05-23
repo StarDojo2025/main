@@ -1,0 +1,12 @@
+{
+  "Name": "StardojoMod",
+  "Author": "stardojo",
+  "Version": "1.0.0",
+  "Description": "A mod to set an agent environment in Stardew Valley.",
+  "UniqueID": "stardojo.StardojoMod",
+  "EntryDll": "StardojoMod.dll",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": null
+}

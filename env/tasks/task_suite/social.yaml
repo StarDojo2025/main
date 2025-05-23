@@ -1,0 +1,2500 @@
+# easy: 170, medium: 60, hard: 20, total: 250
+ship_1_parsnip_with_shipping_bin:
+  id: 0
+  object: Parsnip
+  quantity: 1
+  tool: Shipping Bin
+  save: save_new
+  init_commands: ['add_item_by_name("Parsnip")']
+  evaluator: sell
+  difficulty: easy
+
+ship_3_parsnip_with_shipping_bin:
+  id: 1
+  object: Parsnip
+  quantity: 3
+  tool: Shipping Bin
+  save: save_new
+  init_commands: ['add_item_by_name("Parsnip", 3)']
+  evaluator: sell
+  difficulty: easy
+
+ship_5_parsnip_with_shipping_bin:
+  id: 2
+  object: Parsnip
+  quantity: 5
+  tool: Shipping Bin
+  save: save_new
+  init_commands: ['add_item_by_name("Parsnip", 5)']
+  evaluator: sell
+  difficulty: easy
+
+ship_8_parsnip_with_shipping_bin:
+  id: 3
+  object: Parsnip
+  quantity: 8
+  tool: Shipping Bin
+  save: save_new
+  init_commands: ['add_item_by_name("Parsnip", 8)']
+  evaluator: sell
+  difficulty: easy
+
+ship_10_parsnip_with_shipping_bin:
+  id: 4
+  object: Parsnip
+  quantity: 10
+  tool: Shipping Bin
+  save: save_new
+  init_commands: ['add_item_by_name("Parsnip", 10)']
+  evaluator: sell
+  difficulty: easy
+
+purchase_5_copper_ore:
+  id: 5
+  object: Copper Ore
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("clint")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_copper_ore:
+  id: 6
+  object: Copper Ore
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("clint")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_iron_ore:
+  id: 7
+  object: Iron Ore
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("clint")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_iron_ore:
+  id: 8
+  object: Iron Ore
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("clint")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_coal:
+  id: 9
+  object: Coal
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("clint")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_coal:
+  id: 10
+  object: Coal
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("clint")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_gold_ore:
+  id: 11
+  object: Gold Ore
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("clint")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_gold_ore:
+  id: 12
+  object: Gold Ore
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("clint")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_1_copper_ore:
+  id: 13
+  object: Copper Ore
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: purchase
+  difficulty: medium
+
+purchase_1_iron_ore:
+  id: 14
+  object: Iron Ore
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: purchase
+  difficulty: medium
+
+purchase_1_coal:
+  id: 15
+  object: Coal
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: purchase
+  difficulty: medium
+
+purchase_1_gold_ore:
+  id: 16
+  object: Gold Ore
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: purchase
+  difficulty: medium
+
+purchase_5_energy_tonic:
+  id: 17
+  object: Energy Tonic
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_character("harvey", "hospital", 6, 15)', 'warp("hospital", 6, 17)']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_energy_tonic:
+  id: 18
+  object: Energy Tonic
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_character("harvey", "hospital", 6, 15)', 'warp("hospital", 6, 17)']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_1_energy_tonic:
+  id: 19
+  object: Energy Tonic
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: purchase
+  difficulty: medium
+
+purchase_1_muscle_remedy:
+  id: 20
+  object: Muscle Remedy
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: purchase
+  difficulty: medium
+
+purchase_5_joja_cola:
+  id: 21
+  object: Joja Cola
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp("joja", 11, 25)']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_joja_cola:
+  id: 22
+  object: Joja Cola
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp("joja", 11, 25)']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_joja_wallpaper:
+  id: 23
+  object: Joja Wallpaper
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp("joja", 11, 25)']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_joja_wallpaper:
+  id: 24
+  object: Joja Wallpaper
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp("joja", 11, 25)']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_j._cola_light:
+  id: 25
+  object: J. Cola Light
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp("joja", 11, 25)']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_j._cola_light:
+  id: 26
+  object: J. Cola Light
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp("joja", 11, 25)']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_1_joja_furniture_catalogue:
+  id: 27
+  object: Joja Furniture Catalogue
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: purchase
+  difficulty: medium
+
+purchase_5_oil:
+  id: 28
+  object: Oil
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("pierre")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_oil:
+  id: 29
+  object: Oil
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("pierre")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_vinegar:
+  id: 30
+  object: Vinegar
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("pierre")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_vinegar:
+  id: 31
+  object: Vinegar
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("pierre")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_cherry_sapling:
+  id: 32
+  object: Cherry Sapling
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("pierre")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_cherry_sapling:
+  id: 33
+  object: Cherry Sapling
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("pierre")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_apricot_sapling:
+  id: 34
+  object: Apricot Sapling
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("pierre")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_apricot_sapling:
+  id: 35
+  object: Apricot Sapling
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("pierre")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_orange_sapling:
+  id: 36
+  object: Orange Sapling
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("pierre")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_orange_sapling:
+  id: 37
+  object: Orange Sapling
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("pierre")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_peach_sapling:
+  id: 38
+  object: Peach Sapling
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("pierre")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_peach_sapling:
+  id: 39
+  object: Peach Sapling
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("pierre")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_pomegranate_sapling:
+  id: 40
+  object: Pomegranate Sapling
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("pierre")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_pomegranate_sapling:
+  id: 41
+  object: Pomegranate Sapling
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("pierre")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_apple_sapling:
+  id: 42
+  object: Apple Sapling
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("pierre")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_apple_sapling:
+  id: 43
+  object: Apple Sapling
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("pierre")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_1_catalogue:
+  id: 44
+  object: Catalogue
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: purchase
+  difficulty: medium
+
+purchase_5_beer:
+  id: 45
+  object: Beer
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("gus")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_beer:
+  id: 46
+  object: Beer
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("gus")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_salad:
+  id: 47
+  object: Salad
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("gus")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_salad:
+  id: 48
+  object: Salad
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("gus")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_bread:
+  id: 49
+  object: Bread
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("gus")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_bread:
+  id: 50
+  object: Bread
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("gus")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_spaghetti:
+  id: 51
+  object: Spaghetti
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("gus")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_spaghetti:
+  id: 52
+  object: Spaghetti
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("gus")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_pizza:
+  id: 53
+  object: Pizza
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("gus")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_pizza:
+  id: 54
+  object: Pizza
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("gus")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_1_coffee:
+  id: 55
+  object: Coffee
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=1200)']
+  evaluator: purchase
+  difficulty: medium
+
+purchase_5_hay:
+  id: 56
+  object: Hay
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("marnie")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_hay:
+  id: 57
+  object: Hay
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("marnie")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_heater:
+  id: 58
+  object: Heater
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("marnie")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_heater:
+  id: 59
+  object: Heater
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("marnie")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_milk_pail:
+  id: 60
+  object: Milk Pail
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("marnie")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_milk_pail:
+  id: 61
+  object: Milk Pail
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("marnie")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_shears:
+  id: 62
+  object: Shears
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("marnie")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_shears:
+  id: 63
+  object: Shears
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("marnie")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_ornamental_hay_bale:
+  id: 64
+  object: Ornamental Hay Bale
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("marnie")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_ornamental_hay_bale:
+  id: 65
+  object: Ornamental Hay Bale
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("marnie")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_doghouse:
+  id: 66
+  object: Doghouse
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("marnie")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_doghouse:
+  id: 67
+  object: Doghouse
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("marnie")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_dark_doghouse:
+  id: 68
+  object: Dark Doghouse
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("marnie")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_dark_doghouse:
+  id: 69
+  object: Dark Doghouse
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("marnie")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_cat_tree:
+  id: 70
+  object: Cat Tree
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("marnie")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_cat_tree:
+  id: 71
+  object: Cat Tree
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("marnie")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_dark_cat_tree:
+  id: 72
+  object: Dark Cat Tree
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("marnie")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_3_dark_cat_tree:
+  id: 73
+  object: Dark Cat Tree
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("marnie")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_1_bird_house:
+  id: 74
+  object: Bird House
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: purchase
+  difficulty: medium
+
+purchase_1_rare_seed:
+  id: 75
+  object: Rare Seed
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("forest", 27, 12)']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_wood:
+  id: 76
+  object: Wood
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("robin")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_stone:
+  id: 77
+  object: Stone
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("robin")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_basic_window:
+  id: 78
+  object: Basic Window
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("robin")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_small_window:
+  id: 79
+  object: Small Window
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("robin")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_calendar:
+  id: 80
+  object: Calendar
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("robin")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_workbench:
+  id: 81
+  object: Workbench
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("robin")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_mini_fridge:
+  id: 82
+  object: Mini-Fridge
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("robin")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_telephone:
+  id: 83
+  object: Telephone
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("robin")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_floor_TV:
+  id: 84
+  object: Floor TV
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("robin")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_budget_TV:
+  id: 85
+  object: Budget TV
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("robin")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_1_basic_window:
+  id: 86
+  object: Basic Window
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: purchase
+  difficulty: medium
+
+sell_5_copper_ore_to_clint:
+  id: 87
+  object: Copper Ore
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("clint")', 'add_item_by_name("Copper Ore", 5)']
+  evaluator: sell
+  difficulty: easy
+
+sell_5_coal_to_clint:
+  id: 88
+  object: Coal
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("clint")', 'add_item_by_name("Coal", 5)']
+  evaluator: sell
+  difficulty: easy
+
+sell_1_iron_ore_to_clint:
+  id: 89
+  object: Iron Ore
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Iron Ore")', 'set_time(time=900)']
+  evaluator: sell
+  difficulty: medium
+
+sell_5_parsnip_to_pierre:
+  id: 90
+  object: Parsnip
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("pierre")', 'add_item_by_name("Parsnip", 5)']
+  evaluator: sell
+  difficulty: easy
+
+sell_5_potato_to_pierre:
+  id: 91
+  object: Potato
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("pierre")', 'add_item_by_name("Potato", 5)']
+  evaluator: sell
+  difficulty: easy
+
+sell_1_parsnip_to_pierre:
+  id: 92
+  object: Parsnip
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Parsnip")', 'set_time(time=900)']
+  evaluator: sell
+  difficulty: medium
+
+sell_5_wood_to_robin:
+  id: 93
+  object: Wood
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("robin")', 'add_item_by_name("Wood", 5)']
+  evaluator: sell
+  difficulty: easy
+
+sell_5_stone_to_robin:
+  id: 94
+  object: Stone
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("robin")', 'add_item_by_name("Stone", 5)']
+  evaluator: sell
+  difficulty: easy
+
+sell_1_wood_to_robin:
+  id: 95
+  object: Wood
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Wood")', 'set_time(time=900)']
+  evaluator: sell
+  difficulty: medium
+
+upgrade_to_copper_pickaxe:
+  id: 96
+  object: Copper Pickaxe
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Bar", 5)']
+  evaluator: upgrade_tool
+  difficulty: hard
+
+break_5_geode:
+  id: 97
+  object: Geode
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("clint")', 'add_item_by_name("Geode", 5)']
+  evaluator: break
+  difficulty: easy
+
+break_5_frozen_geode:
+  id: 98
+  object: Frozen Geode
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("clint")', 'add_item_by_name("Frozen Geode", 5)']
+  evaluator: break
+  difficulty: easy
+
+break_1_omni_geode:
+  id: 99
+  object: Omni Geode
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Omni Geode")', 'set_time(time=900)']
+  evaluator: break
+  difficulty: medium
+
+purchase_joja_membership:
+  id: 100
+  object: Joja Membership
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("joja", 21, 26)']
+  evaluator: jojamart
+  difficulty: easy
+
+purchase_minecarts_development_project:
+  id: 101
+  object: Minecarts Repaired
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['joja_membership()', 'set_time(time=900)']
+  evaluator: jojamart
+  difficulty: medium
+
+purchase_panning_development_project:
+  id: 102
+  object: Glittering Boulder Removed
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("joja", 21, 26)', 'joja_membership()']
+  evaluator: jojamart
+  difficulty: easy
+
+purchase_bridge_development_project:
+  id: 103
+  object: Bridge Repair
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['joja_membership()', 'set_time(time=900)']
+  evaluator: jojamart
+  difficulty: medium
+
+purchase_greenhouse_development_project:
+  id: 104
+  object: Greenhouse
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("joja", 21, 26)', 'joja_membership()']
+  evaluator: jojamart
+  difficulty: easy
+
+purchase_bus_development_project:
+  id: 105
+  object: Bus Repair
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['joja_membership()', 'set_time(time=900)']
+  evaluator: jojamart
+  difficulty: medium
+
+upgrade_to_large_pack:
+  id: 106
+  object: Large Pack
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("pierre")']
+  evaluator: backpack
+  difficulty: easy
+
+upgrade_to_deluxe_pack:
+  id: 107
+  object: Deluxe Pack
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: backpack
+  difficulty: medium
+
+purchase_5_joja_cola_with_joja_vending_machine:
+  id: 108
+  object: Joja Cola
+  quantity: 5
+  tool: Joja Vending Machine
+  save: save_new
+  init_commands: ['warp_shop("gus")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_1_joja_cola_with_joja_vending_machine:
+  id: 109
+  object: Joja Cola
+  quantity: 1
+  tool: Joja Vending Machine
+  save: save_new
+  init_commands: ['set_time(time=1200)']
+  evaluator: purchase
+  difficulty: medium
+
+purchase_1_chicken:
+  id: 110
+  object: Chicken
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("marnie")']
+  evaluator: purchase_animal
+  difficulty: easy
+
+purchase_1_cow:
+  id: 111
+  object: Cow
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("marnie")']
+  evaluator: purchase_animal
+  difficulty: easy
+
+purchase_1_duck:
+  id: 112
+  object: Duck
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: purchase_animal
+  difficulty: medium
+
+sell_1_chicken:
+  id: 113
+  object: Chicken
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: sell_animal
+  difficulty: easy
+
+sell_1_cow:
+  id: 114
+  object: Cow
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: sell_animal
+  difficulty: easy
+
+sell_1_duck:
+  id: 115
+  object: Duck
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: sell_animal
+  difficulty: easy
+
+purchase_1_good_ol'_cap:
+  id: 116
+  object: Good Ol' Cap
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("forest", 34, 96)']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_1_lucky_bow:
+  id: 117
+  object: Lucky Bow
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("forest", 34, 96)']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_1_cool_cap:
+  id: 118
+  object: Cool Cap
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: purchase
+  difficulty: medium
+
+purchase_5_trout_soup:
+  id: 119
+  object: Trout Soup
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("willy")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_bait:
+  id: 120
+  object: Bait
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("willy")']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_1_large_fish_tank:
+  id: 121
+  object: Large Fish Tank
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: purchase
+  difficulty: medium
+
+sell_5_sunfish_to_willy:
+  id: 122
+  object: Sunfish
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("willy")', 'add_item_by_name("Sunfish", 5)']
+  evaluator: sell
+  difficulty: easy
+
+sell_5_anchovy_to_willy:
+  id: 123
+  object: Anchovy
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("willy")', 'add_item_by_name("Anchovy", 5)']
+  evaluator: sell
+  difficulty: easy
+
+sell_1_smallmouth_bass_to_willy:
+  id: 124
+  object: Smallmouth Bass
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Smallmouth Bass")', 'set_time(time=900)']
+  evaluator: sell
+  difficulty: medium
+
+purchase_5_wooden_blade:
+  id: 125
+  object: Wooden Blade
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp("guild", 5, 13)']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_wall_sword:
+  id: 126
+  object: Wall Sword
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp("guild", 5, 13)']
+  evaluator: purchase
+  difficulty: easy
+
+purchase_5_sneakers:
+  id: 127
+  object: Sneakers
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=1400)']
+  evaluator: purchase
+  difficulty: medium
+
+sell_5_rusty_sword:
+  id: 128
+  object: Rusty Sword
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp("guild", 5, 13)', 'add_item_by_name("Rusty Sword", 5)']
+  evaluator: sell
+  difficulty: easy
+
+sell_5_decorative_sword:
+  id: 129
+  object: Decorative Sword
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp("guild", 5, 13)', 'add_item_by_name("Decorative Sword", 5)']
+  evaluator: sell
+  difficulty: easy
+
+sell_1_rusty_sword:
+  id: 130
+  object: Rusty Sword
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=1400)', 'add_item_by_name("Rusty Sword")']
+  evaluator: sell
+  difficulty: medium
+
+build_1_big_coop:
+  id: 131
+  object: Big Coop
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("robin")', 'add_item_by_name("Wood", 400)', 'add_item_by_name("Stone", 150)']
+  evaluator: build
+  difficulty: easy
+
+build_1_barn:
+  id: 132
+  object: Barn
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("robin")', 'add_item_by_name("Wood", 350)', 'add_item_by_name("Stone", 150)']
+  evaluator: build
+  difficulty: easy
+
+build_1_silo:
+  id: 133
+  object: Silo
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Stone", 100)', 'add_item_by_name("Clay", 10)', 'add_item_by_name("Copper Bar", 5)', 'set_time(time=900)']
+  evaluator: build
+  difficulty: medium
+
+move_farmhouse:
+  id: 134
+  object: Farmhouse
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("robin")']
+  evaluator: move
+  difficulty: easy
+
+move_barn:
+  id: 135
+  object: Barn
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("robin")']
+  evaluator: move
+  difficulty: easy
+
+move_1_coop:
+  id: 136
+  object: Coop
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: move
+  difficulty: medium
+
+upgrade_farmhouse:
+  id: 137
+  object: Farmhouse
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("robin")', 'add_item_by_name("Wood", 450)']
+  evaluator: upgrade_farmhouse
+  difficulty: easy
+
+demolish_2_shipping_bin:
+  id: 138
+  object: Shipping Bin
+  quantity: 2
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("robin")']
+  evaluator: demolish
+  difficulty: easy
+
+demolish_3_shipping_bin:
+  id: 139
+  object: Shipping Bin
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['warp_shop("robin")']
+  evaluator: demolish
+  difficulty: easy
+
+demolish_1_shipping_bin:
+  id: 140
+  object: Shipping Bin
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: demolish
+  difficulty: medium
+
+talk_to_alex:
+  id: 141
+  object: Alex
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=800)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_elliott:
+  id: 142
+  object: Elliott
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_harvey:
+  id: 143
+  object: Harvey
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_sam:
+  id: 144
+  object: Sam
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_sebastian:
+  id: 145
+  object: Sebastian
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=1500)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_shane:
+  id: 146
+  object: Shane
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_abigail:
+  id: 147
+  object: Abigail
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_emily:
+  id: 148
+  object: Emily
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_haley:
+  id: 149
+  object: Haley
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_leah:
+  id: 150
+  object: Leah
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_maru:
+  id: 151
+  object: Maru
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_penny:
+  id: 152
+  object: Penny
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_caroline:
+  id: 153
+  object: Caroline
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_clint:
+  id: 154
+  object: Clint
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_demetrius:
+  id: 155
+  object: Demetrius
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_evelyn:
+  id: 156
+  object: Evelyn
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_george:
+  id: 157
+  object: George
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_gus:
+  id: 158
+  object: Gus
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_jas:
+  id: 159
+  object: Jas
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_jodi:
+  id: 160
+  object: Jodi
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_lewis:
+  id: 161
+  object: Lewis
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_linus:
+  id: 162
+  object: Linus
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_marnie:
+  id: 163
+  object: Marnie
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_pam:
+  id: 164
+  object: Pam
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_pierre:
+  id: 165
+  object: Pierre
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_robin:
+  id: 166
+  object: Robin
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_vincent:
+  id: 167
+  object: Vincent
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_willy:
+  id: 168
+  object: Willy
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+talk_to_wizard:
+  id: 169
+  object: Wizard
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: talk
+  difficulty: easy
+
+give_alex_1_complete_breakfast:
+  id: 170
+  object: Alex
+  quantity: 1
+  tool: Complete Breakfast
+  save: save_new
+  init_commands: ['add_item_by_name("Complete Breakfast", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_elliott_1_pomegranate:
+  id: 171
+  object: Elliott
+  quantity: 1
+  tool: Pomegranate
+  save: save_new
+  init_commands: ['add_item_by_name("Pomegranate", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_harvey_1_coffee:
+  id: 172
+  object: Harvey
+  quantity: 1
+  tool: Coffee
+  save: save_new
+  init_commands: ['add_item_by_name("Coffee", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_sam_1_pizza:
+  id: 173
+  object: Sam
+  quantity: 1
+  tool: Pizza
+  save: save_new
+  init_commands: ['add_item_by_name("Pizza", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_sebastian_1_sashimi:
+  id: 174
+  object: Sebastian
+  quantity: 1
+  tool: Sashimi
+  save: save_new
+  init_commands: ['add_item_by_name("Sashimi", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_shane_1_beer:
+  id: 175
+  object: Shane
+  quantity: 1
+  tool: Beer
+  save: save_new
+  init_commands: ['add_item_by_name("Beer", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_abigail_1_amethyst:
+  id: 176
+  object: Abigail
+  quantity: 1
+  tool: Amethyst
+  save: save_new
+  init_commands: ['add_item_by_name("Amethyst", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_emily_1_wool:
+  id: 177
+  object: Emily
+  quantity: 1
+  tool: Wool
+  save: save_new
+  init_commands: ['add_item_by_name("Wool", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_haley_1_coconut:
+  id: 178
+  object: Haley
+  quantity: 1
+  tool: Coconut
+  save: save_new
+  init_commands: ['add_item_by_name("Coconut", 1, 4)', 'set_time(time=1100)']
+  evaluator: gift
+  difficulty: easy
+
+give_leah_1_salad:
+  id: 179
+  object: Leah
+  quantity: 1
+  tool: Salad
+  save: save_new
+  init_commands: ['add_item_by_name("Salad", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_maru_1_cauliflower:
+  id: 180
+  object: Maru
+  quantity: 1
+  tool: Cauliflower
+  save: save_new
+  init_commands: ['add_item_by_name("Cauliflower", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_penny_1_melon:
+  id: 181
+  object: Penny
+  quantity: 1
+  tool: Melon
+  save: save_new
+  init_commands: ['add_item_by_name("Melon", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_caroline_1_summer_spangle:
+  id: 182
+  object: Caroline
+  quantity: 1
+  tool: Summer Spangle
+  save: save_new
+  init_commands: ['add_item_by_name("Summer Spangle", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_clint_1_topaz:
+  id: 183
+  object: Clint
+  quantity: 1
+  tool: Topaz
+  save: save_new
+  init_commands: ['add_item_by_name("Topaz", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_demetrius_1_strawberry:
+  id: 184
+  object: Demetrius
+  quantity: 1
+  tool: Strawberry
+  save: save_new
+  init_commands: ['add_item_by_name("Strawberry", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_evelyn_1_tulip:
+  id: 185
+  object: Evelyn
+  quantity: 1
+  tool: Tulip
+  save: save_new
+  init_commands: ['add_item_by_name("Tulip", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_george_1_leek:
+  id: 186
+  object: George
+  quantity: 1
+  tool: Leek
+  save: save_new
+  init_commands: ['add_item_by_name("Leek", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_gus_1_orange:
+  id: 187
+  object: Gus
+  quantity: 1
+  tool: Orange
+  save: save_new
+  init_commands: ['add_item_by_name("Orange", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_jas_1_fairy_rose:
+  id: 188
+  object: Jas
+  quantity: 1
+  tool: Fairy Rose
+  save: save_new
+  init_commands: ['add_item_by_name("Fairy Rose", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_jodi_1_pancakes:
+  id: 189
+  object: Jodi
+  quantity: 1
+  tool: Pancakes
+  save: save_new
+  init_commands: ['add_item_by_name("Pancakes", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_lewis_1_hot_pepper:
+  id: 190
+  object: Lewis
+  quantity: 1
+  tool: Hot Pepper
+  save: save_new
+  init_commands: ['add_item_by_name("Hot Pepper", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_linus_1_cactus_fruit:
+  id: 191
+  object: Linus
+  quantity: 1
+  tool: Cactus Fruit
+  save: save_new
+  init_commands: ['add_item_by_name("Cactus Fruit", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_marnie_1_pumpkin_pie:
+  id: 192
+  object: Marnie
+  quantity: 1
+  tool: Pumpkin Pie
+  save: save_new
+  init_commands: ['add_item_by_name("Pumpkin Pie", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_pam_1_parsnip:
+  id: 193
+  object: Pam
+  quantity: 1
+  tool: Parsnip
+  save: save_new
+  init_commands: ['add_item_by_name("Parsnip", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_pierre_1_fried_calamari:
+  id: 194
+  object: Pierre
+  quantity: 1
+  tool: Fried Calamari
+  save: save_new
+  init_commands: ['add_item_by_name("Fried Calamari", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_robin_1_spaghetti:
+  id: 195
+  object: Robin
+  quantity: 1
+  tool: Spaghetti
+  save: save_new
+  init_commands: ['add_item_by_name("Spaghetti", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_vincent_1_grape:
+  id: 196
+  object: Vincent
+  quantity: 1
+  tool: Grape
+  save: save_new
+  init_commands: ['add_item_by_name("Grape", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_willy_1_catfish:
+  id: 197
+  object: Willy
+  quantity: 1
+  tool: Catfish
+  save: save_new
+  init_commands: ['add_item_by_name("Catfish", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+give_wizard_1_solar_essence:
+  id: 198
+  object: Wizard
+  quantity: 1
+  tool: Solar Essence
+  save: save_new
+  init_commands: ['add_item_by_name("Solar Essence", 1, 4)', 'set_time(time=900)']
+  evaluator: gift
+  difficulty: easy
+
+date_abigail:
+  id: 199
+  object: Abigail
+  quantity: 1
+  tool: Bouquet
+  save: save_new
+  init_commands: ['add_item_by_name("Bouquet")', 'npc_friendship("abigail", 2249)', 'seen_event("1")', 'seen_event("2")', 'seen_event("4")', 'seen_event("3")', 'set_time(time=900)']
+  evaluator: date
+  difficulty: easy
+
+break_up_with_abigail:
+  id: 200
+  object: Abigail
+  quantity: 1
+  tool: Wilted Bouquet
+  save: save_new
+  init_commands: ['dating("Abigail")', 'add_item_by_name("Furnace")', 'add_item_by_name("Bouquet")', 'add_item_by_name("Coal")', 'set_time(time=900)']
+  evaluator: breakup
+  difficulty: medium
+
+propose_to_abigail:
+  id: 201
+  object: Abigail
+  quantity: 1
+  tool: Mermaid's Pendant
+  save: save_new
+  init_commands: ['dating("Abigail")', 'npc_friendship("abigail", 2500)', 'seen_event("1")', 'seen_event("2")', 'seen_event("4")', 'seen_event("3")', 'seen_event("901756")', 'upgrade_house(1)', 'rain()',  'set_time(time=900)']
+  evaluator: propose
+  difficulty: medium
+
+earn_100_friendship_with_alex:
+  id: 202
+  object: Alex
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Complete Breakfast", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_200_friendship_with_alex:
+  id: 203
+  object: Alex
+  quantity: 200
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+earn_100_friendship_with_elliott:
+  id: 204
+  object: Elliott
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Pomegranate", 1, 4)', 'set_time(time=1100)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_200_friendship_with_elliott:
+  id: 205
+  object: Elliott
+  quantity: 200
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+earn_100_friendship_with_harvey:
+  id: 206
+  object: Harvey
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Coffee", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_200_friendship_with_harvey:
+  id: 207
+  object: Harvey
+  quantity: 200
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+earn_100_friendship_with_sam:
+  id: 208
+  object: Sam
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Pizza", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_200_friendship_with_sam:
+  id: 209
+  object: Sam
+  quantity: 200
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+earn_100_friendship_with_sebastian:
+  id: 210
+  object: Sebastian
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Sashimi", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_200_friendship_with_sebastian:
+  id: 211
+  object: Sebastian
+  quantity: 200
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+earn_100_friendship_with_shane:
+  id: 212
+  object: Shane
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Beer", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_200_friendship_with_shane:
+  id: 213
+  object: Shane
+  quantity: 200
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+earn_100_friendship_with_abigail:
+  id: 214
+  object: Abigail
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Amethyst", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_200_friendship_with_abigail:
+  id: 215
+  object: Abigail
+  quantity: 200
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+earn_100_friendship_with_emily:
+  id: 216
+  object: Emily
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Wool", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_200_friendship_with_emily:
+  id: 217
+  object: Emily
+  quantity: 200
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+earn_100_friendship_with_haley:
+  id: 218
+  object: Haley
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Coconut", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_200_friendship_with_haley:
+  id: 219
+  object: Haley
+  quantity: 200
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+earn_100_friendship_with_leah:
+  id: 220
+  object: Leah
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Salad", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_200_friendship_with_leah:
+  id: 221
+  object: Leah
+  quantity: 200
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+earn_100_friendship_with_maru:
+  id: 222
+  object: Maru
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Cauliflower", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_200_friendship_with_maru:
+  id: 223
+  object: Maru
+  quantity: 200
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+earn_100_friendship_with_penny:
+  id: 224
+  object: Penny
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Melon", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_200_friendship_with_penny:
+  id: 225
+  object: Penny
+  quantity: 200
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+earn_100_friendship_with_caroline:
+  id: 226
+  object: Caroline
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Summer Spangle", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_200_friendship_with_caroline:
+  id: 227
+  object: Caroline
+  quantity: 200
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+earn_100_friendship_with_clint:
+  id: 228
+  object: Clint
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Topaz", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_200_friendship_with_clint:
+  id: 229
+  object: Clint
+  quantity: 200
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+earn_100_friendship_with_demetrius:
+  id: 230
+  object: Demetrius
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Strawberry", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_200_friendship_with_demetrius:
+  id: 231
+  object: Demetrius
+  quantity: 200
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+earn_100_friendship_with_evelyn:
+  id: 232
+  object: Evelyn
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Tulip", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_200_friendship_with_evelyn:
+  id: 233
+  object: Evelyn
+  quantity: 200
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+earn_100_friendship_with_george:
+  id: 234
+  object: George
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Leek", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_200_friendship_with_george:
+  id: 235
+  object: George
+  quantity: 200
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+earn_100_friendship_with_gus:
+  id: 236
+  object: Gus
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Orange", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_200_friendship_with_gus:
+  id: 237
+  object: Gus
+  quantity: 200
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+earn_100_friendship_with_jas:
+  id: 238
+  object: Jas
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Fairy Rose", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_200_friendship_with_jas:
+  id: 239
+  object: Jas
+  quantity: 200
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+earn_100_friendship_with_jodi:
+  id: 240
+  object: Jodi
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Pancakes", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_100_friendship_with_lewis:
+  id: 241
+  object: Lewis
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Hot Pepper", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_100_friendship_with_linus:
+  id: 242
+  object: Linus
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Cactus Fruit", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_100_friendship_with_marnie:
+  id: 243
+  object: Marnie
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Pumpkin Pie", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_100_friendship_with_pam:
+  id: 244
+  object: Pam
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Parsnip", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_100_friendship_with_pierre:
+  id: 245
+  object: Pierre
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Fried Calamari", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_100_friendship_with_robin:
+  id: 246
+  object: Robin
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Spaghetti", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_100_friendship_with_vincent:
+  id: 247
+  object: Vincent
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Grape", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_100_friendship_with_willy:
+  id: 248
+  object: Willy
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Catfish", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium
+
+earn_100_friendship_with_wizard:
+  id: 249
+  object: Wizard
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Solar Essence", 1, 4)', 'set_time(time=900)']
+  evaluator: friendship
+  difficulty: medium

@@ -1,0 +1,7 @@
+{
+    "key_var": "OA_OPENAI_KEY",
+    "emb_model": "text-embedding-ada-002",
+    "comp_model": "qwen2.5-vl-72b-instruct",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "is_azure": false
+}

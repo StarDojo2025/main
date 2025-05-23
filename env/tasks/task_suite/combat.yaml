@@ -1,0 +1,1200 @@
+# easy: 30, medium: 60, hard: 30, total: 120
+kill_1_green_slime_with_rusty_sword:
+  id: 0
+  object: Green Slime
+  quantity: 1
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_green_slime_with_rusty_sword:
+  id: 1
+  object: Green Slime
+  quantity: 5
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: kill
+  difficulty: medium
+
+kill_10_green_slime_with_rusty_sword:
+  id: 2
+  object: Green Slime
+  quantity: 10
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_green_slime_with_wooden_blade:
+  id: 3
+  object: Green Slime
+  quantity: 1
+  tool: Wooden Blade
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Wooden Blade")']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_green_slime_with_wooden_blade:
+  id: 4
+  object: Green Slime
+  quantity: 5
+  tool: Wooden Blade
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Wooden Blade")']
+  evaluator: kill
+  difficulty: medium
+
+kill_10_green_slime_with_wooden_blade:
+  id: 5
+  object: Green Slime
+  quantity: 10
+  tool: Wooden Blade
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Wooden Blade")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_green_slime_with_femur:
+  id: 6
+  object: Green Slime
+  quantity: 1
+  tool: Femur
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Femur")']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_green_slime_with_femur:
+  id: 7
+  object: Green Slime
+  quantity: 5
+  tool: Femur
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Femur")']
+  evaluator: kill
+  difficulty: medium
+
+kill_1_green_slime_with_iron_dirk:
+  id: 8
+  object: Green Slime
+  quantity: 1
+  tool: Iron Dirk
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Iron Dirk")']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_green_slime_with_iron_dirk:
+  id: 9
+  object: Green Slime
+  quantity: 5
+  tool: Iron Dirk
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Iron Dirk")']
+  evaluator: kill
+  difficulty: medium
+
+kill_1_green_slime_with_silver_saber:
+  id: 10
+  object: Green Slime
+  quantity: 1
+  tool: Silver Saber
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Silver Saber")']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_green_slime_with_silver_saber:
+  id: 11
+  object: Green Slime
+  quantity: 5
+  tool: Silver Saber
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Silver Saber")']
+  evaluator: kill
+  difficulty: medium
+
+kill_1_green_slime_with_elf_blade:
+  id: 12
+  object: Green Slime
+  quantity: 1
+  tool: Elf Blade
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Elf Blade")']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_green_slime_with_elf_blade:
+  id: 13
+  object: Green Slime
+  quantity: 5
+  tool: Elf Blade
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Elf Blade")']
+  evaluator: kill
+  difficulty: medium
+
+kill_1_green_slime_with_steel_smallsword:
+  id: 14
+  object: Green Slime
+  quantity: 1
+  tool: Steel Smallsword
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Steel Smallsword")']
+  evaluator: kill
+  difficulty: easy
+
+kill_3_green_slime_with_steel_smallsword:
+  id: 15
+  object: Green Slime
+  quantity: 3
+  tool: Steel Smallsword
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Steel Smallsword")']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_green_slime_with_steel_smallsword:
+  id: 16
+  object: Green Slime
+  quantity: 5
+  tool: Steel Smallsword
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Steel Smallsword")']
+  evaluator: kill
+  difficulty: medium
+
+kill_1_green_slime_with_cutlass:
+  id: 17
+  object: Green Slime
+  quantity: 1
+  tool: Cutlass
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Cutlass")']
+  evaluator: kill
+  difficulty: easy
+
+kill_3_green_slime_with_cutlass:
+  id: 18
+  object: Green Slime
+  quantity: 3
+  tool: Cutlass
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Cutlass")']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_green_slime_with_cutlass:
+  id: 19
+  object: Green Slime
+  quantity: 5
+  tool: Cutlass
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Cutlass")']
+  evaluator: kill
+  difficulty: medium
+
+kill_1_bug_with_rusty_sword:
+  id: 20
+  object: Bug
+  quantity: 1
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_bug_with_rusty_sword:
+  id: 21
+  object: Bug
+  quantity: 5
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: kill
+  difficulty: medium
+
+kill_10_bug_with_rusty_sword:
+  id: 22
+  object: Bug
+  quantity: 10
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_bug_with_wooden_blade:
+  id: 23
+  object: Bug
+  quantity: 1
+  tool: Wooden Blade
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Wooden Blade")']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_bug_with_wooden_blade:
+  id: 24
+  object: Bug
+  quantity: 5
+  tool: Wooden Blade
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Wooden Blade")']
+  evaluator: kill
+  difficulty: medium
+
+kill_1_bug_with_femur:
+  id: 25
+  object: Bug
+  quantity: 1
+  tool: Femur
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Femur")']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_bug_with_femur:
+  id: 26
+  object: Bug
+  quantity: 5
+  tool: Femur
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Femur")']
+  evaluator: kill
+  difficulty: medium
+
+kill_1_bug_with_iron_dirk:
+  id: 27
+  object: Bug
+  quantity: 1
+  tool: Iron Dirk
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Iron Dirk")']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_bug_with_iron_dirk:
+  id: 28
+  object: Bug
+  quantity: 5
+  tool: Iron Dirk
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Iron Dirk")']
+  evaluator: kill
+  difficulty: medium
+
+kill_1_bug_with_silver_saber:
+  id: 29
+  object: Bug
+  quantity: 1
+  tool: Silver Saber
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Silver Saber")']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_bug_with_silver_saber:
+  id: 30
+  object: Bug
+  quantity: 5
+  tool: Silver Saber
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Silver Saber")']
+  evaluator: kill
+  difficulty: medium
+
+kill_1_bug_with_elf_blade:
+  id: 31
+  object: Bug
+  quantity: 1
+  tool: Elf Blade
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Elf Blade")']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_bug_with_elf_blade:
+  id: 32
+  object: Bug
+  quantity: 5
+  tool: Elf Blade
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Elf Blade")']
+  evaluator: kill
+  difficulty: medium
+
+kill_1_bug_with_steel_smallsword:
+  id: 33
+  object: Bug
+  quantity: 1
+  tool: Steel Smallsword
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Steel Smallsword")']
+  evaluator: kill
+  difficulty: easy
+
+kill_3_bug_with_steel_smallsword:
+  id: 34
+  object: Bug
+  quantity: 3
+  tool: Steel Smallsword
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Steel Smallsword")']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_bug_with_steel_smallsword:
+  id: 35
+  object: Bug
+  quantity: 5
+  tool: Steel Smallsword
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Steel Smallsword")']
+  evaluator: kill
+  difficulty: medium
+
+kill_1_bug_with_cutlass:
+  id: 36
+  object: Bug
+  quantity: 1
+  tool: Cutlass
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Cutlass")']
+  evaluator: kill
+  difficulty: easy
+
+kill_3_bug_with_cutlass:
+  id: 37
+  object: Bug
+  quantity: 3
+  tool: Cutlass
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Cutlass")']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_bug_with_cutlass:
+  id: 38
+  object: Bug
+  quantity: 5
+  tool: Cutlass
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Cutlass")']
+  evaluator: kill
+  difficulty: medium
+
+kill_1_fly_with_rusty_sword:
+  id: 39
+  object: Fly
+  quantity: 1
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_fly_with_rusty_sword:
+  id: 40
+  object: Fly
+  quantity: 5
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_fly_with_wooden_blade:
+  id: 41
+  object: Fly
+  quantity: 1
+  tool: Wooden Blade
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Wooden Blade")']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_fly_with_wooden_blade:
+  id: 42
+  object: Fly
+  quantity: 5
+  tool: Wooden Blade
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Wooden Blade")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_fly_with_femur:
+  id: 43
+  object: Fly
+  quantity: 1
+  tool: Femur
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Femur")']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_fly_with_femur:
+  id: 44
+  object: Fly
+  quantity: 5
+  tool: Femur
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Femur")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_fly_with_iron_dirk:
+  id: 45
+  object: Fly
+  quantity: 1
+  tool: Iron Dirk
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Iron Dirk")']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_fly_with_iron_dirk:
+  id: 46
+  object: Fly
+  quantity: 5
+  tool: Iron Dirk
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Iron Dirk")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_fly_with_silver_saber:
+  id: 47
+  object: Fly
+  quantity: 1
+  tool: Silver Saber
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Silver Saber")']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_fly_with_silver_saber:
+  id: 48
+  object: Fly
+  quantity: 5
+  tool: Silver Saber
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Silver Saber")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_fly_with_elf_blade:
+  id: 49
+  object: Fly
+  quantity: 1
+  tool: Elf Blade
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Elf Blade")']
+  evaluator: kill
+  difficulty: medium
+
+kill_3_fly_with_elf_blade:
+  id: 50
+  object: Fly
+  quantity: 3
+  tool: Elf Blade
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Elf Blade")']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_fly_with_elf_blade:
+  id: 51
+  object: Fly
+  quantity: 5
+  tool: Elf Blade
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Elf Blade")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_fly_with_steel_smallsword:
+  id: 52
+  object: Fly
+  quantity: 1
+  tool: Steel Smallsword
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Steel Smallsword")']
+  evaluator: kill
+  difficulty: medium
+
+kill_3_fly_with_steel_smallsword:
+  id: 53
+  object: Fly
+  quantity: 3
+  tool: Steel Smallsword
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Steel Smallsword")']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_fly_with_steel_smallsword:
+  id: 54
+  object: Fly
+  quantity: 5
+  tool: Steel Smallsword
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Steel Smallsword")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_fly_with_cutlass:
+  id: 55
+  object: Fly
+  quantity: 1
+  tool: Cutlass
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Cutlass")']
+  evaluator: kill
+  difficulty: medium
+
+kill_3_fly_with_cutlass:
+  id: 56
+  object: Fly
+  quantity: 3
+  tool: Cutlass
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Cutlass")']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_fly_with_cutlass:
+  id: 57
+  object: Fly
+  quantity: 5
+  tool: Cutlass
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Cutlass")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_duggy_with_rusty_sword:
+  id: 58
+  object: Duggy
+  quantity: 1
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(6)']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_duggy_with_rusty_sword:
+  id: 59
+  object: Duggy
+  quantity: 5
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(6)']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_duggy_with_wooden_blade:
+  id: 60
+  object: Duggy
+  quantity: 1
+  tool: Wooden Blade
+  save: save_new
+  init_commands: ['warp_mine(6)', 'add_item_by_name("Wooden Blade")']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_duggy_with_wooden_blade:
+  id: 61
+  object: Duggy
+  quantity: 5
+  tool: Wooden Blade
+  save: save_new
+  init_commands: ['warp_mine(6)', 'add_item_by_name("Wooden Blade")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_duggy_with_femur:
+  id: 62
+  object: Duggy
+  quantity: 1
+  tool: Femur
+  save: save_new
+  init_commands: ['warp_mine(6)', 'add_item_by_name("Femur")']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_duggy_with_femur:
+  id: 63
+  object: Duggy
+  quantity: 5
+  tool: Femur
+  save: save_new
+  init_commands: ['warp_mine(6)', 'add_item_by_name("Femur")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_duggy_with_iron_dirk:
+  id: 64
+  object: Duggy
+  quantity: 1
+  tool: Iron Dirk
+  save: save_new
+  init_commands: ['warp_mine(6)', 'add_item_by_name("Iron Dirk")']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_duggy_with_iron_dirk:
+  id: 65
+  object: Duggy
+  quantity: 5
+  tool: Iron Dirk
+  save: save_new
+  init_commands: ['warp_mine(6)', 'add_item_by_name("Iron Dirk")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_duggy_with_silver_saber:
+  id: 66
+  object: Duggy
+  quantity: 1
+  tool: Silver Saber
+  save: save_new
+  init_commands: ['warp_mine(6)', 'add_item_by_name("Silver Saber")']
+  evaluator: kill
+  difficulty: medium
+
+kill_3_duggy_with_silver_saber:
+  id: 67
+  object: Duggy
+  quantity: 1
+  tool: Silver Saber
+  save: save_new
+  init_commands: ['warp_mine(6)', 'add_item_by_name("Silver Saber")']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_duggy_with_silver_saber:
+  id: 68
+  object: Duggy
+  quantity: 5
+  tool: Silver Saber
+  save: save_new
+  init_commands: ['warp_mine(6)', 'add_item_by_name("Silver Saber")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_duggy_with_elf_blade:
+  id: 69
+  object: Duggy
+  quantity: 1
+  tool: Elf Blade
+  save: save_new
+  init_commands: ['warp_mine(6)', 'add_item_by_name("Elf Blade")']
+  evaluator: kill
+  difficulty: medium
+
+kill_3_duggy_with_elf_blade:
+  id: 70
+  object: Duggy
+  quantity: 3
+  tool: Elf Blade
+  save: save_new
+  init_commands: ['warp_mine(6)', 'add_item_by_name("Elf Blade")']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_duggy_with_elf_blade:
+  id: 71
+  object: Duggy
+  quantity: 5
+  tool: Elf Blade
+  save: save_new
+  init_commands: ['warp_mine(6)', 'add_item_by_name("Elf Blade")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_duggy_with_steel_smallsword:
+  id: 72
+  object: Duggy
+  quantity: 1
+  tool: Steel Smallsword
+  save: save_new
+  init_commands: ['warp_mine(6)', 'add_item_by_name("Steel Smallsword")']
+  evaluator: kill
+  difficulty: medium
+
+kill_3_duggy_with_steel_smallsword:
+  id: 73
+  object: Duggy
+  quantity: 3
+  tool: Steel Smallsword
+  save: save_new
+  init_commands: ['warp_mine(6)', 'add_item_by_name("Steel Smallsword")']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_duggy_with_steel_smallsword:
+  id: 74
+  object: Duggy
+  quantity: 5
+  tool: Steel Smallsword
+  save: save_new
+  init_commands: ['warp_mine(6)', 'add_item_by_name("Steel Smallsword")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_duggy_with_cutlass:
+  id: 75
+  object: Duggy
+  quantity: 1
+  tool: Cutlass
+  save: save_new
+  init_commands: ['warp_mine(6)', 'add_item_by_name("Cutlass")']
+  evaluator: kill
+  difficulty: medium
+
+kill_3_duggy_with_cutlass:
+  id: 76
+  object: Duggy
+  quantity: 3
+  tool: Cutlass
+  save: save_new
+  init_commands: ['warp_mine(6)', 'add_item_by_name("Cutlass")']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_duggy_with_cutlass:
+  id: 77
+  object: Duggy
+  quantity: 5
+  tool: Cutlass
+  save: save_new
+  init_commands: ['warp_mine(6)', 'add_item_by_name("Cutlass")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_grub_with_rusty_sword:
+  id: 78
+  object: Grub
+  quantity: 1
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(15)']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_grub_with_rusty_sword:
+  id: 79
+  object: Grub
+  quantity: 5
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(15)']
+  evaluator: kill
+  difficulty: medium
+
+kill_10_grub_with_rusty_sword:
+  id: 80
+  object: Grub
+  quantity: 10
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(15)']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_grub_with_wooden_blade:
+  id: 81
+  object: Grub
+  quantity: 1
+  tool: Wooden Blade
+  save: save_new
+  init_commands: ['warp_mine(15)', 'add_item_by_name("Wooden Blade")']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_grub_with_wooden_blade:
+  id: 82
+  object: Grub
+  quantity: 5
+  tool: Wooden Blade
+  save: save_new
+  init_commands: ['warp_mine(15)', 'add_item_by_name("Wooden Blade")']
+  evaluator: kill
+  difficulty: medium
+
+kill_10_grub_with_wooden_blade:
+  id: 83
+  object: Grub
+  quantity: 10
+  tool: Wooden Blade
+  save: save_new
+  init_commands: ['warp_mine(15)', 'add_item_by_name("Wooden Blade")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_grub_with_femur:
+  id: 84
+  object: Grub
+  quantity: 1
+  tool: Femur
+  save: save_new
+  init_commands: ['warp_mine(15)', 'add_item_by_name("Femur")']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_grub_with_femur:
+  id: 85
+  object: Grub
+  quantity: 5
+  tool: Femur
+  save: save_new
+  init_commands: ['warp_mine(15)', 'add_item_by_name("Femur")']
+  evaluator: kill
+  difficulty: medium
+
+kill_1_grub_with_iron_dirk:
+  id: 86
+  object: Grub
+  quantity: 1
+  tool: Iron Dirk
+  save: save_new
+  init_commands: ['warp_mine(15)', 'add_item_by_name("Iron Dirk")']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_grub_with_iron_dirk:
+  id: 87
+  object: Grub
+  quantity: 5
+  tool: Iron Dirk
+  save: save_new
+  init_commands: ['warp_mine(15)', 'add_item_by_name("Iron Dirk")']
+  evaluator: kill
+  difficulty: medium
+
+kill_1_grub_with_silver_saber:
+  id: 88
+  object: Grub
+  quantity: 1
+  tool: Silver Saber
+  save: save_new
+  init_commands: ['warp_mine(15)', 'add_item_by_name("Silver Saber")']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_grub_with_silver_saber:
+  id: 89
+  object: Grub
+  quantity: 5
+  tool: Silver Saber
+  save: save_new
+  init_commands: ['warp_mine(15)', 'add_item_by_name("Silver Saber")']
+  evaluator: kill
+  difficulty: medium
+
+kill_1_grub_with_elf_blade:
+  id: 90
+  object: Grub
+  quantity: 1
+  tool: Elf Blade
+  save: save_new
+  init_commands: ['warp_mine(15)', 'add_item_by_name("Elf Blade")']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_grub_with_elf_blade:
+  id: 91
+  object: Grub
+  quantity: 5
+  tool: Elf Blade
+  save: save_new
+  init_commands: ['warp_mine(15)', 'add_item_by_name("Elf Blade")']
+  evaluator: kill
+  difficulty: medium
+
+kill_1_grub_with_steel_smallsword:
+  id: 92
+  object: Grub
+  quantity: 1
+  tool: Steel Smallsword
+  save: save_new
+  init_commands: ['warp_mine(15)', 'add_item_by_name("Steel Smallsword")']
+  evaluator: kill
+  difficulty: easy
+
+kill_3_grub_with_steel_smallsword:
+  id: 93
+  object: Grub
+  quantity: 3
+  tool: Steel Smallsword
+  save: save_new
+  init_commands: ['warp_mine(15)', 'add_item_by_name("Steel Smallsword")']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_grub_with_steel_smallsword:
+  id: 94
+  object: Grub
+  quantity: 5
+  tool: Steel Smallsword
+  save: save_new
+  init_commands: ['warp_mine(15)', 'add_item_by_name("Steel Smallsword")']
+  evaluator: kill
+  difficulty: medium
+
+kill_1_grub_with_cutlass:
+  id: 95
+  object: Grub
+  quantity: 1
+  tool: Cutlass
+  save: save_new
+  init_commands: ['warp_mine(15)', 'add_item_by_name("Cutlass")']
+  evaluator: kill
+  difficulty: easy
+
+kill_3_grub_with_cutlass:
+  id: 96
+  object: Grub
+  quantity: 3
+  tool: Cutlass
+  save: save_new
+  init_commands: ['warp_mine(15)', 'add_item_by_name("Cutlass")']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_grub_with_cutlass:
+  id: 97
+  object: Grub
+  quantity: 5
+  tool: Cutlass
+  save: save_new
+  init_commands: ['warp_mine(15)', 'add_item_by_name("Cutlass")']
+  evaluator: kill
+  difficulty: medium
+
+kill_1_rock_crab_with_rusty_sword:
+  id: 98
+  object: Rock Crab
+  quantity: 1
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_rock_crab_with_rusty_sword:
+  id: 99
+  object: Rock Crab
+  quantity: 5
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_rock_crab_with_wooden_blade:
+  id: 100
+  object: Rock Crab
+  quantity: 1
+  tool: Wooden Blade
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Wooden Blade")']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_rock_crab_with_wooden_blade:
+  id: 101
+  object: Rock Crab
+  quantity: 5
+  tool: Wooden Blade
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Wooden Blade")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_rock_crab_with_femur:
+  id: 102
+  object: Rock Crab
+  quantity: 1
+  tool: Femur
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Femur")']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_rock_crab_with_femur:
+  id: 103
+  object: Rock Crab
+  quantity: 5
+  tool: Femur
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Femur")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_rock_crab_with_iron_dirk:
+  id: 104
+  object: Rock Crab
+  quantity: 1
+  tool: Iron Dirk
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Iron Dirk")']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_rock_crab_with_iron_dirk:
+  id: 105
+  object: Rock Crab
+  quantity: 5
+  tool: Iron Dirk
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Iron Dirk")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_rock_crab_with_silver_saber:
+  id: 106
+  object: Rock Crab
+  quantity: 1
+  tool: Silver Saber
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Silver Saber")']
+  evaluator: kill
+  difficulty: medium
+
+kill_3_rock_crab_with_silver_saber:
+  id: 107
+  object: Rock Crab
+  quantity: 3
+  tool: Silver Saber
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Silver Saber")']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_rock_crab_with_silver_saber:
+  id: 108
+  object: Rock Crab
+  quantity: 5
+  tool: Silver Saber
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Silver Saber")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_rock_crab_with_elf_blade:
+  id: 109
+  object: Rock Crab
+  quantity: 1
+  tool: Elf Blade
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Elf Blade")']
+  evaluator: kill
+  difficulty: medium
+
+kill_3_rock_crab_with_elf_blade:
+  id: 110
+  object: Rock Crab
+  quantity: 3
+  tool: Elf Blade
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Elf Blade")']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_rock_crab_with_elf_blade:
+  id: 111
+  object: Rock Crab
+  quantity: 5
+  tool: Elf Blade
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Elf Blade")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_rock_crab_with_steel_smallsword:
+  id: 112
+  object: Rock Crab
+  quantity: 1
+  tool: Steel Smallsword
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Steel Smallsword")']
+  evaluator: kill
+  difficulty: medium
+
+kill_3_rock_crab_with_steel_smallsword:
+  id: 113
+  object: Rock Crab
+  quantity: 3
+  tool: Steel Smallsword
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Steel Smallsword")']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_rock_crab_with_steel_smallsword:
+  id: 114
+  object: Rock Crab
+  quantity: 5
+  tool: Steel Smallsword
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Steel Smallsword")']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_rock_crab_with_cutlass:
+  id: 115
+  object: Rock Crab
+  quantity: 1
+  tool: Cutlass
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Cutlass")']
+  evaluator: kill
+  difficulty: medium
+
+kill_3_rock_crab_with_cutlass:
+  id: 116
+  object: Rock Crab
+  quantity: 3
+  tool: Cutlass
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Cutlass")']
+  evaluator: kill
+  difficulty: medium
+
+kill_5_rock_crab_with_cutlass:
+  id: 117
+  object: Rock Crab
+  quantity: 5
+  tool: Cutlass
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Cutlass")']
+  evaluator: kill
+  difficulty: hard
+
+upgrade_1_combat_skill:
+  id: 118
+  object: Combat Skill
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: skill
+  difficulty: medium
+
+upgrade_to_fighter:
+  id: 119
+  object: Fighter
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: profession
+  difficulty: hard

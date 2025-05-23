@@ -1,0 +1,2100 @@
+# easy: 140, medium: 30, hard: 40, total: 210
+clear_5_weeds_with_scythe:
+  id: 0
+  object: Weeds
+  quantity: 5
+  tool: Scythe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: easy
+
+clear_8_weeds_with_scythe:
+  id: 1
+  object: Weeds
+  quantity: 8
+  tool: Scythe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: easy
+
+clear_10_weeds_with_scythe:
+  id: 2
+  object: Weeds
+  quantity: 10
+  tool: Scythe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: easy
+
+clear_13_weeds_with_scythe:
+  id: 3
+  object: Weeds
+  quantity: 10
+  tool: Scythe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: easy
+
+clear_15_weeds_with_scythe:
+  id: 4
+  object: Weeds
+  quantity: 15
+  tool: Scythe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: easy
+
+clear_5_weeds_with_golden_scythe:
+  id: 5
+  object: Weeds
+  quantity: 5
+  tool: Golden Scythe
+  save: save_new
+  init_commands: ['add_item_by_name("Golden Scythe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_8_weeds_with_golden_scythe:
+  id: 6
+  object: Weeds
+  quantity: 8
+  tool: Golden Scythe
+  save: save_new
+  init_commands: ['add_item_by_name("Golden Scythe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_10_weeds_with_golden_scythe:
+  id: 7
+  object: Weeds
+  quantity: 10
+  tool: Golden Scythe
+  save: save_new
+  init_commands: ['add_item_by_name("Golden Scythe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_13_weeds_with_golden_scythe:
+  id: 8
+  object: Weeds
+  quantity: 10
+  tool: Golden Scythe
+  save: save_new
+  init_commands: ['add_item_by_name("Golden Scythe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_15_weeds_with_golden_scythe:
+  id: 9
+  object: Weeds
+  quantity: 15
+  tool: Golden Scythe
+  save: save_new
+  init_commands: ['add_item_by_name("Golden Scythe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_5_stone_with_hoe:
+  id: 10
+  object: Stone
+  quantity: 5
+  tool: Pickaxe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: easy
+
+clear_8_stone_with_hoe:
+  id: 11
+  object: Stone
+  quantity: 8
+  tool: Pickaxe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: easy
+
+clear_10_stone_with_hoe:
+  id: 12
+  object: Stone
+  quantity: 10
+  tool: Pickaxe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: easy
+
+clear_5_stone_with_copper_hoe:
+  id: 13
+  object: Stone
+  quantity: 5
+  tool: Copper Pickaxe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Pickaxe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_8_stone_with_copper_hoe:
+  id: 14
+  object: Stone
+  quantity: 8
+  tool: Copper Pickaxe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Pickaxe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_10_stone_with_copper_hoe:
+  id: 15
+  object: Stone
+  quantity: 10
+  tool: Copper Pickaxe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Pickaxe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_5_stone_with_steel_hoe:
+  id: 16
+  object: Stone
+  quantity: 5
+  tool: Steel Pickaxe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Pickaxe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_8_stone_with_steel_hoe:
+  id: 17
+  object: Stone
+  quantity: 8
+  tool: Steel Pickaxe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Pickaxe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_10_stone_with_steel_hoe:
+  id: 18
+  object: Stone
+  quantity: 10
+  tool: Steel Pickaxe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Pickaxe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_5_stone_with_gold_hoe:
+  id: 19
+  object: Stone
+  quantity: 5
+  tool: Gold Pickaxe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Pickaxe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_8_stone_with_gold_hoe:
+  id: 20
+  object: Stone
+  quantity: 8
+  tool: Gold Pickaxe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Pickaxe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_10_stone_with_gold_hoe:
+  id: 21
+  object: Stone
+  quantity: 10
+  tool: Gold Pickaxe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Pickaxe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_5_twig_with_axe:
+  id: 22
+  object: Twig
+  quantity: 5
+  tool: Axe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: easy
+
+clear_8_twig_with_axe:
+  id: 23
+  object: Twig
+  quantity: 8
+  tool: Axe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: easy
+
+clear_10_twig_with_axe:
+  id: 24
+  object: Twig
+  quantity: 10
+  tool: Axe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: easy
+
+clear_5_twig_with_copper_axe:
+  id: 25
+  object: Twig
+  quantity: 5
+  tool: Copper Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Axe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_8_twig_with_copper_axe:
+  id: 26
+  object: Twig
+  quantity: 8
+  tool: Copper Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Axe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_10_twig_with_copper_axe:
+  id: 27
+  object: Twig
+  quantity: 10
+  tool: Copper Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Axe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_5_twig_with_steel_axe:
+  id: 28
+  object: Twig
+  quantity: 5
+  tool: Steel Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Axe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_8_twig_with_steel_axe:
+  id: 29
+  object: Twig
+  quantity: 8
+  tool: Steel Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Axe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_10_twig_with_steel_axe:
+  id: 30
+  object: Twig
+  quantity: 10
+  tool: Steel Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Axe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_5_twig_with_gold_axe:
+  id: 31
+  object: Twig
+  quantity: 5
+  tool: Gold Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Axe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_8_twig_with_gold_axe:
+  id: 32
+  object: Twig
+  quantity: 8
+  tool: Gold Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Axe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_10_twig_with_gold_axe:
+  id: 33
+  object: Twig
+  quantity: 10
+  tool: Gold Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Axe")']
+  evaluator: clear
+  difficulty: easy
+
+clear_20_debris_with_scythe_and_pickaxe_and_axe:
+  id: 34
+  object: Debris
+  quantity: 20
+  tool: Scythe, Pickaxe, Axe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: medium
+
+clear_23_debris_with_scythe_and_pickaxe_and_axe:
+  id: 35
+  object: Debris
+  quantity: 23
+  tool: Scythe, Pickaxe, Axe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: medium
+
+clear_25_debris_with_scythe_and_pickaxe_and_axe:
+  id: 36
+  object: Debris
+  quantity: 25
+  tool: Scythe, Pickaxe, Axe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: medium
+
+clear_28_debris_with_scythe_and_pickaxe_and_axe:
+  id: 37
+  object: Debris
+  quantity: 28
+  tool: Scythe, Pickaxe, Axe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: medium
+
+clear_30_debris_with_scythe_and_pickaxe_and_axe:
+  id: 38
+  object: Debris
+  quantity: 30
+  tool: Scythe, Pickaxe, Axe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: medium
+
+clear_33_debris_with_scythe_and_pickaxe_and_axe:
+  id: 39
+  object: Debris
+  quantity: 33
+  tool: Scythe, Pickaxe, Axe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: medium
+
+clear_35_debris_with_scythe_and_pickaxe_and_axe:
+  id: 40
+  object: Debris
+  quantity: 35
+  tool: Scythe, Pickaxe, Axe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: medium
+
+clear_38_debris_with_scythe_and_pickaxe_and_axe:
+  id: 41
+  object: Debris
+  quantity: 38
+  tool: Scythe, Pickaxe, Axe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: medium
+
+clear_40_debris_with_scythe_and_pickaxe_and_axe:
+  id: 42
+  object: Debris
+  quantity: 40
+  tool: Scythe, Pickaxe, Axe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: medium
+
+till_5_tile_with_hoe:
+  id: 43
+  object: Tile
+  quantity: 5
+  tool: Hoe
+  save: save_new
+  init_commands: null
+  evaluator: till
+  difficulty: easy
+
+till_8_tile_with_hoe:
+  id: 44
+  object: Tile
+  quantity: 8
+  tool: Hoe
+  save: save_new
+  init_commands: null
+  evaluator: till
+  difficulty: easy
+
+till_10_tile_with_hoe:
+  id: 45
+  object: Tile
+  quantity: 10
+  tool: Hoe
+  save: save_new
+  init_commands: null
+  evaluator: till
+  difficulty: easy
+
+till_5_tile_with_copper_hoe:
+  id: 46
+  object: Tile
+  quantity: 5
+  tool: Copper Hoe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Hoe")']
+  evaluator: till
+  difficulty: easy
+
+till_8_tile_with_copper_hoe:
+  id: 47
+  object: Tile
+  quantity: 8
+  tool: Copper Hoe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Hoe")']
+  evaluator: till
+  difficulty: easy
+
+till_10_tile_with_copper_hoe:
+  id: 48
+  object: Tile
+  quantity: 10
+  tool: Copper Hoe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Hoe")']
+  evaluator: till
+  difficulty: easy
+
+till_5_tile_with_steel_hoe:
+  id: 49
+  object: Tile
+  quantity: 5
+  tool: Steel Hoe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Hoe")']
+  evaluator: till
+  difficulty: easy
+
+till_8_tile_with_steel_hoe:
+  id: 50
+  object: Tile
+  quantity: 8
+  tool: Steel Hoe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Hoe")']
+  evaluator: till
+  difficulty: easy
+
+till_10_tile_with_steel_hoe:
+  id: 51
+  object: Tile
+  quantity: 10
+  tool: Steel Hoe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Hoe")']
+  evaluator: till
+  difficulty: easy
+
+till_5_tile_with_gold_hoe:
+  id: 52
+  object: Tile
+  quantity: 5
+  tool: Gold Hoe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Hoe")']
+  evaluator: till
+  difficulty: easy
+
+till_8_tile_with_gold_hoe:
+  id: 53
+  object: Tile
+  quantity: 8
+  tool: Gold Hoe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Hoe")']
+  evaluator: till
+  difficulty: easy
+
+till_10_tile_with_gold_hoe:
+  id: 54
+  object: Tile
+  quantity: 10
+  tool: Gold Hoe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Hoe")']
+  evaluator: till
+  difficulty: easy
+
+fertilize_5_dirt_with_basic_fertilizer:
+  id: 55
+  object: Dirt
+  quantity: 5
+  tool: Basic Fertilizer
+  save: save_farming
+  init_commands: ['add_item_by_name("Basic Fertilizer", 5)']
+  evaluator: fertilize
+  difficulty: easy
+
+fertilize_8_dirt_with_basic_fertilizer:
+  id: 56
+  object: Dirt
+  quantity: 8
+  tool: Basic Fertilizer
+  save: save_farming
+  init_commands: ['add_item_by_name("Basic Fertilizer", 8)']
+  evaluator: fertilize
+  difficulty: easy
+
+fertilize_10_dirt_with_basic_fertilizer:
+  id: 57
+  object: Dirt
+  quantity: 10
+  tool: Basic Fertilizer
+  save: save_farming
+  init_commands: ['add_item_by_name("Basic Fertilizer", 10)']
+  evaluator: fertilize
+  difficulty: easy
+
+fertilize_5_dirt_with_basic_retaining_soil:
+  id: 58
+  object: Dirt
+  quantity: 5
+  tool: Basic Retaining Soil
+  save: save_farming
+  init_commands: ['add_item_by_name("Basic Retaining Soil", 5)']
+  evaluator: fertilize
+  difficulty: easy
+
+fertilize_8_dirt_with_basic_retaining_soil:
+  id: 59
+  object: Dirt
+  quantity: 8
+  tool: Basic Retaining Soil
+  save: save_farming
+  init_commands: ['add_item_by_name("Basic Retaining Soil", 8)']
+  evaluator: fertilize
+  difficulty: easy
+
+fertilize_10_dirt_with_basic_retaining_soil:
+  id: 60
+  object: Dirt
+  quantity: 10
+  tool: Basic Retaining Soil
+  save: save_farming
+  init_commands: ['add_item_by_name("Basic Retaining Soil", 10)']
+  evaluator: fertilize
+  difficulty: easy
+
+fertilize_5_dirt_with_quality_fertilizer:
+  id: 61
+  object: Dirt
+  quantity: 5
+  tool: Quality Fertilizer
+  save: save_farming
+  init_commands: ['add_item_by_name("Quality Fertilizer", 5)']
+  evaluator: fertilize
+  difficulty: easy
+
+fertilize_8_dirt_with_quality_fertilizer:
+  id: 62
+  object: Dirt
+  quantity: 8
+  tool: Quality Fertilizer
+  save: save_farming
+  init_commands: ['add_item_by_name("Quality Fertilizer", 8)']
+  evaluator: fertilize
+  difficulty: easy
+
+fertilize_10_dirt_with_quality_fertilizer:
+  id: 63
+  object: Dirt
+  quantity: 10
+  tool: Quality Fertilizer
+  save: save_farming
+  init_commands: ['add_item_by_name("Quality Fertilizer", 10)']
+  evaluator: fertilize
+  difficulty: easy
+
+fertilize_1_dirt_with_speed_gro:
+  id: 64
+  object: Dirt
+  quantity: 1
+  tool: Speed-Gro
+  save: save_farming
+  init_commands: null
+  evaluator: fertilize
+  difficulty: easy
+
+fertilize_3_dirt_with_speed_gro:
+  id: 65
+  object: Dirt
+  quantity: 3
+  tool: Speed-Gro
+  save: save_farming
+  init_commands: null
+  evaluator: fertilize
+  difficulty: easy
+
+fertilize_5_dirt_with_speed_gro:
+  id: 66
+  object: Dirt
+  quantity: 5
+  tool: Speed-Gro
+  save: save_farming
+  init_commands: null
+  evaluator: fertilize
+  difficulty: easy
+
+fertilize_8_dirt_with_speed_gro:
+  id: 67
+  object: Dirt
+  quantity: 8
+  tool: Speed-Gro
+  save: save_farming
+  init_commands: null
+  evaluator: fertilize
+  difficulty: easy
+
+fertilize_10_dirt_with_speed_gro:
+  id: 68
+  object: Dirt
+  quantity: 10
+  tool: Speed-Gro
+  save: save_farming
+  init_commands: null
+  evaluator: fertilize
+  difficulty: easy
+
+sow_5_dirt_with_kale_seeds:
+  id: 69
+  object: Dirt
+  quantity: 5
+  tool: Kale Seeds
+  save: save_farming
+  init_commands: ['add_item_by_name("Kale Seeds", 5)']
+  evaluator: sow
+  difficulty: easy
+
+sow_8_dirt_with_kale_seeds:
+  id: 70
+  object: Dirt
+  quantity: 8
+  tool: Kale Seeds
+  save: save_farming
+  init_commands: ['add_item_by_name("Kale Seeds", 8)']
+  evaluator: sow
+  difficulty: easy
+
+sow_10_dirt_with_kale_seeds:
+  id: 71
+  object: Dirt
+  quantity: 10
+  tool: Kale Seeds
+  save: save_farming
+  init_commands: ['add_item_by_name("Kale Seeds", 10)']
+  evaluator: sow
+  difficulty: easy
+
+sow_5_dirt_with_cauliflower_seeds:
+  id: 72
+  object: Dirt
+  quantity: 5
+  tool: Cauliflower Seeds
+  save: save_farming
+  init_commands: ['add_item_by_name("Cauliflower Seeds", 5)']
+  evaluator: sow
+  difficulty: easy
+
+sow_8_dirt_with_cauliflower_seeds:
+  id: 73
+  object: Dirt
+  quantity: 8
+  tool: Cauliflower Seeds
+  save: save_farming
+  init_commands: ['add_item_by_name("Cauliflower Seeds", 8)']
+  evaluator: sow
+  difficulty: easy
+
+sow_10_dirt_with_cauliflower_seeds:
+  id: 74
+  object: Dirt
+  quantity: 10
+  tool: Cauliflower Seeds
+  save: save_farming
+  init_commands: ['add_item_by_name("Cauliflower Seeds", 10)']
+  evaluator: sow
+  difficulty: easy
+
+sow_5_dirt_with_parsnip_seeds:
+  id: 75
+  object: Dirt
+  quantity: 5
+  tool: Parsnip Seeds
+  save: save_farming
+  init_commands: ['add_item_by_name("Parsnip Seeds", 5)']
+  evaluator: sow
+  difficulty: easy
+
+sow_8_dirt_with_parsnip_seeds:
+  id: 76
+  object: Dirt
+  quantity: 8
+  tool: Parsnip Seeds
+  save: save_farming
+  init_commands: ['add_item_by_name("Parsnip Seeds", 8)']
+  evaluator: sow
+  difficulty: easy
+
+sow_10_dirt_with_parsnip_seeds:
+  id: 77
+  object: Dirt
+  quantity: 10
+  tool: Parsnip Seeds
+  save: save_farming
+  init_commands: ['add_item_by_name("Parsnip Seeds", 10)']
+  evaluator: sow
+  difficulty: easy
+
+sow_1_dirt_with_potato_seeds:
+  id: 78
+  object: Dirt
+  quantity: 1
+  tool: Potato Seeds
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: sow
+  difficulty: medium
+
+sow_3_dirt_with_potato_seeds:
+  id: 79
+  object: Dirt
+  quantity: 3
+  tool: Potato Seeds
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: sow
+  difficulty: medium
+
+sow_5_dirt_with_potato_seeds:
+  id: 80
+  object: Dirt
+  quantity: 5
+  tool: Potato Seeds
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: sow
+  difficulty: medium
+
+sow_8_dirt_with_potato_seeds:
+  id: 81
+  object: Dirt
+  quantity: 8
+  tool: Potato Seeds
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: sow
+  difficulty: medium
+
+sow_10_dirt_with_potato_seeds:
+  id: 82
+  object: Dirt
+  quantity: 10
+  tool: Potato Seeds
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: sow
+  difficulty: medium
+
+sow_1_dirt_with_jazz_seeds:
+  id: 83
+  object: Dirt
+  quantity: 1
+  tool: Jazz Seeds
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: sow
+  difficulty: medium
+
+sow_3_dirt_with_jazz_seeds:
+  id: 84
+  object: Dirt
+  quantity: 3
+  tool: Jazz Seeds
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: sow
+  difficulty: medium
+
+sow_5_dirt_with_jazz_seeds:
+  id: 85
+  object: Dirt
+  quantity: 5
+  tool: Jazz Seeds
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: sow
+  difficulty: medium
+
+sow_8_dirt_with_jazz_seeds:
+  id: 86
+  object: Dirt
+  quantity: 8
+  tool: Jazz Seeds
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: sow
+  difficulty: medium
+
+sow_10_dirt_with_jazz_seeds:
+  id: 87
+  object: Dirt
+  quantity: 10
+  tool: Jazz Seeds
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: sow
+  difficulty: medium
+
+sow_5_tile_with_cherry_sapling:
+  id: 88
+  object: Tile
+  quantity: 5
+  tool: Cherry Sapling
+  save: save_new
+  init_commands: ['add_item_by_name("Cherry Sapling", 5)']
+  evaluator: sow
+  difficulty: easy
+
+sow_8_tile_with_cherry_sapling:
+  id: 89
+  object: Tile
+  quantity: 8
+  tool: Cherry Sapling
+  save: save_new
+  init_commands: ['add_item_by_name("Cherry Sapling", 8)']
+  evaluator: sow
+  difficulty: easy
+
+sow_10_tile_with_cherry_sapling:
+  id: 90
+  object: Tile
+  quantity: 10
+  tool: Cherry Sapling
+  save: save_new
+  init_commands: ['add_item_by_name("Cherry Sapling", 10)']
+  evaluator: sow
+  difficulty: easy
+
+sow_5_tile_with_apricot_sapling:
+  id: 91
+  object: Tile
+  quantity: 5
+  tool: Apricot Sapling
+  save: save_new
+  init_commands: ['add_item_by_name("Apricot Sapling", 5)']
+  evaluator: sow
+  difficulty: easy
+
+sow_8_tile_with_apricot_sapling:
+  id: 92
+  object: Tile
+  quantity: 8
+  tool: Apricot Sapling
+  save: save_new
+  init_commands: ['add_item_by_name("Apricot Sapling", 8)']
+  evaluator: sow
+  difficulty: easy
+
+sow_10_tile_with_apricot_sapling:
+  id: 93
+  object: Tile
+  quantity: 10
+  tool: Apricot Sapling
+  save: save_new
+  init_commands: ['add_item_by_name("Apricot Sapling", 10)']
+  evaluator: sow
+  difficulty: easy
+
+sow_5_tile_with_peach_sapling:
+  id: 94
+  object: Tile
+  quantity: 5
+  tool: Peach Sapling
+  save: save_new
+  init_commands: ['add_item_by_name("Peach Sapling", 5)']
+  evaluator: sow
+  difficulty: easy
+
+sow_8_tile_with_peach_sapling:
+  id: 95
+  object: Tile
+  quantity: 8
+  tool: Peach Sapling
+  save: save_new
+  init_commands: ['add_item_by_name("Peach Sapling", 8)']
+  evaluator: sow
+  difficulty: easy
+
+sow_10_tile_with_peach_sapling:
+  id: 96
+  object: Tile
+  quantity: 10
+  tool: Peach Sapling
+  save: save_new
+  init_commands: ['add_item_by_name("Peach Sapling", 10)']
+  evaluator: sow
+  difficulty: easy
+
+sow_1_tile_with_orange_sapling:
+  id: 97
+  object: Tile
+  quantity: 1
+  tool: Orange Sapling
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: sow
+  difficulty: medium
+
+sow_3_tile_with_orange_sapling:
+  id: 98
+  object: Tile
+  quantity: 3
+  tool: Orange Sapling
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: sow
+  difficulty: medium
+
+sow_5_tile_with_orange_sapling:
+  id: 99
+  object: Tile
+  quantity: 5
+  tool: Orange Sapling
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: sow
+  difficulty: medium
+
+sow_8_tile_with_orange_sapling:
+  id: 100
+  object: Tile
+  quantity: 8
+  tool: Orange Sapling
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: sow
+  difficulty: medium
+
+sow_10_tile_with_orange_sapling:
+  id: 101
+  object: Tile
+  quantity: 10
+  tool: Orange Sapling
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: sow
+  difficulty: medium
+
+water_5_crop_with_watering_can:
+  id: 102
+  object: Crop
+  quantity: 5
+  tool: Watering Can
+  save: save_farming
+  init_commands: null
+  evaluator: water
+  difficulty: easy
+
+water_8_crop_with_watering_can:
+  id: 103
+  object: Crop
+  quantity: 8
+  tool: Watering Can
+  save: save_farming
+  init_commands: null
+  evaluator: water
+  difficulty: easy
+
+water_10_crop_with_watering_can:
+  id: 104
+  object: Crop
+  quantity: 10
+  tool: Watering Can
+  save: save_farming
+  init_commands: null
+  evaluator: water
+  difficulty: easy
+
+water_5_crop_with_copper_watering_can:
+  id: 105
+  object: Crop
+  quantity: 5
+  tool: Copper Watering Can
+  save: save_farming
+  init_commands: ['add_item_by_name("Copper Watering Can")']
+  evaluator: water
+  difficulty: easy
+
+water_8_crop_with_copper_watering_can:
+  id: 106
+  object: Crop
+  quantity: 8
+  tool: Copper Watering Can
+  save: save_farming
+  init_commands: ['add_item_by_name("Copper Watering Can")']
+  evaluator: water
+  difficulty: easy
+
+water_10_crop_with_copper_watering_can:
+  id: 107
+  object: Crop
+  quantity: 10
+  tool: Copper Watering Can
+  save: save_farming
+  init_commands: ['add_item_by_name("Copper Watering Can")']
+  evaluator: water
+  difficulty: easy
+
+water_5_crop_with_steel_watering_can:
+  id: 108
+  object: Crop
+  quantity: 5
+  tool: Steel Watering Can
+  save: save_farming
+  init_commands: ['add_item_by_name("Steel Watering Can")']
+  evaluator: water
+  difficulty: easy
+
+water_8_crop_with_steel_watering_can:
+  id: 109
+  object: Crop
+  quantity: 8
+  tool: Steel Watering Can
+  save: save_farming
+  init_commands: ['add_item_by_name("Steel Watering Can")']
+  evaluator: water
+  difficulty: easy
+
+water_10_crop_with_steel_watering_can:
+  id: 110
+  object: Crop
+  quantity: 10
+  tool: Steel Watering Can
+  save: save_farming
+  init_commands: ['add_item_by_name("Steel Watering Can")']
+  evaluator: water
+  difficulty: easy
+
+water_5_crop_with_gold_watering_can:
+  id: 111
+  object: Crop
+  quantity: 5
+  tool: Gold Watering Can
+  save: save_farming
+  init_commands: ['add_item_by_name("Gold Watering Can")']
+  evaluator: water
+  difficulty: easy
+
+water_8_crop_with_gold_watering_can:
+  id: 112
+  object: Crop
+  quantity: 8
+  tool: Gold Watering Can
+  save: save_farming
+  init_commands: ['add_item_by_name("Gold Watering Can")']
+  evaluator: water
+  difficulty: easy
+
+water_10_crop_with_gold_watering_can:
+  id: 113
+  object: Crop
+  quantity: 10
+  tool: Gold Watering Can
+  save: save_farming
+  init_commands: ['add_item_by_name("Gold Watering Can")']
+  evaluator: water
+  difficulty: easy
+
+harvest_5_kale_with_scythe:
+  id: 114
+  object: Kale
+  quantity: 5
+  tool: Scythe
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+harvest_8_kale_with_scythe:
+  id: 115
+  object: Kale
+  quantity: 8
+  tool: Scythe
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+harvest_10_kale_with_scythe:
+  id: 116
+  object: Kale
+  quantity: 10
+  tool: Scythe
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+harvest_5_kale_with_golden_scythe:
+  id: 117
+  object: Kale
+  quantity: 5
+  tool: Golden Scythe
+  save: save_farming
+  init_commands: ['add_item_by_name("Golden Scythe")']
+  evaluator: harvest
+  difficulty: easy
+
+harvest_8_kale_with_golden_scythe:
+  id: 118
+  object: Kale
+  quantity: 8
+  tool: Golden Scythe
+  save: save_farming
+  init_commands: ['add_item_by_name("Golden Scythe")']
+  evaluator: harvest
+  difficulty: easy
+
+harvest_10_kale_with_golden_scythe:
+  id: 119
+  object: Kale
+  quantity: 10
+  tool: Golden Scythe
+  save: save_farming
+  init_commands: ['add_item_by_name("Golden Scythe")']
+  evaluator: harvest
+  difficulty: easy
+
+harvest_5_parsnip:
+  id: 120
+  object: Parsnip
+  quantity: 5
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+harvest_8_parsnip:
+  id: 121
+  object: Parsnip
+  quantity: 8
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+harvest_10_parsnip:
+  id: 122
+  object: Parsnip
+  quantity: 10
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+harvest_5_apricot:
+  id: 123
+  object: Apricot
+  quantity: 5
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+harvest_8_apricot:
+  id: 124
+  object: Apricot
+  quantity: 8
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+harvest_10_apricot:
+  id: 125
+  object: Apricot
+  quantity: 10
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+harvest_5_cherry:
+  id: 126
+  object: Cherry
+  quantity: 5
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+harvest_8_cherry:
+  id: 127
+  object: Cherry
+  quantity: 8
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+harvest_10_cherry:
+  id: 128
+  object: Cherry
+  quantity: 10
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+cultivate_and_harvest_1_garlic:
+  id: 129
+  object: Garlic
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Garlic Seeds")']
+  evaluator: harvest
+  difficulty: hard
+
+cultivate_and_harvest_3_garlic:
+  id: 130
+  object: Garlic
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Garlic Seeds", 3)']
+  evaluator: harvest
+  difficulty: hard
+
+cultivate_and_harvest_5_garlic:
+  id: 131
+  object: Garlic
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Garlic Seeds", 5)']
+  evaluator: harvest
+  difficulty: hard
+
+cultivate_and_harvest_8_garlic:
+  id: 132
+  object: Garlic
+  quantity: 8
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Garlic Seeds", 8)']
+  evaluator: harvest
+  difficulty: hard
+
+cultivate_and_harvest_10_garlic:
+  id: 133
+  object: Garlic
+  quantity: 10
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Garlic Seeds", 10)']
+  evaluator: harvest
+  difficulty: hard
+
+cultivate_and_harvest_1_tulip:
+  id: 134
+  object: Tulip
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+cultivate_and_harvest_3_tulip:
+  id: 135
+  object: Tulip
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+cultivate_and_harvest_5_tulip:
+  id: 136
+  object: Tulip
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+cultivate_and_harvest_8_tulip:
+  id: 137
+  object: Tulip
+  quantity: 8
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+cultivate_and_harvest_10_tulip:
+  id: 138
+  object: Tulip
+  quantity: 10
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+pet_1_cat:
+  id: 139
+  object: Cat
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: pet
+  difficulty: easy
+
+pet_2_animal:
+  id: 140
+  object: Animal
+  quantity: 2
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: pet
+  difficulty: easy
+
+pet_3_animal:
+  id: 141
+  object: Animal
+  quantity: 3
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: pet
+  difficulty: easy
+
+pet_4_animal:
+  id: 142
+  object: Animal
+  quantity: 4
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: pet
+  difficulty: easy
+
+pet_5_animal:
+  id: 143
+  object: Animal
+  quantity: 5
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: pet
+  difficulty: medium
+
+pet_6_animal:
+  id: 144
+  object: Animal
+  quantity: 6
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: pet
+  difficulty: medium
+
+pet_7_animal:
+  id: 145
+  object: Animal
+  quantity: 7
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: pet
+  difficulty: medium
+
+pet_8_animal:
+  id: 146
+  object: Animal
+  quantity: 8
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: pet
+  difficulty: medium
+
+open_1_coop:
+  id: 147
+  object: Coop
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: open
+  difficulty: easy
+
+open_1_barn:
+  id: 148
+  object: Barn
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: open
+  difficulty: easy
+
+open_1_coop_and_1_barn:
+  id: 149
+  object: Coop, Barn
+  quantity: 2
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: open
+  difficulty: easy
+
+open_1_big_coop:
+  id: 150
+  object: Big Coop
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: open
+  difficulty: easy
+
+open_1_big_barn:
+  id: 151
+  object: Big Barn
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: open
+  difficulty: easy
+
+open_1_big_coop_and_1_big_barn:
+  id: 152
+  object: Big Coop, Big Barn
+  quantity: 2
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: open
+  difficulty: easy
+
+open_1_deluxe_coop:
+  id: 153
+  object: Deluxe Coop
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: open
+  difficulty: easy
+
+open_1_deluxe_barn:
+  id: 154
+  object: Deluxe Barn
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: open
+  difficulty: easy
+
+open_1_deluxe_coop_and_1_deluxe_barn:
+  id: 155
+  object: Deluxe Coop, Deluxe Barn
+  quantity: 2
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: open
+  difficulty: easy
+
+close_1_coop:
+  id: 156
+  object: Coop
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: close
+  difficulty: easy
+
+close_1_barn:
+  id: 157
+  object: Barn
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: close
+  difficulty: easy
+
+close_1_coop_and_1_barn:
+  id: 158
+  object: Coop, Barn
+  quantity: 2
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: close
+  difficulty: easy
+
+close_1_big_coop:
+  id: 159
+  object: Big Coop
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: close
+  difficulty: easy
+
+close_1_big_barn:
+  id: 160
+  object: Big Barn
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: close
+  difficulty: easy
+
+close_1_big_coop_and_1_big_barn:
+  id: 161
+  object: Big Coop, Big Barn
+  quantity: 2
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: close
+  difficulty: easy
+
+close_1_deluxe_coop:
+  id: 162
+  object: Deluxe Coop
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: close
+  difficulty: easy
+
+close_1_deluxe_barn:
+  id: 163
+  object: Deluxe Barn
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: close
+  difficulty: easy
+
+close_1_deluxe_coop_and_1_deluxe_barn:
+  id: 164
+  object: Deluxe Coop, Deluxe Barn
+  quantity: 2
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: close
+  difficulty: easy
+
+fill_1_pet_bowl_with_watering_can:
+  id: 165
+  object: Pet Bowl
+  quantity: 1
+  tool: Watering Can
+  save: save_new
+  init_commands: null
+  evaluator: fill
+  difficulty: easy
+
+fill_2_pet_bowl_with_watering_can:
+  id: 166
+  object: Pet Bowl
+  quantity: 2
+  tool: Watering Can
+  save: save_new
+  init_commands: null
+  evaluator: fill
+  difficulty: easy
+
+fill_3_pet_bowl_with_watering_can:
+  id: 167
+  object: Pet Bowl
+  quantity: 3
+  tool: Watering Can
+  save: save_new
+  init_commands: null
+  evaluator: fill
+  difficulty: easy
+
+fill_1_feeding_bench_with_hay:
+  id: 168
+  object: Feeding Bench
+  quantity: 1
+  tool: Hay
+  save: save_farming
+  init_commands: ['add_item_by_name("Hay", 12)']
+  evaluator: fill
+  difficulty: easy
+
+fill_2_feeding_bench_with_hay:
+  id: 169
+  object: Feeding Bench
+  quantity: 2
+  tool: Hay
+  save: save_farming
+  init_commands: null
+  evaluator: fill
+  difficulty: medium
+
+harvest_1_egg:
+  id: 170
+  object: Egg
+  quantity: 1
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+harvest_2_egg:
+  id: 171
+  object: Egg
+  quantity: 2
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_3_egg:
+  id: 172
+  object: Egg
+  quantity: 3
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_4_egg:
+  id: 173
+  object: Egg
+  quantity: 4
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_5_egg:
+  id: 174
+  object: Egg
+  quantity: 5
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_1_duck_egg:
+  id: 175
+  object: Duck Egg
+  quantity: 1
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+harvest_2_duck_egg:
+  id: 176
+  object: Duck Egg
+  quantity: 2
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_3_duck_egg:
+  id: 177
+  object: Duck Egg
+  quantity: 3
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_4_duck_egg:
+  id: 178
+  object: Duck Egg
+  quantity: 4
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_5_duck_egg:
+  id: 179
+  object: Duck Egg
+  quantity: 5
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_1_milk_with_milk_pail:
+  id: 180
+  object: Milk
+  quantity: 1
+  tool: Milk Pail
+  save: save_farming
+  init_commands: ['add_item_by_name("Milk Pail")']
+  evaluator: harvest
+  difficulty: easy
+
+harvest_2_milk_with_milk_pail:
+  id: 181
+  object: Milk
+  quantity: 2
+  tool: Milk Pail
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_3_milk_with_milk_pail:
+  id: 182
+  object: Milk
+  quantity: 3
+  tool: Milk Pail
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_4_milk_with_milk_pail:
+  id: 183
+  object: Milk
+  quantity: 4
+  tool: Milk Pail
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_5_milk_with_milk_pail:
+  id: 184
+  object: Milk
+  quantity: 5
+  tool: Milk Pail
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_1_goat_milk_with_milk_pail:
+  id: 185
+  object: Goat Milk
+  quantity: 1
+  tool: Milk Pail
+  save: save_farming
+  init_commands: ['add_item_by_name("Milk Pail")']
+  evaluator: harvest
+  difficulty: easy
+
+harvest_2_goat_milk_with_milk_pail:
+  id: 186
+  object: Goat Milk
+  quantity: 2
+  tool: Milk Pail
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_3_goat_milk_with_milk_pail:
+  id: 187
+  object: Goat Milk
+  quantity: 3
+  tool: Milk Pail
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_4_goat_milk_with_milk_pail:
+  id: 188
+  object: Goat Milk
+  quantity: 4
+  tool: Milk Pail
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_5_goat_milk_with_milk_pail:
+  id: 189
+  object: Goat Milk
+  quantity: 5
+  tool: Milk Pail
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_1_wool:
+  id: 190
+  object: Wool
+  quantity: 1
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+harvest_1_wool_with_shears:
+  id: 191
+  object: Wool
+  quantity: 1
+  tool: Shears
+  save: save_farming
+  init_commands: ['add_item_by_name("Shears")']
+  evaluator: harvest
+  difficulty: easy
+
+harvest_2_wool_with_shears:
+  id: 192
+  object: Wool
+  quantity: 2
+  tool: Shears
+  save: save_farming
+  init_commands: ['add_item_by_name("Shears")']
+  evaluator: harvest
+  difficulty: easy
+
+harvest_3_wool_with_shears:
+  id: 193
+  object: Wool
+  quantity: 3
+  tool: Shears
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_4_wool_with_shears:
+  id: 194
+  object: Wool
+  quantity: 4
+  tool: Shears
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_5_wool_with_shears:
+  id: 195
+  object: Wool
+  quantity: 5
+  tool: Shears
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_1_truffle:
+  id: 196
+  object: Truffle
+  quantity: 1
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+harvest_2_truffle:
+  id: 197
+  object: Truffle
+  quantity: 2
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_3_truffle:
+  id: 198
+  object: Truffle
+  quantity: 3
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_4_truffle:
+  id: 199
+  object: Truffle
+  quantity: 4
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+harvest_5_truffle:
+  id: 200
+  object: Truffle
+  quantity: 5
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+incubate_1_chicken_with_incubator:
+  id: 201
+  object: Chicken
+  quantity: 1
+  tool: Incubator
+  save: save_farming
+  init_commands: null
+  evaluator: incubate
+  difficulty: hard
+
+incubate_1_duck_with_incubator:
+  id: 202
+  object: Duck
+  quantity: 1
+  tool: Incubator
+  save: save_farming
+  init_commands: null
+  evaluator: incubate
+  difficulty: hard
+
+earn_50_friendship_with_1_cat:
+  id: 203
+  object: Cat
+  quantity: 50
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+earn_75_friendship_with_1_cat:
+  id: 204
+  object: Cat
+  quantity: 75
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+earn_100_friendship_with_1_cat:
+  id: 205
+  object: Cat
+  quantity: 100
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard
+
+keep_7_animal_in_255_mood:
+  id: 206
+  object: Animal
+  quantity: 7
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: mood
+  difficulty: easy
+
+upgrade_1_farming_skill:
+  id: 207
+  object: Farming Skill
+  quantity: 1
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: skill
+  difficulty: medium
+
+upgrade_3_farming_skill:
+  id: 208
+  object: Farming Skill
+  quantity: 3
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: skill
+  difficulty: hard
+
+upgrade_to_rancher:
+  id: 209
+  object: Rancher
+  quantity: 1
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: profession
+  difficulty: hard

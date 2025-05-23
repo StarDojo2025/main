@@ -1,0 +1,280 @@
+# easy: 15, medium: 8, hard: 5, total: 28
+go_to_bed:
+  id: 0
+  object: Bed
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: sleep
+  difficulty: easy
+
+go_to_coop:
+  id: 1
+  object: Coop
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_bus_stop:
+  id: 2
+  object: BusStop
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_backwoods:
+  id: 3
+  object: Backwoods
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_pierre's_general_store:
+  id: 4
+  object: SeedShop
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: location
+  difficulty: easy
+
+go_to_marnie's_ranch:
+  id: 5
+  object: AnimalShop
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: location
+  difficulty: easy
+
+go_to_fish_shop:
+  id: 6
+  object: FishShop
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: location
+  difficulty: easy
+
+go_to_carpenter's_shop:
+  id: 7
+  object: ScienceHouse
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: location
+  difficulty: easy
+
+go_to_the_mines_2nd_floor:
+  id: 8
+  object: UndergroundMine2
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: medium
+
+go_to_the_mines_5th_floor_by_elevator:
+  id: 9
+  object: UndergroundMine5
+  quantity: 1
+  tool: Elevator
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: medium
+
+go_to_the_mines_10th_floor:
+  id: 10
+  object: UndergroundMine10
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: hard
+
+chop_10_wood_with_axe:
+  id: 11
+  object: Wood
+  quantity: 10
+  tool: Axe
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+chop_20_wood_with_axe:
+  id: 12
+  object: Wood
+  quantity: 20
+  tool: Axe
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: medium
+
+forage_1_wild_horseradish:
+  id: 13
+  object: Wild Horseradish
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("forest")']
+  evaluator: harvest
+  difficulty: medium
+
+forage_1_daffodil:
+  id: 14
+  object: Daffodil
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("town")']
+  evaluator: harvest
+  difficulty: medium
+
+forage_1_leek:
+  id: 15
+  object: Leek
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("mountain")']
+  evaluator: harvest
+  difficulty: medium
+
+forage_1_clam:
+  id: 16
+  object: Clam
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("beach")']
+  evaluator: harvest
+  difficulty: easy
+
+forage_10_hay_with_scythe:
+  id: 17
+  object: Hay
+  quantity: 10
+  tool: Scythe
+  save: save_new
+  init_commands: null
+  evaluator: silo
+  difficulty: easy
+
+forage_1_quartz:
+  id: 18
+  object: Quartz
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp_mine(1)']
+  evaluator: harvest
+  difficulty: medium
+
+dig_1_cave_carrot_with_hoe:
+  id: 19
+  object: Cave Carrot
+  quantity: 1
+  tool: Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)']
+  evaluator: harvest
+  difficulty: easy
+
+mine_1_amethyst_with_pickaxe:
+  id: 20
+  object: Amethyst
+  quantity: 1
+  tool: Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)']
+  evaluator: harvest
+  difficulty: hard
+
+mine_1_copper_ore_with_pickaxe:
+  id: 21
+  object: Copper Ore
+  quantity: 1
+  tool: Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: harvest
+  difficulty: easy
+
+mine_1_coal_with_pickaxe:
+  id: 22
+  object: Coal
+  quantity: 1
+  tool: Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)']
+  evaluator: harvest
+  difficulty: medium
+
+quit_1_quest:
+  id: 23
+  object: Quest
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: quit
+  difficulty: easy
+
+take_1_quest_reward:
+  id: 24
+  object: Quest Reward
+  quantity: 1
+  tool: null
+  save: save_quests
+  init_commands: null
+  evaluator: reward
+  difficulty: easy
+
+complete_1_help_wanted_quest:
+  id: 25
+  object: Help Wanted Quest
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: complete_help
+  difficulty: hard
+
+complete_the_story_quest_"introductions":
+  id: 26
+  object: "9"
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: complete_story
+  difficulty: hard
+
+complete_the_story_quest_"getting_started":
+  id: 27
+  object: "6"
+  quantity: 1
+  tool: null
+  save: save_quests
+  init_commands: null
+  evaluator: complete_story
+  difficulty: hard

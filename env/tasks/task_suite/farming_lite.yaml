@@ -1,0 +1,210 @@
+# easy: 14, medium: 3, hard: 4, total: 21
+clear_10_weeds_with_scythe:
+  id: 0
+  object: Weeds
+  quantity: 10
+  tool: Scythe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: easy
+
+clear_5_stone_with_pickaxe:
+  id: 1
+  object: Stone
+  quantity: 5
+  tool: Pickaxe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: easy
+
+clear_30_debris_with_scythe_and_pickaxe_and_axe:
+  id: 2
+  object: Debris
+  quantity: 30
+  tool: Scythe, Pickaxe, Axe
+  save: save_new
+  init_commands: null
+  evaluator: clear
+  difficulty: medium
+
+till_5_tile_with_hoe:
+  id: 3
+  object: Tile
+  quantity: 5
+  tool: Hoe
+  save: save_new
+  init_commands: null
+  evaluator: till
+  difficulty: easy
+
+fertilize_5_dirt_with_basic_retaining_soil:
+  id: 4
+  object: Dirt
+  quantity: 5
+  tool: Basic Retaining Soil
+  save: save_farming
+  init_commands: ['add_item_by_name("Basic Retaining Soil", 5)']
+  evaluator: fertilize
+  difficulty: easy
+
+fertilize_1_dirt_with_speed_gro:
+  id: 5
+  object: Dirt
+  quantity: 1
+  tool: Speed-Gro
+  save: save_farming
+  init_commands: null
+  evaluator: fertilize
+  difficulty: easy
+
+sow_5_dirt_with_cauliflower_seeds:
+  id: 6
+  object: Dirt
+  quantity: 5
+  tool: Cauliflower Seeds
+  save: save_farming
+  init_commands: ['add_item_by_name("Cauliflower Seeds", 5)']
+  evaluator: sow
+  difficulty: easy
+
+sow_1_dirt_with_potato_seeds:
+  id: 7
+  object: Dirt
+  quantity: 1
+  tool: Potato Seeds
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: sow
+  difficulty: medium
+
+water_5_crop_with_watering_can:
+  id: 8
+  object: Crop
+  quantity: 5
+  tool: Watering Can
+  save: save_farming
+  init_commands: null
+  evaluator: water
+  difficulty: easy
+
+harvest_5_parsnip:
+  id: 9
+  object: Parsnip
+  quantity: 5
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+cultivate_and_harvest_1_garlic:
+  id: 10
+  object: Garlic
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Garlic Seeds")']
+  evaluator: harvest
+  difficulty: hard
+
+pet_3_animal:
+  id: 11
+  object: Animal
+  quantity: 3
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: pet
+  difficulty: easy
+
+pet_8_animal:
+  id: 12
+  object: Animal
+  quantity: 8
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: pet
+  difficulty: medium
+
+open_1_deluxe_coop:
+  id: 13
+  object: Deluxe Coop
+  quantity: 1
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: open
+  difficulty: easy
+
+fill_1_pet_bowl_with_watering_can:
+  id: 14
+  object: Pet Bowl
+  quantity: 1
+  tool: Watering Can
+  save: save_new
+  init_commands: null
+  evaluator: fill
+  difficulty: easy
+
+fill_1_feeding_bench_with_hay:
+  id: 15
+  object: Feeding Bench
+  quantity: 1
+  tool: Hay
+  save: save_farming
+  init_commands: ['add_item_by_name("Hay", 12)']
+  evaluator: fill
+  difficulty: easy
+
+harvest_1_egg:
+  id: 16
+  object: Egg
+  quantity: 1
+  tool: null
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+harvest_1_milk_with_milk_pail:
+  id: 17
+  object: Milk
+  quantity: 1
+  tool: Milk Pail
+  save: save_farming
+  init_commands: ['add_item_by_name("Milk Pail")']
+  evaluator: harvest
+  difficulty: easy
+
+harvest_3_milk_with_milk_pail:
+  id: 18
+  object: Milk
+  quantity: 3
+  tool: Milk Pail
+  save: save_farming
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+incubate_1_chicken_with_incubator:
+  id: 19
+  object: Chicken
+  quantity: 1
+  tool: Incubator
+  save: save_farming
+  init_commands: null
+  evaluator: incubate
+  difficulty: hard
+
+earn_50_friendship_with_1_cat:
+  id: 20
+  object: Cat
+  quantity: 50
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: friendship
+  difficulty: hard

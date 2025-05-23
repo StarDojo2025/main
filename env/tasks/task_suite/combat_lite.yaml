@@ -1,0 +1,120 @@
+# easy: 3, medium: 6, hard: 3, total: 12
+kill_1_green_slime_with_rusty_sword:
+  id: 0
+  object: Green Slime
+  quantity: 1
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_green_slime_with_rusty_sword:
+  id: 1
+  object: Green Slime
+  quantity: 5
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: kill
+  difficulty: medium
+
+kill_10_green_slime_with_rusty_sword:
+  id: 2
+  object: Green Slime
+  quantity: 10
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_bug_with_rusty_sword:
+  id: 3
+  object: Bug
+  quantity: 1
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_bug_with_rusty_sword:
+  id: 4
+  object: Bug
+  quantity: 5
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: kill
+  difficulty: medium
+
+kill_10_bug_with_rusty_sword:
+  id: 5
+  object: Bug
+  quantity: 10
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_fly_with_rusty_sword:
+  id: 6
+  object: Fly
+  quantity: 1
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: kill
+  difficulty: medium
+
+kill_1_duggy_with_rusty_sword:
+  id: 7
+  object: Duggy
+  quantity: 1
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(6)']
+  evaluator: kill
+  difficulty: medium
+
+kill_1_grub_with_rusty_sword:
+  id: 8
+  object: Grub
+  quantity: 1
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(15)']
+  evaluator: kill
+  difficulty: easy
+
+kill_5_grub_with_rusty_sword:
+  id: 9
+  object: Grub
+  quantity: 5
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(15)']
+  evaluator: kill
+  difficulty: medium
+
+kill_10_grub_with_rusty_sword:
+  id: 10
+  object: Grub
+  quantity: 10
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(15)']
+  evaluator: kill
+  difficulty: hard
+
+kill_1_rock_crab_with_rusty_sword:
+  id: 11
+  object: Rock Crab
+  quantity: 1
+  tool: Rusty Sword
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: kill
+  difficulty: medium

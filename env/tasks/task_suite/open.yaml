@@ -1,0 +1,9 @@
+earn_1000_money:
+  id: 0
+  object: Money
+  quantity: 1000
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: human
+  difficulty: hard

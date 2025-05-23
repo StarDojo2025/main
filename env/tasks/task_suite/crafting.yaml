@@ -1,0 +1,1400 @@
+# easy: 70, medium: 40, hard: 30, total: 140
+craft_1_cherry_bomb:
+  id: 0
+  object: Cherry Bomb
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_3_cherry_bomb:
+  id: 1
+  object: Cherry Bomb
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_5_cherry_bomb:
+  id: 2
+  object: Cherry Bomb
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_1_mega_bomb:
+  id: 3
+  object: Mega Bomb
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Ore", 4)', 'add_item_by_name("Solar Essence")', 'add_item_by_name("Void Essence")']
+  evaluator: craft
+  difficulty: easy
+
+craft_3_mega_bomb:
+  id: 4
+  object: Mega Bomb
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Ore", 12)', 'add_item_by_name("Solar Essence", 3)', 'add_item_by_name("Void Essence", 3)']
+  evaluator: craft
+  difficulty: easy
+
+craft_5_mega_bomb:
+  id: 5
+  object: Mega Bomb
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Ore", 20)', 'add_item_by_name("Solar Essence", 5)', 'add_item_by_name("Void Essence", 5)']
+  evaluator: craft
+  difficulty: easy
+
+craft_1_wood_fence:
+  id: 6
+  object: Wood Fence
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: easy
+
+craft_3_wood_fence:
+  id: 7
+  object: Wood Fence
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: easy
+
+craft_5_wood_fence:
+  id: 8
+  object: Wood Fence
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: easy
+
+craft_1_iron_fence:
+  id: 9
+  object: Iron Fence
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Furnace")', 'set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_3_iron_fence:
+  id: 10
+  object: Iron Fence
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Furnace")', 'set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_5_iron_fence:
+  id: 11
+  object: Iron Fence
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Furnace")', 'set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_1_sprinkler:
+  id: 12
+  object: Sprinkler
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Furnace")', 'add_item_by_name("Copper Ore", 5)', 'add_item_by_name("Iron Ore", 5)', 'add_item_by_name("Coal", 2)']
+  evaluator: craft
+  difficulty: medium
+
+craft_3_sprinkler:
+  id: 13
+  object: Sprinkler
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Furnace", 3)', 'add_item_by_name("Copper Ore", 15)', 'add_item_by_name("Iron Ore", 15)', 'add_item_by_name("Coal", 6)']
+  evaluator: craft
+  difficulty: medium
+
+craft_5_sprinkler:
+  id: 14
+  object: Sprinkler
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Furnace", 5)', 'add_item_by_name("Copper Ore", 25)', 'add_item_by_name("Iron Ore", 25)', 'add_item_by_name("Coal", 10)']
+  evaluator: craft
+  difficulty: medium
+
+craft_1_quality_sprinkler:
+  id: 15
+  object: Quality Sprinkler
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+craft_3_quality_sprinkler:
+  id: 16
+  object: Quality Sprinkler
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+craft_5_quality_sprinkler:
+  id: 17
+  object: Quality Sprinkler
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+craft_1_iridium_sprinkler:
+  id: 18
+  object: Iridium Sprinkler
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Bar")', 'add_item_by_name("Iridium Bar")', 'add_item_by_name("Battery Pack")']
+  evaluator: craft
+  difficulty: easy
+
+craft_3_iridium_sprinkler:
+  id: 19
+  object: Iridium Sprinkler
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Bar", 3)', 'add_item_by_name("Iridium Bar", 3)', 'add_item_by_name("Battery Pack", 3)']
+  evaluator: craft
+  difficulty: easy
+
+craft_5_iridium_sprinkler:
+  id: 20
+  object: Iridium Sprinkler
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Bar", 5)', 'add_item_by_name("Iridium Bar", 5)', 'add_item_by_name("Battery Pack", 5)']
+  evaluator: craft
+  difficulty: easy
+
+craft_1_mayonnaise_machine:
+  id: 21
+  object: Mayonnaise Machine
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+craft_3_mayonnaise_machine:
+  id: 22
+  object: Mayonnaise Machine
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+craft_5_mayonnaise_machine:
+  id: 23
+  object: Mayonnaise Machine
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+craft_1_bee_house:
+  id: 24
+  object: Bee House
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Wood", 40)', 'add_item_by_name("Coal", 8)', 'add_item_by_name("Iron Bar")', 'add_item_by_name("Maple Syrup")']
+  evaluator: craft
+  difficulty: easy
+
+craft_3_bee_house:
+  id: 25
+  object: Bee House
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Wood", 120)', 'add_item_by_name("Coal", 24)', 'add_item_by_name("Iron Bar", 3)', 'add_item_by_name("Maple Syrup", 3)']
+  evaluator: craft
+  difficulty: easy
+
+craft_5_bee_house:
+  id: 26
+  object: Bee House
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Wood", 200)', 'add_item_by_name("Coal", 40)', 'add_item_by_name("Iron Bar", 5)', 'add_item_by_name("Maple Syrup", 5)']
+  evaluator: craft
+  difficulty: easy
+
+craft_1_preserves_jar:
+  id: 27
+  object: Preserves Jar
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_3_preserves_jar:
+  id: 28
+  object: Preserves Jar
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_5_preserves_jar:
+  id: 29
+  object: Preserves Jar
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_1_quality_fertilizer:
+  id: 30
+  object: Quality Fertilizer
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Sap", 4)', 'add_item_by_name("Sunfish")']
+  evaluator: craft
+  difficulty: easy
+
+craft_3_quality_fertilizer:
+  id: 31
+  object: Quality Fertilizer
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Sap", 8)', 'add_item_by_name("Sunfish", 2)']
+  evaluator: craft
+  difficulty: easy
+
+craft_5_quality_fertilizer:
+  id: 32
+  object: Quality Fertilizer
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Sap", 12)', 'add_item_by_name("Sunfish", 3)']
+  evaluator: craft
+  difficulty: easy
+
+craft_1_basic_retaining_soil:
+  id: 33
+  object: Basic Retaining Soil
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: easy
+
+craft_3_basic_retaining_soil:
+  id: 34
+  object: Basic Retaining Soil
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: easy
+
+craft_5_basic_retaining_soil:
+  id: 35
+  object: Basic Retaining Soil
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: easy
+
+craft_1_spring_seeds:
+  id: 36
+  object: Spring Seeds
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+craft_3_spring_seeds:
+  id: 37
+  object: Spring Seeds
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+craft_5_spring_seeds:
+  id: 38
+  object: Spring Seeds
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+craft_1_summer_seeds:
+  id: 39
+  object: Summer Seeds
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Spice Berry")', 'add_item_by_name("Grape")', 'add_item_by_name("Sweet Pea")']
+  evaluator: craft
+  difficulty: easy
+
+craft_3_summer_seeds:
+  id: 40
+  object: Summer Seeds
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Spice Berry")', 'add_item_by_name("Grape")', 'add_item_by_name("Sweet Pea")']
+  evaluator: craft
+  difficulty: easy
+
+craft_5_summer_seeds:
+  id: 41
+  object: Summer Seeds
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Spice Berry")', 'add_item_by_name("Grape")', 'add_item_by_name("Sweet Pea")']
+  evaluator: craft
+  difficulty: easy
+
+craft_1_grass_starter:
+  id: 42
+  object: Grass Starter
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: easy
+
+craft_3_grass_starter:
+  id: 43
+  object: Grass Starter
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: medium
+
+craft_5_grass_starter:
+  id: 44
+  object: Grass Starter
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+craft_1_fiber_seeds:
+  id: 45
+  object: Fiber Seeds
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: medium
+
+craft_3_fiber_seeds:
+  id: 46
+  object: Fiber Seeds
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+craft_5_fiber_seeds:
+  id: 47
+  object: Fiber Seeds
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+craft_1_wood_floor:
+  id: 48
+  object: Wood Floor
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: easy
+
+craft_3_wood_floor:
+  id: 49
+  object: Wood Floor
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: easy
+
+craft_5_wood_floor:
+  id: 50
+  object: Wood Floor
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: easy
+
+craft_1_crystal_floor:
+  id: 51
+  object: Crystal Floor
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+craft_3_crystal_floor:
+  id: 52
+  object: Crystal Floor
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+craft_5_crystal_floor:
+  id: 53
+  object: Crystal Floor
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+craft_1_spinner:
+  id: 54
+  object: Spinner
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Furnace")', 'set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_3_spinner:
+  id: 55
+  object: Spinner
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Furnace", 3)', 'set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_5_spinner:
+  id: 56
+  object: Spinner
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Furnace", 5)', 'set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_1_quality_bobber:
+  id: 57
+  object: Quality Bobber
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Bar")','add_item_by_name("Sap", 20)', 'add_item_by_name("Solar Essence", 5)']
+  evaluator: craft
+  difficulty: easy
+
+craft_1_sturdy_ring:
+  id: 58
+  object: Sturdy Ring
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+craft_1_warrior_ring:
+  id: 59
+  object: Warrior Ring
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Iron Bar", 10)', 'add_item_by_name("Coal", 25)', 'add_item_by_name("Frozen Tear", 10)']
+  evaluator: craft
+  difficulty: easy
+
+craft_3_warrior_ring:
+  id: 60
+  object: Warrior Ring
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Iron Bar", 30)', 'add_item_by_name("Coal", 75)', 'add_item_by_name("Frozen Tear", 30)']
+  evaluator: craft
+  difficulty: easy
+
+craft_5_warrior_ring:
+  id: 61
+  object: Warrior Ring
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Iron Bar", 50)', 'add_item_by_name("Coal", 125)', 'add_item_by_name("Frozen Tear", 50)']
+  evaluator: craft
+  difficulty: easy
+
+craft_1_field_snack:
+  id: 62
+  object: Field Snack
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Acorn")', 'add_item_by_name("Maple Seed")', 'add_item_by_name("Pine Cone")']
+  evaluator: craft
+  difficulty: easy
+
+craft_3_field_snack:
+  id: 63
+  object: Field Snack
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Acorn", 3)', 'add_item_by_name("Maple Seed", 3)', 'add_item_by_name("Pine Cone", 3)']
+  evaluator: craft
+  difficulty: easy
+
+craft_5_field_snack:
+  id: 64
+  object: Field Snack
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Acorn", 5)', 'add_item_by_name("Maple Seed", 5)', 'add_item_by_name("Pine Cone", 5)']
+  evaluator: craft
+  difficulty: easy
+
+craft_1_monster_musk:
+  id: 65
+  object: Monster Musk
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Slime", 30)', 'add_item_by_name("Bat Wing", 30)']
+  evaluator: craft
+  difficulty: easy
+
+craft_3_monster_musk:
+  id: 66
+  object: Monster Musk
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Slime", 90)', 'add_item_by_name("Bat Wing", 90)']
+  evaluator: craft
+  difficulty: easy
+
+craft_5_monster_musk:
+  id: 67
+  object: Monster Musk
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Slime", 150)', 'add_item_by_name("Bat Wing", 150)']
+  evaluator: craft
+  difficulty: easy
+
+craft_1_torch:
+  id: 68
+  object: Torch
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: easy
+
+craft_3_torch:
+  id: 69
+  object: Torch
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: easy
+
+craft_5_torch:
+  id: 70
+  object: Torch
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: medium
+
+craft_1_campfire:
+  id: 71
+  object: Campfire
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_3_campfire:
+  id: 72
+  object: Campfire
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: hard
+
+craft_5_campfire:
+  id: 73
+  object: Campfire
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: hard
+
+craft_1_barrel_brazier:
+  id: 74
+  object: Barrel Brazier
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Wood", 50)', 'add_item_by_name("Solar Essence")', 'add_item_by_name("Coal")']
+  evaluator: craft
+  difficulty: easy
+
+craft_3_barrel_brazier:
+  id: 75
+  object: Barrel Brazier
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Wood", 150)', 'add_item_by_name("Solar Essence", 3)', 'add_item_by_name("Coal", 3)']
+  evaluator: craft
+  difficulty: easy
+
+craft_5_barrel_brazier:
+  id: 76
+  object: Barrel Brazier
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Wood", 250)', 'add_item_by_name("Solar Essence", 5)', 'add_item_by_name("Coal", 5)']
+  evaluator: craft
+  difficulty: easy
+
+craft_1_furnace:
+  id: 77
+  object: Furnace
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_3_furnace:
+  id: 78
+  object: Furnace
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_5_furnace:
+  id: 79
+  object: Furnace
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_1_crystalarium:
+  id: 80
+  object: Crystalarium
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Stone", 99)', 'add_item_by_name("Gold Bar", 5)', 'add_item_by_name("Iridium Bar", 2)', 'add_item_by_name("Battery Pack")']
+  evaluator: craft
+  difficulty: easy
+
+craft_3_crystalarium:
+  id: 81
+  object: Crystalarium
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Stone", 297)', 'add_item_by_name("Gold Bar", 15)', 'add_item_by_name("Iridium Bar", 6)', 'add_item_by_name("Battery Pack", 3)']
+  evaluator: craft
+  difficulty: easy
+
+craft_5_crystalarium:
+  id: 82
+  object: Crystalarium
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Stone", 495)', 'add_item_by_name("Gold Bar", 25)', 'add_item_by_name("Iridium Bar", 10)', 'add_item_by_name("Battery Pack", 5)']
+  evaluator: craft
+  difficulty: easy
+
+craft_1_wicked_statue:
+  id: 83
+  object: Wicked Statue
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_3_wicked_statue:
+  id: 84
+  object: Wicked Statue
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_5_wicked_statue:
+  id: 85
+  object: Wicked Statue
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_1_chest:
+  id: 86
+  object: Chest
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_3_chest:
+  id: 87
+  object: Chest
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_5_chest:
+  id: 88
+  object: Chest
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_1_wood_sign:
+  id: 89
+  object: Wood Sign
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_3_wood_sign:
+  id: 90
+  object: Wood Sign
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_5_wood_sign:
+  id: 91
+  object: Wood Sign
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_1_stone_sign:
+  id: 92
+  object: Stone Sign
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_3_stone_sign:
+  id: 93
+  object: Stone Sign
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_5_stone_sign:
+  id: 94
+  object: Stone Sign
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_1_dark_sign:
+  id: 95
+  object: Dark Sign
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Bat Wing", 5)', 'add_item_by_name("Bone Fragment", 5)']
+  evaluator: craft
+  difficulty: easy
+
+craft_3_dark_sign:
+  id: 96
+  object: Dark Sign
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Bat Wing", 15)', 'add_item_by_name("Bone Fragment", 15)']
+  evaluator: craft
+  difficulty: easy
+
+craft_5_dark_sign:
+  id: 97
+  object: Dark Sign
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Bat Wing", 25)', 'add_item_by_name("Bone Fragment", 25)']
+  evaluator: craft
+  difficulty: easy
+
+craft_1_scarecrow:
+  id: 98
+  object: Scarecrow
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Wood", 50)', 'add_item_by_name("Coal")', 'add_item_by_name("Fiber", 20)']
+  evaluator: craft
+  difficulty: easy
+
+craft_3_scarecrow:
+  id: 99
+  object: Scarecrow
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Wood", 150)', 'add_item_by_name("Coal", 3)', 'add_item_by_name("Fiber", 60)']
+  evaluator: craft
+  difficulty: easy
+
+craft_5_scarecrow:
+  id: 100
+  object: Scarecrow
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Wood", 250)', 'add_item_by_name("Coal", 5)', 'add_item_by_name("Fiber", 100)']
+  evaluator: craft
+  difficulty: easy
+
+craft_1_staircase:
+  id: 101
+  object: Staircase
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_3_staircase:
+  id: 102
+  object: Staircase
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_5_staircase:
+  id: 103
+  object: Staircase
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_1_iron_bar:
+  id: 104
+  object: Iron Bar
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Furnace")', 'add_item_by_name("Copper Ore", 15)', 'add_item_by_name("Coal", 3)']
+  evaluator: craft
+  difficulty: easy
+
+craft_3_iron_bar:
+  id: 105
+  object: Iron Bar
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Furnace", 3)', 'add_item_by_name("Copper Ore", 45)', 'add_item_by_name("Coal", 9)']
+  evaluator: craft
+  difficulty: easy
+
+craft_5_iron_bar:
+  id: 106
+  object: Iron Bar
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Furnace", 5)', 'add_item_by_name("Copper Ore", 75)', 'add_item_by_name("Coal", 15)']
+  evaluator: craft
+  difficulty: easy
+
+produce_1_smoked_fish_with_fish_smoker:
+  id: 107
+  object: Smoked Fish
+  quantity: 1
+  tool: Fish Smoker
+  save: save_new
+  init_commands: ['add_item_by_name("Fish Smoker")', 'add_item_by_name("Sunfish")', 'add_item_by_name("Coal")']
+  evaluator: craft
+  difficulty: easy
+
+produce_3_smoked_fish_with_fish_smoker:
+  id: 108
+  object: Smoked Fish
+  quantity: 3
+  tool: Fish Smoker
+  save: save_new
+  init_commands: ['add_item_by_name("Fish Smoker", 3)', 'add_item_by_name("Sunfish", 3)', 'add_item_by_name("Coal", 3)']
+  evaluator: craft
+  difficulty: easy
+
+produce_5_smoked_fish_with_fish_smoker:
+  id: 109
+  object: Smoked Fish
+  quantity: 5
+  tool: Fish Smoker
+  save: save_new
+  init_commands: ['add_item_by_name("Fish Smoker", 5)', 'add_item_by_name("Sunfish", 5)', 'add_item_by_name("Coal", 5)']
+  evaluator: craft
+  difficulty: easy
+
+produce_1_oil_with_oil_maker:
+  id: 110
+  object: Oil
+  quantity: 1
+  tool: Oil Maker
+  save: save_new
+  init_commands: ['add_item_by_name("Slime", 50)', 'add_item_by_name("Hardwood", 20)', 'add_item_by_name("Gold Bar")', 'add_item_by_name("Sunflower")']
+  evaluator: craft
+  difficulty: easy
+
+produce_3_oil_with_oil_maker:
+  id: 111
+  object: Oil
+  quantity: 3
+  tool: Oil Maker
+  save: save_new
+  init_commands: ['add_item_by_name("Slime", 150)', 'add_item_by_name("Hardwood", 60)', 'add_item_by_name("Gold Bar", 3)', 'add_item_by_name("Sunflower", 3)']
+  evaluator: craft
+  difficulty: easy
+
+produce_5_oil_with_oil_maker:
+  id: 112
+  object: Oil
+  quantity: 5
+  tool: Oil Maker
+  save: save_new
+  init_commands: ['add_item_by_name("Slime", 250)', 'add_item_by_name("Hardwood", 100)', 'add_item_by_name("Gold Bar", 5)', 'add_item_by_name("Sunflower", 5)']
+  evaluator: craft
+  difficulty: easy
+
+produce_1_copper_bar_with_furnace:
+  id: 113
+  object: Copper Bar
+  quantity: 1
+  tool: Furnace
+  save: save_new
+  init_commands: ['add_item_by_name("Furnace")', 'add_item_by_name("Copper Ore", 5)', 'add_item_by_name("Coal")']
+  evaluator: craft
+  difficulty: easy
+
+produce_3_copper_bar_with_furnace:
+  id: 114
+  object: Copper Bar
+  quantity: 3
+  tool: Furnace
+  save: save_new
+  init_commands: ['add_item_by_name("Furnace", 3)', 'add_item_by_name("Copper Ore", 15)', 'add_item_by_name("Coal", 3)']
+  evaluator: craft
+  difficulty: easy
+
+produce_5_copper_bar_with_furnace:
+  id: 115
+  object: Copper Bar
+  quantity: 5
+  tool: Furnace
+  save: save_new
+  init_commands: ['add_item_by_name("Furnace", 5)', 'add_item_by_name("Copper Ore", 25)', 'add_item_by_name("Coal", 5)']
+  evaluator: craft
+  difficulty: easy
+
+produce_1_iron_bar_with_furnace:
+  id: 116
+  object: Iron Bar
+  quantity: 1
+  tool: Furnace
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Ore", 20)', 'add_item_by_name("Iron Ore", 5)', 'add_item_by_name("Coal")']
+  evaluator: craft
+  difficulty: medium
+
+produce_3_iron_bar_with_furnace:
+  id: 117
+  object: Iron Bar
+  quantity: 3
+  tool: Furnace
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Ore", 60)', 'add_item_by_name("Iron Ore", 15)', 'add_item_by_name("Coal", 3)']
+  evaluator: craft
+  difficulty: medium
+
+produce_5_iron_bar_with_furnace:
+  id: 118
+  object: Iron Bar
+  quantity: 5
+  tool: Furnace
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Ore", 100)', 'add_item_by_name("Iron Ore", 25)', 'add_item_by_name("Coal", 5)']
+  evaluator: craft
+  difficulty: medium
+
+produce_1_refined_quartz_with_furnace:
+  id: 119
+  object: Refined Quartz
+  quantity: 1
+  tool: Furnace
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+produce_3_refined_quartz_with_furnace:
+  id: 120
+  object: Refined Quartz
+  quantity: 3
+  tool: Furnace
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+produce_5_refined_quartz_with_furnace:
+  id: 121
+  object: Refined Quartz
+  quantity: 5
+  tool: Furnace
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+cook_1_fried_egg_with_stove:
+  id: 122
+  object: Fried Egg
+  quantity: 1
+  tool: Stove
+  save: save_new
+  init_commands: ['upgrade_house(1)', 'add_item_by_name("Egg")']
+  evaluator: craft
+  difficulty: easy
+
+cook_3_fried_egg_with_stove:
+  id: 123
+  object: Fried Egg
+  quantity: 3
+  tool: Stove
+  save: save_new
+  init_commands: ['upgrade_house(1)', 'add_item_by_name("Egg", 3)']
+  evaluator: craft
+  difficulty: easy
+
+cook_5_fried_egg_with_stove:
+  id: 124
+  object: Fried Egg
+  quantity: 5
+  tool: Stove
+  save: save_new
+  init_commands: ['upgrade_house(1)', 'add_item_by_name("Egg", 5)']
+  evaluator: craft
+  difficulty: easy
+
+cook_1_omelet_with_stove:
+  id: 125
+  object: Omelet
+  quantity: 1
+  tool: Stove
+  save: save_new
+  init_commands: ['add_item_by_name("Wood", 450)', 'add_item_by_name("Egg")', 'add_item_by_name("Milk")']
+  evaluator: craft
+  difficulty: hard
+
+cook_3_omelet_with_stove:
+  id: 126
+  object: Omelet
+  quantity: 3
+  tool: Stove
+  save: save_new
+  init_commands: ['add_item_by_name("Wood", 450)', 'add_item_by_name("Egg", 3)', 'add_item_by_name("Milk", 3)']
+  evaluator: craft
+  difficulty: hard
+
+cook_5_omelet_with_stove:
+  id: 127
+  object: Omelet
+  quantity: 5
+  tool: Stove
+  save: save_new
+  init_commands: ['add_item_by_name("Wood", 450)', 'add_item_by_name("Egg", 5)', 'add_item_by_name("Milk", 5)']
+  evaluator: craft
+  difficulty: hard
+
+cook_1_triple_shot_espresso_with_stove:
+  id: 128
+  object: Triple Shot Espresso
+  quantity: 1
+  tool: Stove
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+cook_3_triple_shot_espresso_with_stove:
+  id: 129
+  object: Triple Shot Espresso
+  quantity: 3
+  tool: Stove
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+cook_5_triple_shot_espresso_with_stove:
+  id: 130
+  object: Triple Shot Espresso
+  quantity: 5
+  tool: Stove
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+cook_1_cheese_cauliflower_with_cookout_kit:
+  id: 131
+  object: Cheese Cauliflower
+  quantity: 1
+  tool: Cookout Kit
+  save: save_new
+  init_commands: ['add_item_by_name("Cookout Kit")', 'add_item_by_name("Cauliflower")', 'add_item_by_name("Cheese")']
+  evaluator: craft
+  difficulty: easy
+
+cook_3_cheese_cauliflower_with_cookout_kit:
+  id: 132
+  object: Cheese Cauliflower
+  quantity: 3
+  tool: Cookout Kit
+  save: save_new
+  init_commands: ['add_item_by_name("Cookout Kit")', 'add_item_by_name("Cauliflower", 3)', 'add_item_by_name("Cheese", 3)']
+  evaluator: craft
+  difficulty: easy
+
+cook_5_cheese_cauliflower_with_cookout_kit:
+  id: 133
+  object: Cheese Cauliflower
+  quantity: 5
+  tool: Cookout Kit
+  save: save_new
+  init_commands: ['add_item_by_name("Cookout Kit")', 'add_item_by_name("Cauliflower", 5)', 'add_item_by_name("Cheese", 5)']
+  evaluator: craft
+  difficulty: easy
+
+cook_1_baked_fish_with_cookout_kit:
+  id: 134
+  object: Baked Fish
+  quantity: 1
+  tool: Cookout Kit
+  save: save_new
+  init_commands: ['add_item_by_name("Wood", 15)', 'add_item_by_name("Fiber", 10)', 'add_item_by_name("Coal", 3)', 'add_item_by_name("Sunfish")', 'add_item_by_name("Bream")', 'add_item_by_name("Wheat Flour")']
+  evaluator: craft
+  difficulty: easy
+
+cook_3_baked_fish_with_cookout_kit:
+  id: 135
+  object: Baked Fish
+  quantity: 3
+  tool: Cookout Kit
+  save: save_new
+  init_commands: ['add_item_by_name("Wood", 15)', 'add_item_by_name("Fiber", 10)', 'add_item_by_name("Coal", 3)', 'add_item_by_name("Sunfish", 3)', 'add_item_by_name("Bream", 3)', 'add_item_by_name("Wheat Flour", 3)']
+  evaluator: craft
+  difficulty: easy
+
+cook_5_baked_fish_with_cookout_kit:
+  id: 136
+  object: Baked Fish
+  quantity: 5
+  tool: Cookout Kit
+  save: save_new
+  init_commands: ['add_item_by_name("Wood", 15)', 'add_item_by_name("Fiber", 10)', 'add_item_by_name("Coal", 3)', 'add_item_by_name("Sunfish", 5)', 'add_item_by_name("Bream", 5)', 'add_item_by_name("Wheat Flour", 5)']
+  evaluator: craft
+  difficulty: easy
+
+cook_1_salad_with_cookout_kit:
+  id: 137
+  object: Salad
+  quantity: 1
+  tool: Cookout Kit
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+cook_3_salad_with_cookout_kit:
+  id: 138
+  object: Salad
+  quantity: 3
+  tool: Cookout Kit
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+cook_5_salad_with_cookout_kit:
+  id: 139
+  object: Salad
+  quantity: 5
+  tool: Cookout Kit
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard

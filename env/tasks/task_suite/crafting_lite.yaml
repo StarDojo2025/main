@@ -1,0 +1,140 @@
+# easy: 7, medium: 4, hard: 3, total: 14
+craft_1_cherry_bomb:
+  id: 0
+  object: Cherry Bomb
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_1_wood_fence:
+  id: 1
+  object: Wood Fence
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: easy
+
+craft_1_sprinkler:
+  id: 2
+  object: Sprinkler
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Furnace")', 'add_item_by_name("Copper Ore", 5)', 'add_item_by_name("Iron Ore", 5)', 'add_item_by_name("Coal", 2)']
+  evaluator: craft
+  difficulty: medium
+
+craft_1_basic_retaining_soil:
+  id: 3
+  object: Basic Retaining Soil
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: easy
+
+craft_1_spring_seeds:
+  id: 4
+  object: Spring Seeds
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+craft_1_field_snack:
+  id: 5
+  object: Field Snack
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Acorn")', 'add_item_by_name("Maple Seed")', 'add_item_by_name("Pine Cone")']
+  evaluator: craft
+  difficulty: easy
+
+craft_1_torch:
+  id: 6
+  object: Torch
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: easy
+
+craft_1_furnace:
+  id: 7
+  object: Furnace
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_1_chest:
+  id: 8
+  object: Chest
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: craft
+  difficulty: medium
+
+craft_1_scarecrow:
+  id: 9
+  object: Scarecrow
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['add_item_by_name("Wood", 50)', 'add_item_by_name("Coal")', 'add_item_by_name("Fiber", 20)']
+  evaluator: craft
+  difficulty: easy
+
+produce_1_copper_bar_with_furnace:
+  id: 10
+  object: Copper Bar
+  quantity: 1
+  tool: Furnace
+  save: save_new
+  init_commands: ['add_item_by_name("Furnace")', 'add_item_by_name("Copper Ore", 5)', 'add_item_by_name("Coal")']
+  evaluator: craft
+  difficulty: easy
+
+produce_1_refined_quartz_with_furnace:
+  id: 11
+  object: Refined Quartz
+  quantity: 1
+  tool: Furnace
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard
+
+cook_1_fried_egg_with_stove:
+  id: 12
+  object: Fried Egg
+  quantity: 1
+  tool: Stove
+  save: save_new
+  init_commands: ['upgrade_house(1)', 'add_item_by_name("Egg")']
+  evaluator: craft
+  difficulty: easy
+
+cook_1_salad_with_cookout_kit:
+  id: 13
+  object: Salad
+  quantity: 1
+  tool: Cookout Kit
+  save: save_new
+  init_commands: null
+  evaluator: craft
+  difficulty: hard

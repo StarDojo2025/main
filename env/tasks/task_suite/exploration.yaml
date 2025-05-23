@@ -1,0 +1,3080 @@
+# easy: 150, medium: 80, hard: 50, total: 280
+go_to_bed:
+  id: 0
+  object: Bed
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: sleep
+  difficulty: easy
+
+watch_TV:
+  id: 1
+  object: TV
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: watch
+  difficulty: easy
+
+read_letter:
+  id: 2
+  object: Letter
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: read
+  difficulty: easy
+
+go_to_farmhouse:
+  id: 3
+  object: FarmHouse
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_barn:
+  id: 4
+  object: Barn
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_big_barn:
+  id: 5
+  object: Big Barn
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_deluxe_barn:
+  id: 6
+  object: Deluxe Barn
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_coop:
+  id: 7
+  object: Coop
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_big_coop:
+  id: 8
+  object: Big Coop
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_deluxe_coop:
+  id: 9
+  object: Deluxe Coop
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_shed:
+  id: 10
+  object: Shed
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_big_shed:
+  id: 11
+  object: Big Shed
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_the_cave:
+  id: 12
+  object: FarmCave
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_bus_stop:
+  id: 13
+  object: BusStop
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_backwoods:
+  id: 14
+  object: Backwoods
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_the_tunnel:
+  id: 15
+  object: Tunnel
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_pelican_town:
+  id: 16
+  object: Town
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_harvey's_clinic:
+  id: 17
+  object: Hospital
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: location
+  difficulty: easy
+
+go_to_harvey's_room:
+  id: 18
+  object: HarveyRoom
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: location
+  difficulty: easy
+
+go_to_pierre's_general_store:
+  id: 19
+  object: SeedShop
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: location
+  difficulty: easy
+
+go_to_1_river_road:
+  id: 20
+  object: JoshHouse
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=800)']
+  evaluator: location
+  difficulty: easy
+
+go_to_trailer:
+  id: 21
+  object: Trailer
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: location
+  difficulty: easy
+
+go_to_the_stardrop_saloon:
+  id: 22
+  object: Saloon
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=1200)']
+  evaluator: location
+  difficulty: easy
+
+go_to_1_willow_lane:
+  id: 23
+  object: SamHouse
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: location
+  difficulty: easy
+
+go_to_2_willow_lane:
+  id: 24
+  object: HaleyHouse
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: location
+  difficulty: easy
+
+go_to_mayor's_manor:
+  id: 25
+  object: ManorHouse
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=830)']
+  evaluator: location
+  difficulty: easy
+
+go_to_community_center:
+  id: 26
+  object: CommunityCenter
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_jojamart:
+  id: 27
+  object: JojaMart
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: location
+  difficulty: easy
+
+go_to_blacksmith:
+  id: 28
+  object: Blacksmith
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: location
+  difficulty: easy
+
+go_to_museum:
+  id: 29
+  object: ArchaeologyHouse
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=800)']
+  evaluator: location
+  difficulty: easy
+
+go_to_cindersap_forest:
+  id: 30
+  object: Forest
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_marnie's_ranch:
+  id: 31
+  object: AnimalShop
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: location
+  difficulty: easy
+
+go_to_leah's_cottage:
+  id: 32
+  object: LeahHouse
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=1000)']
+  evaluator: location
+  difficulty: easy
+
+go_to_wizard's_tower:
+  id: 33
+  object: WizardHouse
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_wizard's_basement_room:
+  id: 34
+  object: WizardHouseBasement
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_the_beach:
+  id: 35
+  object: Beach
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_elliott's_cabin:
+  id: 36
+  object: ElliottHouse
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=1000)']
+  evaluator: location
+  difficulty: easy
+
+go_to_fish_shop:
+  id: 37
+  object: FishShop
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: location
+  difficulty: easy
+
+go_to_the_mountain:
+  id: 38
+  object: Mountain
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_carpenter's_shop:
+  id: 39
+  object: ScienceHouse
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: location
+  difficulty: easy
+
+go_to_sebastian's_room:
+  id: 40
+  object: SebastianRoom
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=900)']
+  evaluator: location
+  difficulty: easy
+
+go_to_tent:
+  id: 41
+  object: Tent
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_the_mines:
+  id: 42
+  object: Mine
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_the_mines_1st_floor:
+  id: 43
+  object: UndergroundMine1
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: easy
+
+go_to_the_mines_2nd_floor:
+  id: 44
+  object: UndergroundMine2
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: medium
+
+go_to_the_mines_5th_floor_by_elevator:
+  id: 45
+  object: UndergroundMine5
+  quantity: 1
+  tool: Elevator
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: medium
+
+go_to_the_mines_10th_floor:
+  id: 46
+  object: UndergroundMine10
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: location
+  difficulty: hard
+
+go_to_adventurer's_guild:
+  id: 47
+  object: AdventureGuild
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['set_time(time=1400)']
+  evaluator: location
+  difficulty: easy
+
+chop_10_wood_with_axe:
+  id: 48
+  object: Wood
+  quantity: 10
+  tool: Axe
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+chop_13_wood_with_axe:
+  id: 49
+  object: Wood
+  quantity: 13
+  tool: Axe
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+chop_15_wood_with_axe:
+  id: 50
+  object: Wood
+  quantity: 15
+  tool: Axe
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+chop_20_wood_with_axe:
+  id: 51
+  object: Wood
+  quantity: 20
+  tool: Axe
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: medium
+
+chop_23_wood_with_axe:
+  id: 52
+  object: Wood
+  quantity: 23
+  tool: Axe
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: medium
+
+chop_25_wood_with_axe:
+  id: 53
+  object: Wood
+  quantity: 25
+  tool: Axe
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: medium
+
+chop_10_wood_with_copper_axe:
+  id: 54
+  object: Wood
+  quantity: 10
+  tool: Copper Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Axe")']
+  evaluator: harvest
+  difficulty: easy
+
+chop_13_wood_with_copper_axe:
+  id: 55
+  object: Wood
+  quantity: 13
+  tool: Copper Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Axe")']
+  evaluator: harvest
+  difficulty: easy
+
+chop_15_wood_with_copper_axe:
+  id: 56
+  object: Wood
+  quantity: 15
+  tool: Copper Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Axe")']
+  evaluator: harvest
+  difficulty: easy
+
+chop_20_wood_with_copper_axe:
+  id: 57
+  object: Wood
+  quantity: 20
+  tool: Copper Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Axe")']
+  evaluator: harvest
+  difficulty: medium
+
+chop_23_wood_with_copper_axe:
+  id: 58
+  object: Wood
+  quantity: 23
+  tool: Copper Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Axe")']
+  evaluator: harvest
+  difficulty: medium
+
+chop_25_wood_with_copper_axe:
+  id: 59
+  object: Wood
+  quantity: 25
+  tool: Copper Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Axe")']
+  evaluator: harvest
+  difficulty: medium
+
+chop_10_wood_with_steel_axe:
+  id: 60
+  object: Wood
+  quantity: 10
+  tool: Steel Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Axe")']
+  evaluator: harvest
+  difficulty: easy
+
+chop_13_wood_with_steel_axe:
+  id: 61
+  object: Wood
+  quantity: 13
+  tool: Steel Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Axe")']
+  evaluator: harvest
+  difficulty: easy
+
+chop_15_wood_with_steel_axe:
+  id: 62
+  object: Wood
+  quantity: 15
+  tool: Steel Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Axe")']
+  evaluator: harvest
+  difficulty: easy
+
+chop_20_wood_with_steel_axe:
+  id: 63
+  object: Wood
+  quantity: 20
+  tool: Steel Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Axe")']
+  evaluator: harvest
+  difficulty: medium
+
+chop_23_wood_with_steel_axe:
+  id: 64
+  object: Wood
+  quantity: 23
+  tool: Steel Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Axe")']
+  evaluator: harvest
+  difficulty: medium
+
+chop_25_wood_with_steel_axe:
+  id: 65
+  object: Wood
+  quantity: 25
+  tool: Steel Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Axe")']
+  evaluator: harvest
+  difficulty: medium
+
+chop_10_wood_with_gold_axe:
+  id: 66
+  object: Wood
+  quantity: 10
+  tool: Gold Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Axe")']
+  evaluator: harvest
+  difficulty: easy
+
+chop_13_wood_with_gold_axe:
+  id: 67
+  object: Wood
+  quantity: 13
+  tool: Gold Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Axe")']
+  evaluator: harvest
+  difficulty: easy
+
+chop_15_wood_with_gold_axe:
+  id: 68
+  object: Wood
+  quantity: 15
+  tool: Gold Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Axe")']
+  evaluator: harvest
+  difficulty: easy
+
+chop_20_wood_with_gold_axe:
+  id: 69
+  object: Wood
+  quantity: 20
+  tool: Gold Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Axe")']
+  evaluator: harvest
+  difficulty: medium
+
+chop_23_wood_with_gold_axe:
+  id: 70
+  object: Wood
+  quantity: 23
+  tool: Gold Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Axe")']
+  evaluator: harvest
+  difficulty: medium
+
+chop_25_wood_with_gold_axe:
+  id: 71
+  object: Wood
+  quantity: 25
+  tool: Gold Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Axe")']
+  evaluator: harvest
+  difficulty: medium
+
+chop_5_sap_with_axe:
+  id: 72
+  object: Sap
+  quantity: 5
+  tool: Axe
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+chop_6_sap_with_axe:
+  id: 73
+  object: Sap
+  quantity: 6
+  tool: Axe
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+chop_10_sap_with_axe:
+  id: 74
+  object: Sap
+  quantity: 10
+  tool: Axe
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: medium
+
+chop_11_sap_with_axe:
+  id: 75
+  object: Sap
+  quantity: 11
+  tool: Axe
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: medium
+
+chop_5_sap_with_copper_axe:
+  id: 76
+  object: Sap
+  quantity: 5
+  tool: Copper Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Axe")']
+  evaluator: harvest
+  difficulty: easy
+
+chop_6_sap_with_copper_axe:
+  id: 77
+  object: Sap
+  quantity: 6
+  tool: Copper Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Axe")']
+  evaluator: harvest
+  difficulty: easy
+
+chop_10_sap_with_copper_axe:
+  id: 78
+  object: Sap
+  quantity: 10
+  tool: Copper Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Axe")']
+  evaluator: harvest
+  difficulty: medium
+
+chop_11_sap_with_copper_axe:
+  id: 79
+  object: Sap
+  quantity: 11
+  tool: Copper Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Axe")']
+  evaluator: harvest
+  difficulty: medium
+
+chop_5_sap_with_steel_axe:
+  id: 80
+  object: Sap
+  quantity: 5
+  tool: Steel Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Axe")']
+  evaluator: harvest
+  difficulty: easy
+
+chop_6_sap_with_steel_axe:
+  id: 81
+  object: Sap
+  quantity: 6
+  tool: Steel Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Axe")']
+  evaluator: harvest
+  difficulty: easy
+
+chop_10_sap_with_steel_axe:
+  id: 82
+  object: Sap
+  quantity: 10
+  tool: Steel Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Axe")']
+  evaluator: harvest
+  difficulty: medium
+
+chop_11_sap_with_steel_axe:
+  id: 83
+  object: Sap
+  quantity: 11
+  tool: Steel Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Axe")']
+  evaluator: harvest
+  difficulty: medium
+
+chop_5_sap_with_gold_axe:
+  id: 84
+  object: Sap
+  quantity: 5
+  tool: Gold Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Axe")']
+  evaluator: harvest
+  difficulty: easy
+
+chop_6_sap_with_gold_axe:
+  id: 85
+  object: Sap
+  quantity: 6
+  tool: Gold Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Axe")']
+  evaluator: harvest
+  difficulty: easy
+
+chop_10_sap_with_gold_axe:
+  id: 86
+  object: Sap
+  quantity: 10
+  tool: Gold Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Axe")']
+  evaluator: harvest
+  difficulty: medium
+
+chop_11_sap_with_gold_axe:
+  id: 87
+  object: Sap
+  quantity: 11
+  tool: Gold Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Axe")']
+  evaluator: harvest
+  difficulty: medium
+
+chop_2_hardwood_with_copper_axe:
+  id: 88
+  object: Hardwood
+  quantity: 2
+  tool: Copper Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Axe")']
+  evaluator: harvest
+  difficulty: easy
+
+chop_4_hardwood_with_copper_axe:
+  id: 89
+  object: Hardwood
+  quantity: 4
+  tool: Copper Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Axe")']
+  evaluator: harvest
+  difficulty: medium
+
+chop_2_hardwood_with_steel_axe:
+  id: 90
+  object: Hardwood
+  quantity: 2
+  tool: Steel Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Axe")']
+  evaluator: harvest
+  difficulty: easy
+
+chop_4_hardwood_with_steel_axe:
+  id: 91
+  object: Hardwood
+  quantity: 4
+  tool: Steel Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Axe")']
+  evaluator: harvest
+  difficulty: medium
+
+chop_2_hardwood_with_gold_axe:
+  id: 92
+  object: Hardwood
+  quantity: 2
+  tool: Gold Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Axe")']
+  evaluator: harvest
+  difficulty: easy
+
+chop_4_hardwood_with_gold_axe:
+  id: 93
+  object: Hardwood
+  quantity: 4
+  tool: Gold Axe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Axe")']
+  evaluator: harvest
+  difficulty: medium
+
+forage_1_wild_horseradish:
+  id: 94
+  object: Wild Horseradish
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("forest")']
+  evaluator: harvest
+  difficulty: medium
+
+forage_2_wild_horseradish:
+  id: 95
+  object: Wild Horseradish
+  quantity: 2
+  tool: null
+  save: save_new
+  init_commands: ['warp("forest")']
+  evaluator: harvest
+  difficulty: medium
+
+forage_3_wild_horseradish:
+  id: 96
+  object: Wild Horseradish
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+#forage_4_wild_horseradish:
+#  id: 0
+#  object: Wild Horseradish
+#  quantity: 4
+#  tool: null
+#  save: save_new
+#  init_commands: null
+#  evaluator: harvest
+#  difficulty: hard
+
+forage_1_daffodil:
+  id: 97
+  object: Daffodil
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("town")']
+  evaluator: harvest
+  difficulty: medium
+
+forage_2_daffodil:
+  id: 98
+  object: Daffodil
+  quantity: 2
+  tool: null
+  save: save_new
+  init_commands: ['warp("town")']
+  evaluator: harvest
+  difficulty: medium
+
+forage_3_daffodil:
+  id: 99
+  object: Daffodil
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+#forage_4_daffodil:
+#  id: 1
+#  object: Daffodil
+#  quantity: 4
+#  tool: null
+#  save: save_new
+#  init_commands: null
+#  evaluator: harvest
+#  difficulty: hard
+
+forage_1_leek:
+  id: 100
+  object: Leek
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("mountain")']
+  evaluator: harvest
+  difficulty: medium
+
+forage_2_leek:
+  id: 101
+  object: Leek
+  quantity: 2
+  tool: null
+  save: save_new
+  init_commands: ['warp("mountain")']
+  evaluator: harvest
+  difficulty: medium
+
+forage_3_leek:
+  id: 102
+  object: Leek
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+#forage_4_leek:
+#  id: 2
+#  object: Leek
+#  quantity: 4
+#  tool: null
+#  save: save_new
+#  init_commands: null
+#  evaluator: harvest
+#  difficulty: hard
+
+forage_1_dandelion:
+  id: 103
+  object: Dandelion
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("forest")']
+  evaluator: harvest
+  difficulty: medium
+
+forage_2_dandelion:
+  id: 104
+  object: Dandelion
+  quantity: 2
+  tool: null
+  save: save_new
+  init_commands: ['warp("forest")']
+  evaluator: harvest
+  difficulty: medium
+
+forage_3_dandelion:
+  id: 105
+  object: Dandelion
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+#forage_4_dandelion:
+#  id: 3
+#  object: Dandelion
+#  quantity: 4
+#  tool: null
+#  save: save_new
+#  init_commands: null
+#  evaluator: harvest
+#  difficulty: hard
+
+forage_5_spring_onion:
+  id: 106
+  object: Spring Onion
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: ['warp("forest")']
+  evaluator: harvest
+  difficulty: medium
+
+forage_10_spring_onion:
+  id: 107
+  object: Spring Onion
+  quantity: 10
+  tool: null
+  save: save_new
+  init_commands: ['warp("forest")']
+  evaluator: harvest
+  difficulty: medium
+
+forage_15_spring_onion:
+  id: 108
+  object: Spring Onion
+  quantity: 15
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+#forage_20_spring_onion:
+#  id: 4
+#  object: Spring Onion
+#  quantity: 20
+#  tool: null
+#  save: save_new
+#  init_commands: null
+#  evaluator: harvest
+#  difficulty: hard
+
+forage_1_coral:
+  id: 109
+  object: Coral
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("beach")']
+  evaluator: harvest
+  difficulty: easy
+
+forage_2_coral:
+  id: 110
+  object: Coral
+  quantity: 2
+  tool: null
+  save: save_new
+  init_commands: ['warp("beach")']
+  evaluator: harvest
+  difficulty: easy
+
+forage_3_coral:
+  id: 111
+  object: Coral
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+#forage_4_coral:
+#  id: 5
+#  object: Coral
+#  quantity: 4
+#  tool: null
+#  save: save_new
+#  init_commands: null
+#  evaluator: harvest
+#  difficulty: hard
+
+forage_1_sea_urchin:
+  id: 112
+  object: Sea Urchin
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("beach")']
+  evaluator: harvest
+  difficulty: easy
+
+forage_2_sea_urchin:
+  id: 113
+  object: Sea Urchin
+  quantity: 2
+  tool: null
+  save: save_new
+  init_commands: ['warp("beach")']
+  evaluator: harvest
+  difficulty: easy
+
+forage_3_sea_urchin:
+  id: 114
+  object: Sea Urchin
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+#forage_4_sea_urchin:
+#  id: 6
+#  object: Sea Urchin
+#  quantity: 4
+#  tool: null
+#  save: save_new
+#  init_commands: null
+#  evaluator: harvest
+#  difficulty: hard
+
+forage_1_clam:
+  id: 115
+  object: Clam
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("beach")']
+  evaluator: harvest
+  difficulty: easy
+
+forage_2_clam:
+  id: 116
+  object: Clam
+  quantity: 2
+  tool: null
+  save: save_new
+  init_commands: ['warp("beach")']
+  evaluator: harvest
+  difficulty: easy
+
+forage_3_clam:
+  id: 117
+  object: Clam
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+#forage_4_clam:
+#  id: 7
+#  object: Clam
+#  quantity: 4
+#  tool: null
+#  save: save_new
+#  init_commands: null
+#  evaluator: harvest
+#  difficulty: hard
+
+forage_1_cockle:
+  id: 118
+  object: Cockle
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("beach")']
+  evaluator: harvest
+  difficulty: easy
+
+forage_2_cockle:
+  id: 119
+  object: Cockle
+  quantity: 2
+  tool: null
+  save: save_new
+  init_commands: ['warp("beach")']
+  evaluator: harvest
+  difficulty: easy
+
+forage_3_cockle:
+  id: 120
+  object: Cockle
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+#forage_4_cockle:
+#  id: 8
+#  object: Cockle
+#  quantity: 4
+#  tool: null
+#  save: save_new
+#  init_commands: null
+#  evaluator: harvest
+#  difficulty: hard
+
+forage_1_mussel:
+  id: 121
+  object: Mussel
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("beach")']
+  evaluator: harvest
+  difficulty: easy
+
+forage_2_mussel:
+  id: 122
+  object: Mussel
+  quantity: 2
+  tool: null
+  save: save_new
+  init_commands: ['warp("beach")']
+  evaluator: harvest
+  difficulty: easy
+
+forage_3_mussel:
+  id: 123
+  object: Mussel
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+#forage_4_mussel:
+#  id: 9
+#  object: Mussel
+#  quantity: 4
+#  tool: null
+#  save: save_new
+#  init_commands: null
+#  evaluator: harvest
+#  difficulty: hard
+
+forage_1_oyster:
+  id: 124
+  object: Oyster
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("beach")']
+  evaluator: harvest
+  difficulty: easy
+
+forage_2_oyster:
+  id: 125
+  object: Oyster
+  quantity: 2
+  tool: null
+  save: save_new
+  init_commands: ['warp("beach")']
+  evaluator: harvest
+  difficulty: easy
+
+forage_3_oyster:
+  id: 126
+  object: Oyster
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+#forage_4_oyster:
+#  id: 10
+#  object: Oyster
+#  quantity: 4
+#  tool: null
+#  save: save_new
+#  init_commands: null
+#  evaluator: harvest
+#  difficulty: hard
+
+forage_5_hay_with_scythe:
+  id: 127
+  object: Hay
+  quantity: 5
+  tool: Scythe
+  save: save_new
+  init_commands: null
+  evaluator: silo
+  difficulty: easy
+
+forage_8_hay_with_scythe:
+  id: 128
+  object: Hay
+  quantity: 8
+  tool: Scythe
+  save: save_new
+  init_commands: null
+  evaluator: silo
+  difficulty: easy
+
+forage_10_hay_with_scythe:
+  id: 129
+  object: Hay
+  quantity: 10
+  tool: Scythe
+  save: save_new
+  init_commands: null
+  evaluator: silo
+  difficulty: easy
+
+forage_13_hay_with_scythe:
+  id: 130
+  object: Hay
+  quantity: 10
+  tool: Scythe
+  save: save_new
+  init_commands: null
+  evaluator: silo
+  difficulty: easy
+
+forage_15_hay_with_scythe:
+  id: 131
+  object: Hay
+  quantity: 15
+  tool: Scythe
+  save: save_new
+  init_commands: null
+  evaluator: silo
+  difficulty: easy
+
+forage_5_hay_with_golden_scythe:
+  id: 132
+  object: Hay
+  quantity: 5
+  tool: Golden Scythe
+  save: save_new
+  init_commands: ['add_item_by_name("Golden Scythe")']
+  evaluator: silo
+  difficulty: easy
+
+forage_8_hay_with_golden_scythe:
+  id: 133
+  object: Hay
+  quantity: 8
+  tool: Golden Scythe
+  save: save_new
+  init_commands: ['add_item_by_name("Golden Scythe")']
+  evaluator: silo
+  difficulty: easy
+
+forage_10_hay_with_golden_scythe:
+  id: 134
+  object: Hay
+  quantity: 10
+  tool: Golden Scythe
+  save: save_new
+  init_commands: ['add_item_by_name("Golden Scythe")']
+  evaluator: silo
+  difficulty: easy
+
+forage_13_hay_with_golden_scythe:
+  id: 135
+  object: Hay
+  quantity: 10
+  tool: Golden Scythe
+  save: save_new
+  init_commands: ['add_item_by_name("Golden Scythe")']
+  evaluator: silo
+  difficulty: easy
+
+forage_15_hay_with_golden_scythe:
+  id: 136
+  object: Hay
+  quantity: 15
+  tool: Golden Scythe
+  save: save_new
+  init_commands: ['add_item_by_name("Golden Scythe")']
+  evaluator: silo
+  difficulty: easy
+
+forage_1_quartz:
+  id: 137
+  object: Quartz
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp_mine(1)']
+  evaluator: harvest
+  difficulty: medium
+
+forage_2_quartz:
+  id: 138
+  object: Quartz
+  quantity: 2
+  tool: null
+  save: save_new
+  init_commands: ['warp_mine(1)']
+  evaluator: harvest
+  difficulty: medium
+
+forage_3_quartz:
+  id: 139
+  object: Quartz
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+#forage_4_quartz:
+#  id: 11
+#  object: Quartz
+#  quantity: 4
+#  tool: null
+#  save: save_new
+#  init_commands: null
+#  evaluator: harvest
+#  difficulty: hard
+
+forage_1_earth_crystal:
+  id: 140
+  object: Earth Crystal
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp_mine(1)']
+  evaluator: harvest
+  difficulty: medium
+
+forage_2_earth_crystal:
+  id: 141
+  object: Earth Crystal
+  quantity: 2
+  tool: null
+  save: save_new
+  init_commands: ['warp_mine(1)']
+  evaluator: harvest
+  difficulty: medium
+
+forage_3_earth_crystal:
+  id: 142
+  object: Earth Crystal
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+#forage_4_earth_crystal:
+#  id: 12
+#  object: Earth Crystal
+#  quantity: 4
+#  tool: null
+#  save: save_new
+#  init_commands: null
+#  evaluator: harvest
+#  difficulty: hard
+
+dig_1_clay_with_hoe:
+  id: 143
+  object: Clay
+  quantity: 1
+  tool: Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)']
+  evaluator: harvest
+  difficulty: easy
+
+dig_3_clay_with_hoe:
+  id: 144
+  object: Clay
+  quantity: 3
+  tool: Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)']
+  evaluator: harvest
+  difficulty: easy
+
+dig_5_clay_with_hoe:
+  id: 145
+  object: Clay
+  quantity: 5
+  tool: Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)']
+  evaluator: harvest
+  difficulty: easy
+
+dig_1_clay_with_copper_hoe:
+  id: 146
+  object: Clay
+  quantity: 1
+  tool: Copper Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)', 'add_item_by_name("Copper Hoe")']
+  evaluator: harvest
+  difficulty: easy
+
+dig_3_clay_with_copper_hoe:
+  id: 147
+  object: Clay
+  quantity: 3
+  tool: Copper Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)', 'add_item_by_name("Copper Hoe")']
+  evaluator: harvest
+  difficulty: easy
+
+dig_5_clay_with_copper_hoe:
+  id: 148
+  object: Clay
+  quantity: 5
+  tool: Copper Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)', 'add_item_by_name("Copper Hoe")']
+  evaluator: harvest
+  difficulty: easy
+
+dig_1_clay_with_steel_hoe:
+  id: 149
+  object: Clay
+  quantity: 1
+  tool: Steel Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)', 'add_item_by_name("Steel Hoe")']
+  evaluator: harvest
+  difficulty: easy
+
+dig_3_clay_with_steel_hoe:
+  id: 150
+  object: Clay
+  quantity: 3
+  tool: Steel Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)', 'add_item_by_name("Steel Hoe")']
+  evaluator: harvest
+  difficulty: easy
+
+dig_5_clay_with_steel_hoe:
+  id: 151
+  object: Clay
+  quantity: 5
+  tool: Steel Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)', 'add_item_by_name("Steel Hoe")']
+  evaluator: harvest
+  difficulty: easy
+
+dig_1_clay_with_gold_hoe:
+  id: 152
+  object: Clay
+  quantity: 1
+  tool: Gold Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)', 'add_item_by_name("Gold Hoe")']
+  evaluator: harvest
+  difficulty: easy
+
+dig_3_clay_with_gold_hoe:
+  id: 153
+  object: Clay
+  quantity: 3
+  tool: Gold Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)', 'add_item_by_name("Gold Hoe")']
+  evaluator: harvest
+  difficulty: easy
+
+dig_5_clay_with_gold_hoe:
+  id: 154
+  object: Clay
+  quantity: 5
+  tool: Gold Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)', 'add_item_by_name("Gold Hoe")']
+  evaluator: harvest
+  difficulty: easy
+
+dig_1_cave_carrot_with_hoe:
+  id: 155
+  object: Cave Carrot
+  quantity: 1
+  tool: Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)']
+  evaluator: harvest
+  difficulty: easy
+
+dig_3_cave_carrot_with_hoe:
+  id: 156
+  object: Cave Carrot
+  quantity: 3
+  tool: Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)']
+  evaluator: harvest
+  difficulty: easy
+
+dig_5_cave_carrot_with_hoe:
+  id: 157
+  object: Cave Carrot
+  quantity: 5
+  tool: Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)']
+  evaluator: harvest
+  difficulty: easy
+
+dig_1_cave_carrot_with_copper_hoe:
+  id: 158
+  object: Cave Carrot
+  quantity: 1
+  tool: Copper Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)', 'add_item_by_name("Copper Hoe")']
+  evaluator: harvest
+  difficulty: easy
+
+dig_3_cave_carrot_with_copper_hoe:
+  id: 159
+  object: Cave Carrot
+  quantity: 3
+  tool: Copper Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)', 'add_item_by_name("Copper Hoe")']
+  evaluator: harvest
+  difficulty: easy
+
+dig_5_cave_carrot_with_copper_hoe:
+  id: 160
+  object: Cave Carrot
+  quantity: 5
+  tool: Copper Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)', 'add_item_by_name("Copper Hoe")']
+  evaluator: harvest
+  difficulty: easy
+
+dig_1_cave_carrot_with_steel_hoe:
+  id: 161
+  object: Cave Carrot
+  quantity: 1
+  tool: Steel Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)', 'add_item_by_name("Steel Hoe")']
+  evaluator: harvest
+  difficulty: easy
+
+dig_3_cave_carrot_with_steel_hoe:
+  id: 162
+  object: Cave Carrot
+  quantity: 3
+  tool: Steel Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)', 'add_item_by_name("Steel Hoe")']
+  evaluator: harvest
+  difficulty: easy
+
+dig_5_cave_carrot_with_steel_hoe:
+  id: 163
+  object: Cave Carrot
+  quantity: 5
+  tool: Steel Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)', 'add_item_by_name("Steel Hoe")']
+  evaluator: harvest
+  difficulty: easy
+
+dig_1_cave_carrot_with_gold_hoe:
+  id: 164
+  object: Cave Carrot
+  quantity: 1
+  tool: Gold Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)', 'add_item_by_name("Gold Hoe")']
+  evaluator: harvest
+  difficulty: easy
+
+dig_3_cave_carrot_with_gold_hoe:
+  id: 165
+  object: Cave Carrot
+  quantity: 3
+  tool: Gold Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)', 'add_item_by_name("Gold Hoe")']
+  evaluator: harvest
+  difficulty: easy
+
+dig_5_cave_carrot_with_gold_hoe:
+  id: 166
+  object: Cave Carrot
+  quantity: 5
+  tool: Gold Hoe
+  save: save_new
+  init_commands: ['warp_mine(13)', 'add_item_by_name("Gold Hoe")']
+  evaluator: harvest
+  difficulty: easy
+
+dig_1_rusty_spur_with_hoe:
+  id: 167
+  object: Rusty Spur
+  quantity: 1
+  tool: Hoe
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+dig_1_rusty_spur_with_copper_hoe:
+  id: 168
+  object: Rusty Spur
+  quantity: 1
+  tool: Copper Hoe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Hoe")']
+  evaluator: harvest
+  difficulty: hard
+
+dig_1_rusty_spur_with_steel_hoe:
+  id: 169
+  object: Rusty Spur
+  quantity: 1
+  tool: Steel Hoe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Hoe")']
+  evaluator: harvest
+  difficulty: hard
+
+dig_1_rusty_spur_with_gold_hoe:
+  id: 170
+  object: Rusty Spur
+  quantity: 1
+  tool: Gold Hoe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Hoe")']
+  evaluator: harvest
+  difficulty: hard
+
+upgrade_1_foraging_skill:
+  id: 171
+  object: Foraging Skill
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: skill
+  difficulty: medium
+
+#upgrade_3_foraging_skill:
+#  id: 13
+#  object: Foraging Skill
+#  quantity: 3
+#  tool: null
+#  save: save_new
+#  init_commands: null
+#  evaluator: skill
+#  difficulty: hard
+
+upgrade_to_gatherer:
+  id: 172
+  object: Gatherer
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: profession
+  difficulty: hard
+
+mine_5_stone_with_pickaxe:
+  id: 173
+  object: Stone
+  quantity: 5
+  tool: Pickaxe
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+mine_8_stone_with_pickaxe:
+  id: 174
+  object: Stone
+  quantity: 8
+  tool: Pickaxe
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+mine_10_stone_with_pickaxe:
+  id: 175
+  object: Stone
+  quantity: 10
+  tool: Pickaxe
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: easy
+
+mine_5_stone_with_copper_pickaxe:
+  id: 176
+  object: Stone
+  quantity: 5
+  tool: Copper Pickaxe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Pickaxe")']
+  evaluator: harvest
+  difficulty: easy
+
+mine_8_stone_with_copper_pickaxe:
+  id: 177
+  object: Stone
+  quantity: 8
+  tool: Copper Pickaxe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Pickaxe")']
+  evaluator: harvest
+  difficulty: easy
+
+mine_10_stone_with_copper_pickaxe:
+  id: 178
+  object: Stone
+  quantity: 10
+  tool: Copper Pickaxe
+  save: save_new
+  init_commands: ['add_item_by_name("Copper Pickaxe")']
+  evaluator: harvest
+  difficulty: easy
+
+mine_5_stone_with_steel_pickaxe:
+  id: 179
+  object: Stone
+  quantity: 5
+  tool: Steel Pickaxe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Pickaxe")']
+  evaluator: harvest
+  difficulty: easy
+
+mine_8_stone_with_steel_pickaxe:
+  id: 180
+  object: Stone
+  quantity: 8
+  tool: Steel Pickaxe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Pickaxe")']
+  evaluator: harvest
+  difficulty: easy
+
+mine_10_stone_with_steel_pickaxe:
+  id: 181
+  object: Stone
+  quantity: 10
+  tool: Steel Pickaxe
+  save: save_new
+  init_commands: ['add_item_by_name("Steel Pickaxe")']
+  evaluator: harvest
+  difficulty: easy
+
+mine_5_stone_with_gold_pickaxe:
+  id: 182
+  object: Stone
+  quantity: 5
+  tool: Gold Pickaxe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Pickaxe")']
+  evaluator: harvest
+  difficulty: easy
+
+mine_8_stone_with_gold_pickaxe:
+  id: 183
+  object: Stone
+  quantity: 8
+  tool: Gold Pickaxe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Pickaxe")']
+  evaluator: harvest
+  difficulty: easy
+
+mine_10_stone_with_gold_pickaxe:
+  id: 184
+  object: Stone
+  quantity: 10
+  tool: Gold Pickaxe
+  save: save_new
+  init_commands: ['add_item_by_name("Gold Pickaxe")']
+  evaluator: harvest
+  difficulty: easy
+
+mine_1_amethyst_with_pickaxe:
+  id: 185
+  object: Amethyst
+  quantity: 1
+  tool: Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)']
+  evaluator: harvest
+  difficulty: hard
+
+#mine_2_amethyst_with_pickaxe:
+#  id: 14
+#  object: Amethyst
+#  quantity: 2
+#  tool: Pickaxe
+#  save: save_new
+#  init_commands: ['warp_mine(1)']
+#  evaluator: harvest
+#  difficulty: hard
+
+mine_1_amethyst_with_copper_pickaxe:
+  id: 186
+  object: Amethyst
+  quantity: 1
+  tool: Copper Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Copper Pickaxe")']
+  evaluator: harvest
+  difficulty: hard
+
+#mine_2_amethyst_with_copper_pickaxe:
+#  id: 15
+#  object: Amethyst
+#  quantity: 2
+#  tool: Copper Pickaxe
+#  save: save_new
+#  init_commands: ['warp_mine(1)', 'add_item_by_name("Copper Pickaxe")']
+#  evaluator: harvest
+#  difficulty: hard
+
+mine_1_amethyst_with_steel_pickaxe:
+  id: 187
+  object: Amethyst
+  quantity: 1
+  tool: Steel Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Steel Pickaxe")']
+  evaluator: harvest
+  difficulty: hard
+
+#mine_2_amethyst_with_steel_pickaxe:
+#  id: 16
+#  object: Amethyst
+#  quantity: 2
+#  tool: Steel Pickaxe
+#  save: save_new
+#  init_commands: ['warp_mine(1)', 'add_item_by_name("Steel Pickaxe")']
+#  evaluator: harvest
+#  difficulty: hard
+
+mine_1_amethyst_with_gold_pickaxe:
+  id: 188
+  object: Amethyst
+  quantity: 1
+  tool: Gold Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Gold Pickaxe")']
+  evaluator: harvest
+  difficulty: hard
+
+#mine_2_amethyst_with_gold_pickaxe:
+#  id: 17
+#  object: Amethyst
+#  quantity: 2
+#  tool: Gold Pickaxe
+#  save: save_new
+#  init_commands: ['warp_mine(1)', 'add_item_by_name("Gold Pickaxe")']
+#  evaluator: harvest
+#  difficulty: hard
+
+mine_1_copper_ore_with_pickaxe:
+  id: 189
+  object: Copper Ore
+  quantity: 1
+  tool: Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: harvest
+  difficulty: easy
+
+mine_3_copper_ore_with_pickaxe:
+  id: 190
+  object: Copper Ore
+  quantity: 3
+  tool: Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: harvest
+  difficulty: easy
+
+mine_5_copper_ore_with_pickaxe:
+  id: 191
+  object: Copper Ore
+  quantity: 5
+  tool: Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(2)']
+  evaluator: harvest
+  difficulty: easy
+
+mine_1_copper_ore_with_copper_pickaxe:
+  id: 192
+  object: Copper Ore
+  quantity: 1
+  tool: Copper Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Copper Pickaxe")']
+  evaluator: harvest
+  difficulty: easy
+
+mine_3_copper_ore_with_copper_pickaxe:
+  id: 193
+  object: Copper Ore
+  quantity: 3
+  tool: Copper Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Copper Pickaxe")']
+  evaluator: harvest
+  difficulty: easy
+
+mine_5_copper_ore_with_copper_pickaxe:
+  id: 194
+  object: Copper Ore
+  quantity: 5
+  tool: Copper Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Copper Pickaxe")']
+  evaluator: harvest
+  difficulty: easy
+
+mine_1_copper_ore_with_steel_pickaxe:
+  id: 195
+  object: Copper Ore
+  quantity: 1
+  tool: Steel Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Steel Pickaxe")']
+  evaluator: harvest
+  difficulty: easy
+
+mine_3_copper_ore_with_steel_pickaxe:
+  id: 196
+  object: Copper Ore
+  quantity: 3
+  tool: Steel Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Steel Pickaxe")']
+  evaluator: harvest
+  difficulty: easy
+
+mine_5_copper_ore_with_steel_pickaxe:
+  id: 197
+  object: Copper Ore
+  quantity: 5
+  tool: Steel Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Steel Pickaxe")']
+  evaluator: harvest
+  difficulty: easy
+
+mine_1_copper_ore_with_gold_pickaxe:
+  id: 198
+  object: Copper Ore
+  quantity: 1
+  tool: Gold Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Gold Pickaxe")']
+  evaluator: harvest
+  difficulty: easy
+
+mine_3_copper_ore_with_gold_pickaxe:
+  id: 199
+  object: Copper Ore
+  quantity: 3
+  tool: Gold Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Gold Pickaxe")']
+  evaluator: harvest
+  difficulty: easy
+
+mine_5_copper_ore_with_gold_pickaxe:
+  id: 200
+  object: Copper Ore
+  quantity: 5
+  tool: Gold Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Gold Pickaxe")']
+  evaluator: harvest
+  difficulty: easy
+
+mine_1_copper_ore_with_cherry_bomb:
+  id: 201
+  object: Copper Ore
+  quantity: 1
+  tool: Cherry Bomb
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Cherry Bomb", 20)']
+  evaluator: harvest
+  difficulty: easy
+
+mine_3_copper_ore_with_cherry_bomb:
+  id: 202
+  object: Copper Ore
+  quantity: 3
+  tool: Cherry Bomb
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Cherry Bomb", 20)']
+  evaluator: harvest
+  difficulty: easy
+
+mine_5_copper_ore_with_cherry_bomb:
+  id: 203
+  object: Copper Ore
+  quantity: 5
+  tool: Cherry Bomb
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Cherry Bomb", 20)']
+  evaluator: harvest
+  difficulty: easy
+
+mine_1_copper_ore_with_bomb:
+  id: 204
+  object: Copper Ore
+  quantity: 1
+  tool: Bomb
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Bomb", 20)']
+  evaluator: harvest
+  difficulty: easy
+
+mine_3_copper_ore_with_bomb:
+  id: 205
+  object: Copper Ore
+  quantity: 3
+  tool: Bomb
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Bomb", 20)']
+  evaluator: harvest
+  difficulty: easy
+
+mine_5_copper_ore_with_bomb:
+  id: 206
+  object: Copper Ore
+  quantity: 5
+  tool: Bomb
+  save: save_new
+  init_commands: ['warp_mine(2)', 'add_item_by_name("Bomb", 20)']
+  evaluator: harvest
+  difficulty: easy
+
+mine_1_topaz_with_pickaxe:
+  id: 207
+  object: Topaz
+  quantity: 1
+  tool: Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)']
+  evaluator: harvest
+  difficulty: hard
+
+#mine_2_topaz_with_pickaxe:
+#  id: 18
+#  object: Topaz
+#  quantity: 2
+#  tool: Pickaxe
+#  save: save_new
+#  init_commands: ['warp_mine(1)']
+#  evaluator: harvest
+#  difficulty: hard
+
+mine_1_topaz_with_copper_pickaxe:
+  id: 208
+  object: Topaz
+  quantity: 1
+  tool: Copper Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Copper Pickaxe")']
+  evaluator: harvest
+  difficulty: hard
+
+#mine_2_topaz_with_copper_pickaxe:
+#  id: 19
+#  object: Topaz
+#  quantity: 2
+#  tool: Copper Pickaxe
+#  save: save_new
+#  init_commands: ['warp_mine(1)', 'add_item_by_name("Copper Pickaxe")']
+#  evaluator: harvest
+#  difficulty: hard
+
+mine_1_topaz_with_steel_pickaxe:
+  id: 209
+  object: Topaz
+  quantity: 1
+  tool: Steel Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Steel Pickaxe")']
+  evaluator: harvest
+  difficulty: hard
+
+#mine_2_topaz_with_steel_pickaxe:
+#  id: 20
+#  object: Topaz
+#  quantity: 2
+#  tool: Steel Pickaxe
+#  save: save_new
+#  init_commands: ['warp_mine(1)', 'add_item_by_name("Steel Pickaxe")']
+#  evaluator: harvest
+#  difficulty: hard
+
+mine_1_topaz_with_gold_pickaxe:
+  id: 210
+  object: Topaz
+  quantity: 1
+  tool: Gold Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Gold Pickaxe")']
+  evaluator: harvest
+  difficulty: hard
+
+#mine_2_topaz_with_gold_pickaxe:
+#  id: 21
+#  object: Topaz
+#  quantity: 2
+#  tool: Gold Pickaxe
+#  save: save_new
+#  init_commands: ['warp_mine(1)', 'add_item_by_name("Gold Pickaxe")']
+#  evaluator: harvest
+#  difficulty: hard
+
+mine_1_coal_with_pickaxe:
+  id: 211
+  object: Coal
+  quantity: 1
+  tool: Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)']
+  evaluator: harvest
+  difficulty: medium
+
+mine_3_coal_with_pickaxe:
+  id: 212
+  object: Coal
+  quantity: 3
+  tool: Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)']
+  evaluator: harvest
+  difficulty: medium
+
+mine_5_coal_with_pickaxe:
+  id: 213
+  object: Coal
+  quantity: 5
+  tool: Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)']
+  evaluator: harvest
+  difficulty: medium
+
+mine_1_coal_with_copper_pickaxe:
+  id: 214
+  object: Coal
+  quantity: 1
+  tool: Copper Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Copper Pickaxe")']
+  evaluator: harvest
+  difficulty: medium
+
+mine_3_coal_with_copper_pickaxe:
+  id: 215
+  object: Coal
+  quantity: 3
+  tool: Copper Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Copper Pickaxe")']
+  evaluator: harvest
+  difficulty: medium
+
+mine_5_coal_with_copper_pickaxe:
+  id: 216
+  object: Coal
+  quantity: 5
+  tool: Copper Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Copper Pickaxe")']
+  evaluator: harvest
+  difficulty: medium
+
+mine_1_coal_with_steel_pickaxe:
+  id: 217
+  object: Coal
+  quantity: 1
+  tool: Steel Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Steel Pickaxe")']
+  evaluator: harvest
+  difficulty: medium
+
+mine_3_coal_with_steel_pickaxe:
+  id: 218
+  object: Coal
+  quantity: 3
+  tool: Steel Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Steel Pickaxe")']
+  evaluator: harvest
+  difficulty: medium
+
+mine_5_coal_with_steel_pickaxe:
+  id: 219
+  object: Coal
+  quantity: 5
+  tool: Steel Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Steel Pickaxe")']
+  evaluator: harvest
+  difficulty: medium
+
+mine_1_coal_with_gold_pickaxe:
+  id: 220
+  object: Coal
+  quantity: 1
+  tool: Gold Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Gold Pickaxe")']
+  evaluator: harvest
+  difficulty: medium
+
+mine_3_coal_with_gold_pickaxe:
+  id: 221
+  object: Coal
+  quantity: 3
+  tool: Gold Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Gold Pickaxe")']
+  evaluator: harvest
+  difficulty: medium
+
+mine_5_coal_with_gold_pickaxe:
+  id: 222
+  object: Coal
+  quantity: 5
+  tool: Gold Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Gold Pickaxe")']
+  evaluator: harvest
+  difficulty: medium
+
+mine_1_coal_with_cherry_bomb:
+  id: 223
+  object: Coal
+  quantity: 1
+  tool: Cherry Bomb
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Cherry Bomb", 20)']
+  evaluator: harvest
+  difficulty: medium
+
+mine_3_coal_with_cherry_bomb:
+  id: 224
+  object: Coal
+  quantity: 3
+  tool: Cherry Bomb
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Cherry Bomb", 20)']
+  evaluator: harvest
+  difficulty: medium
+
+mine_5_coal_with_cherry_bomb:
+  id: 225
+  object: Coal
+  quantity: 5
+  tool: Cherry Bomb
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Cherry Bomb", 20)']
+  evaluator: harvest
+  difficulty: medium
+
+mine_1_coal_with_bomb:
+  id: 226
+  object: Coal
+  quantity: 1
+  tool: Bomb
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Bomb", 20)']
+  evaluator: harvest
+  difficulty: medium
+
+mine_3_coal_with_bomb:
+  id: 227
+  object: Coal
+  quantity: 3
+  tool: Bomb
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Bomb", 20)']
+  evaluator: harvest
+  difficulty: medium
+
+mine_5_coal_with_bomb:
+  id: 228
+  object: Coal
+  quantity: 5
+  tool: Bomb
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Bomb", 20)']
+  evaluator: harvest
+  difficulty: medium
+
+mine_1_geode_with_pickaxe:
+  id: 229
+  object: Geode
+  quantity: 1
+  tool: Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)']
+  evaluator: harvest
+  difficulty: medium
+
+mine_3_geode_with_pickaxe:
+  id: 230
+  object: Geode
+  quantity: 3
+  tool: Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)']
+  evaluator: harvest
+  difficulty: medium
+
+mine_5_geode_with_pickaxe:
+  id: 231
+  object: Geode
+  quantity: 5
+  tool: Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)']
+  evaluator: harvest
+  difficulty: medium
+
+mine_1_geode_with_copper_pickaxe:
+  id: 232
+  object: Geode
+  quantity: 1
+  tool: Copper Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Copper Pickaxe")']
+  evaluator: harvest
+  difficulty: medium
+
+mine_3_geode_with_copper_pickaxe:
+  id: 233
+  object: Geode
+  quantity: 3
+  tool: Copper Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Copper Pickaxe")']
+  evaluator: harvest
+  difficulty: medium
+
+mine_5_geode_with_copper_pickaxe:
+  id: 234
+  object: Geode
+  quantity: 5
+  tool: Copper Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Copper Pickaxe")']
+  evaluator: harvest
+  difficulty: medium
+
+mine_1_geode_with_steel_pickaxe:
+  id: 235
+  object: Geode
+  quantity: 1
+  tool: Steel Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Steel Pickaxe")']
+  evaluator: harvest
+  difficulty: medium
+
+mine_3_geode_with_steel_pickaxe:
+  id: 236
+  object: Geode
+  quantity: 3
+  tool: Steel Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Steel Pickaxe")']
+  evaluator: harvest
+  difficulty: medium
+
+mine_5_geode_with_steel_pickaxe:
+  id: 237
+  object: Geode
+  quantity: 5
+  tool: Steel Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Steel Pickaxe")']
+  evaluator: harvest
+  difficulty: medium
+
+mine_1_geode_with_gold_pickaxe:
+  id: 238
+  object: Geode
+  quantity: 1
+  tool: Gold Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Gold Pickaxe")']
+  evaluator: harvest
+  difficulty: medium
+
+mine_3_geode_with_gold_pickaxe:
+  id: 239
+  object: Geode
+  quantity: 3
+  tool: Gold Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Gold Pickaxe")']
+  evaluator: harvest
+  difficulty: medium
+
+mine_5_geode_with_gold_pickaxe:
+  id: 240
+  object: Geode
+  quantity: 5
+  tool: Gold Pickaxe
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Gold Pickaxe")']
+  evaluator: harvest
+  difficulty: medium
+
+mine_1_geode_with_cherry_bomb:
+  id: 241
+  object: Geode
+  quantity: 1
+  tool: Cherry Bomb
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Cherry Bomb", 20)']
+  evaluator: harvest
+  difficulty: medium
+
+mine_3_geode_with_cherry_bomb:
+  id: 242
+  object: Geode
+  quantity: 3
+  tool: Cherry Bomb
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Cherry Bomb", 20)']
+  evaluator: harvest
+  difficulty: medium
+
+mine_5_geode_with_cherry_bomb:
+  id: 243
+  object: Geode
+  quantity: 5
+  tool: Cherry Bomb
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Cherry Bomb", 20)']
+  evaluator: harvest
+  difficulty: medium
+
+mine_1_geode_with_bomb:
+  id: 244
+  object: Geode
+  quantity: 1
+  tool: Bomb
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Bomb", 20)']
+  evaluator: harvest
+  difficulty: medium
+
+mine_3_geode_with_bomb:
+  id: 245
+  object: Geode
+  quantity: 3
+  tool: Bomb
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Bomb", 20)']
+  evaluator: harvest
+  difficulty: medium
+
+mine_5_geode_with_bomb:
+  id: 246
+  object: Geode
+  quantity: 5
+  tool: Bomb
+  save: save_new
+  init_commands: ['warp_mine(1)', 'add_item_by_name("Bomb", 20)']
+  evaluator: harvest
+  difficulty: medium
+
+upgrade_1_mining_skill:
+  id: 247
+  object: Mining Skill
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: skill
+  difficulty: medium
+
+#upgrade_3_mining_skill:
+#  id: 22
+#  object: Mining Skill
+#  quantity: 3
+#  tool: null
+#  save: save_new
+#  init_commands: null
+#  evaluator: skill
+#  difficulty: hard
+
+upgrade_to_geologist:
+  id: 248
+  object: Geologist
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: profession
+  difficulty: hard
+
+complete_spring_foraging_bundle:
+  id: 249
+  object: Spring Foraging Bundle
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("community center")', 'add_item_by_name("Wild Horseradish")', 'add_item_by_name("Daffodil")', 'add_item_by_name("Leek")', 'add_item_by_name("Dandelion")']
+  evaluator: bundle
+  difficulty: easy
+
+collect_spring_foraging_bundle:
+  id: 250
+  object: Spring Foraging Bundle
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: bundle
+  difficulty: hard
+
+#complete_construction_bundle:
+#  id: 23
+#  object: Construction Bundle
+#  quantity: 1
+#  tool: null
+#  save: save_new
+#  init_commands: ['warp("community center")', 'add_item_by_name("Wood", 198)', 'add_item_by_name("Stone", 99)', 'add_item_by_name("Hardwood", 10)']
+#  evaluator: bundle
+#  difficulty: easy
+
+collect_construction_bundle:
+  id: 251
+  object: Construction Bundle
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: bundle
+  difficulty: hard
+
+#complete_spring_crops_bundle:
+#  id: 24
+#  object: Spring Crops Bundle
+#  quantity: 1
+#  tool: null
+#  save: save_new
+#  init_commands: ['warp("community center")', 'add_item_by_name("Parsnip")', 'add_item_by_name("Green Bean")', 'add_item_by_name("Cauliflower")', 'add_item_by_name("Potato")']
+#  evaluator: bundle
+#  difficulty: easy
+
+collect_spring_crops_bundle:
+  id: 252
+  object: Spring Crops Bundle
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: bundle
+  difficulty: hard
+
+#complete_2500_bundle:
+#  id: 25
+#  object: 2500 Bundle
+#  quantity: 1
+#  tool: null
+#  save: save_new
+#  init_commands: ['warp("community center")']
+#  evaluator: bundle
+#  difficulty: easy
+
+complete_5000_bundle:
+  id: 253
+  object: 5000 Bundle
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: bundle
+  difficulty: medium
+
+#complete_10000_bundle:
+#  id: 26
+#  object: 10000 Bundle
+#  quantity: 1
+#  tool: null
+#  save: save_new
+#  init_commands: ['warp("community center")']
+#  evaluator: bundle
+#  difficulty: easy
+
+complete_25000_bundle:
+  id: 254
+  object: 25000 Bundle
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: bundle
+  difficulty: medium
+
+complete_bus_repair:
+  id: 255
+  object: Bus Repair
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("community center")']
+  evaluator: repair
+  difficulty: easy
+
+donate_amethyst:
+  id: 256
+  object: Amethyst
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("ArchaeologyHouse")', 'add_item_by_name("Amethyst")']
+  evaluator: museum
+  difficulty: easy
+
+donate_quartz:
+  id: 257
+  object: Quartz
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: museum
+  difficulty: hard
+
+donate_rusty_spoon:
+  id: 258
+  object: Rusty Spoon
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['warp("ArchaeologyHouse")', 'add_item_by_name("Rusty Spoon")']
+  evaluator: museum
+  difficulty: easy
+
+donate_rusty_spur:
+  id: 259
+  object: Rusty Spur
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: museum
+  difficulty: hard
+
+donate_3_item:
+  id: 260
+  object: Item
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: museum
+  difficulty: hard
+
+donate_5_item:
+  id: 261
+  object: Item
+  quantity: 5
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: museum
+  difficulty: hard
+
+#accept_1_help_wanted_quest:
+#  id: 27
+#  object: Help Wanted Quest
+#  quantity: 1
+#  tool: null
+#  save: save_new
+#  init_commands: null
+#  evaluator: accept
+#  difficulty: easy
+
+quit_1_quest:
+  id: 262
+  object: Quest
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: quit
+  difficulty: easy
+
+take_1_quest_reward:
+  id: 263
+  object: Quest Reward
+  quantity: 1
+  tool: null
+  save: save_quests
+  init_commands: null
+  evaluator: reward
+  difficulty: easy
+
+complete_1_help_wanted_quest:
+  id: 264
+  object: Help Wanted Quest
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: complete_help
+  difficulty: hard
+
+complete_3_help_wanted_quest:
+  id: 265
+  object: Help Wanted Quest
+  quantity: 3
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: complete_help
+  difficulty: hard
+
+earn_1_prize_ticket:
+  id: 266
+  object: Prize Ticket
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: harvest
+  difficulty: hard
+
+exchange_for_12_carrot_seeds_with_prize_ticket:
+  id: 267
+  object: Carrot Seeds
+  quantity: 12
+  tool: Prize Ticket
+  save: save_new
+  init_commands: ['add_item_by_name("Prize Ticket")']
+  evaluator: exchange
+  difficulty: medium
+
+complete_the_story_quest_"introductions":
+  id: 268
+  object: "9"
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: complete_story
+  difficulty: hard
+
+complete_the_story_quest_"how_to_win_friends":
+  id: 269
+  object: "25"
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['start_quest("25")']
+  evaluator: complete_story
+  difficulty: hard
+
+complete_the_story_quest_"getting_started":
+  id: 270
+  object: "6"
+  quantity: 1
+  tool: null
+  save: save_quests
+  init_commands: null
+  evaluator: complete_story
+  difficulty: hard
+
+complete_the_story_quest_"to_the_beach":
+  id: 271
+  object: "13"
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: complete_story
+  difficulty: hard
+
+complete_the_story_quest_"raising_animals":
+  id: 272
+  object: "7"
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['start_quest("7")']
+  evaluator: complete_story
+  difficulty: hard
+
+complete_the_story_quest_"advancement":
+  id: 273
+  object: "8"
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['start_quest("8")']
+  evaluator: complete_story
+  difficulty: hard
+
+complete_the_story_quest_"explore_the_mine":
+  id: 274
+  object: "14"
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: complete_story
+  difficulty: hard
+
+complete_the_story_quest_"archaeology":
+  id: 275
+  object: "24"
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['start_quest("24")']
+  evaluator: complete_story
+  difficulty: hard
+
+complete_the_story_quest_"rat_problem":
+  id: 276
+  object: "26"
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: complete_story
+  difficulty: hard
+
+complete_the_story_quest_"forging_ahead":
+  id: 277
+  object: "11"
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: null
+  evaluator: complete_story
+  difficulty: hard
+
+complete_the_story_quest_"smelting":
+  id: 278
+  object: "12"
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['start_quest("12")', 'add_item_by_name("Furnace")']
+  evaluator: complete_story
+  difficulty: hard
+
+complete_the_story_quest_"initiation":
+  id: 279
+  object: "15"
+  quantity: 1
+  tool: null
+  save: save_new
+  init_commands: ['start_quest("15")']
+  evaluator: complete_story
+  difficulty: hard

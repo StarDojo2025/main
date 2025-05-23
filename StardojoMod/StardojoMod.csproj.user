@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'DEBUG' ">
+    <StartAction>Program</StartAction>
+    <StartProgram>..\..\..\Library\Application Support\Steam\steamapps\common\Stardew Valley\Contents\MacOS\StardewModdingAPI</StartProgram>
+    <StartArguments>--port-id 6000</StartArguments>
+    <StartWorkingDirectory>..\..\..\Library\Application Support\Steam\steamapps\common\Stardew Valley\Contents\MacOS</StartWorkingDirectory>
+    <ExternalConsole>true</ExternalConsole>
+    <MonoDebugCasts>false</MonoDebugCasts>
+    <MonoDebugMdbOptimizations>false</MonoDebugMdbOptimizations>
+    <MonoGdbInfo>false</MonoGdbInfo>
+    <MonoProfile></MonoProfile>
+    <MonoVerboseLevel>0</MonoVerboseLevel>
+    <MonoRuntimeVersion></MonoRuntimeVersion>
+    <MonoSecurityMode>Disabled</MonoSecurityMode>
+    <MonoVerifyAll>false</MonoVerifyAll>
+    <MonoTraceExpressions></MonoTraceExpressions>
+    <MonoLogLevel>Default</MonoLogLevel>
+    <MonoLogMask>None</MonoLogMask>
+    <MonoXmlSerializerGeneration></MonoXmlSerializerGeneration>
+    <MonoConfigDir></MonoConfigDir>
+    <MonoConfigFile></MonoConfigFile>
+    <MonoDisableAIO>false</MonoDisableAIO>
+    <MonoDisableManagedCollation>false</MonoDisableManagedCollation>
+    <MonoExternalEncodings></MonoExternalEncodings>
+    <MonoGacPrefix></MonoGacPrefix>
+    <MonoStripDriveLetters>false</MonoStripDriveLetters>
+    <MonoCaseInsensitivePaths>false</MonoCaseInsensitivePaths>
+    <MonoManagedWatcher>false</MonoManagedWatcher>
+    <MonoNoSmp>false</MonoNoSmp>
+    <MonoPath></MonoPath>
+    <MonoWindowsFormsTheme></MonoWindowsFormsTheme>
+    <MonoThreadsPerCpu></MonoThreadsPerCpu>
+    <MonoAspNetNoDelete>false</MonoAspNetNoDelete>
+    <MonoTraceListener></MonoTraceListener>
+    <MonoXExceptions>false</MonoXExceptions>
+    <MonoXDebug>false</MonoXDebug>
+    <MonoGcType>Default</MonoGcType>
+    <MonoLlvm>false</MonoLlvm>
+    <MonoNoLlvm>false</MonoNoLlvm>
+    <MonoDesktopMode>false</MonoDesktopMode>
+    <MonoServerMode>false</MonoServerMode>
+    <MonoAdditionalOptions></MonoAdditionalOptions>
+    <MonoArchitecture>Default</MonoArchitecture>
+    <Architecture></Architecture>
+    <TargetRuntimeId></TargetRuntimeId>
+  </PropertyGroup>
+</Project>
