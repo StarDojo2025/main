@@ -71,7 +71,7 @@
     <div class="container is-max-desktop">
         <div class="hero-body">
             <video width="100%" controls autoplay muted>
-                <source src="./video/whole_video.mp4" type="video/mp4">
+                <source src="./video/stardojo_main.mp4" type="video/mp4">
             </video>
         </div>
     </div>
@@ -86,11 +86,11 @@
                 <div class="content has-text-justified">
                     <p>
                         Autonomous agents navigating human society must master both production activities and social interactions, 
-                        yet existing benchmarks rarely evaluate these skills simultaneously. To bridge this gap, we introduce StarDojo, 
+                        yet existing benchmarks rarely evaluate these skills simultaneously. To bridge this gap, we introduce <b>StarDojo</b>, 
                         a novel benchmark based on Stardew Valley, designed to assess AI agents in open-ended production–living simulations. 
-                        In StarDojo, agents are tasked to perform essential livelihood activities such as farming and crafting, 
+                        In <b>StarDojo</b>, agents are tasked to perform essential livelihood activities such as farming and crafting, 
                         while simultaneously engaging in social interactions to establish relationships within a vibrant community. 
-                        StarDojo features 1,000 meticulously curated tasks across five key domains: farming, crafting, exploration, combat, 
+                        <b>StarDojo</b> features 1,000 meticulously curated tasks across five key domains: farming, crafting, exploration, combat, 
                         and social interactions. Additionally, we provide a compact subset of 100 representative tasks for efficient model evaluation. 
                         The benchmark is designed with a unified, user-friendly interface without the need for keyboard and mouse control, 
                         supports all mainstream operating systems, and enables parallelized execution of multiple environment instances, 
@@ -98,7 +98,7 @@
                         Extensive evaluations of state-of-the-art MLLMs agents demonstrate substantial limitations, with the best-performing model, 
                         GPT-4.1, achieving only a 12.7% success rate, primarily due to challenges in visual understanding, 
                         multimodal reasoning and low-level manipulation. As a user-friendly environment and benchmark, 
-                        StarDojo aims to facilitate further research towards robust, open-ended agents in complex production-living environments.
+                        <b>StarDojo</b> aims to facilitate further research towards robust, open-ended agents in complex production-living environments.
                     </p>
                 </div>
             </div>
@@ -106,11 +106,12 @@
     </div>
 </section>
 
+
 <section class="section">
     <div class="container is-max-desktop">
         <div class="columns is-centered">
             <div class="column is-full-width">
-                <h2 class="title is-3" style="text-align: center;">Stardew Valley: A Production-Living System</h2>
+                <h2 class="title is-3" style="text-align: center;">Stardew Valley: An Ideal Production-Living Simulation</h2>
                 <img src="./images/StarDojo_intro.png"/>
                 <div class="content has-text-justified">
                     <br></br>
@@ -118,9 +119,14 @@
                         Stardew Valley is an open-ended simulation RPG where players inherit a run-down farm. 
                         Players must thoughtfully manage their farming strategies, explore the surrounding village, 
                         and gather diverse resources to revitalize the farm. 
-                        Players are encouraged to build meaningful relationships with local villagers and participate in community events. 
+                        Players are encouraged to build meaningful relationships with local villagers and participate in community events.  
+                        Its well-integrated systems of time management, resource allocation, economic planning, 
+                        and social interaction provide a dynamic and complex environment that requires strategic thinking and adaptability. 
+                        The game's structured yet open-ended nature makes it an excellent testbed for evaluating decision-making capabilities 
+                        in simulated real-world conditions. Overall, Stardew Valley serves as an ideal environment for decision-making agents 
+                        in the production–living simulation.
                     </p>
-                    <p>
+                    <!-- <p>
                         <span style="font-weight: bold">Realistic Dynamics</span>. Each in-game day in Stardew Valley lasts from 6 AM to 2 AM. 
                         When nightfall occurs, outdoor activities will be affected due to the darkness. 
                         Staying awake past midnight will result in penalties. Players start each day with 270 energy points, 
@@ -155,7 +161,7 @@
                         and social interaction provide a dynamic and complex environment that requires strategic thinking and adaptability. 
                         The game's structured yet open-ended nature makes it an excellent testbed for evaluating decision-making capabilities 
                         in simulated real-world conditions.
-                    </p>
+                    </p> -->
                 </div>
             </div>
         </div>
@@ -179,7 +185,7 @@
     <div class="container is-max-desktop">
         <div class="columns is-centered">
             <div class="column is-full-width">
-                <h2 class="title is-3" style="text-align: center;">StarDojo Architecture</h2>
+                <h2 class="title is-3" style="text-align: center;">StarDojo Environment</h2>
                 <img src="./images/StarDojo_structure.png"/>
                 <div class="content has-text-justified">
                     <br></br>
@@ -187,7 +193,7 @@
                         As a classical video game, Stardew Valley only supports human-like interaction, e.g., 
                         observing gameplay through screenshots and using keyboard and mouse to control. The game must remain active and focused in the foreground, 
                         which severely limits the ability to automate gameplay or run multiple instances simultaneously. 
-                        We introduce our carefully designed StarDojo environment to facilitate agents' interaction and assessment. 
+                        We introduce our carefully designed <b>StarDojo</b> environment to facilitate agents' interaction and assessment. 
                     </p>
                     <p>
                         <span style="font-weight: bold">Unified User-friendly Interface</span>. 
@@ -240,33 +246,33 @@
                 <div style="display: flex; justify-content: center; align-items: center; width: 80%; margin: 0 auto;">
                     <figure style="margin: 0 10px; text-align: center; width: 80%;">
                         <img src="./images/StarDojo_tasks.jpg" alt="1000 Tasks" style="width: 100%; height: auto;">
-                        <figcaption>Distribution of tasks across five categories: Farming, Crafting, Exploration, 
-                            Combat and Social in StarDojo, each with Easy, Medium, and Hard difficulties.</figcaption>
+                        <figcaption>Distribution of 1000 tasks across five categories: Farming, Crafting, Exploration, 
+                            Combat and Social in <b>StarDojo</b>, each with Easy, Medium, and Hard difficulties.</figcaption>
                     </figure>
                     <figure style="margin: 0 10px; text-align: center; width: 80%;">
                         <img src="./images/StarDojo_Lite.png" alt="StarDojo-Lite" style="width: 100%; height: auto;">
-                        <figcaption>Task statistics of StarDojo-Lite. 
-                            The task suite is made up of the most representative early-stage tasks from each category.</figcaption>
+                        <figcaption>Task statistics of <b>StarDojo-Lite</b>. 
+                            The suite comprises 100 tasks, selected as the most representative early-stage examples from each category.</figcaption>
                     </figure>
                 </div>
                 <br><br/>
                 <div class="content has-text-justified">
                     <p>
-                        We carefully curate 1000 tasks to benchmark agents' various behaviors in StarDojo. 
+                        We carefully curate 1000 tasks to benchmark agents' various behaviors in <b>StarDojo</b>. 
                         These tasks are divided into five distinct categories, <span style="font-weight: bold">Farming</span>, 
                         <span style="font-weight: bold">Crafting</span>, <span style="font-weight: bold">Exploration</span>, 
                         <span style="font-weight: bold">Combat</span> and <span style="font-weight: bold">Social</span>, 
                         which covers most of the production-living activities in the early and middle stages of the game. 
                         Each task is classified into three difficulties, easy, medium, and hard, 
                         with a heuristic maximum steps of 30, 50 and 150, based on their complexity and the time consuming. 
-                        To facilitate efficient agent evaluation, we curate a representative smaller task suite, called StarDojo-Lite, 
+                        To facilitate efficient agent evaluation, we curate a representative smaller task suite, called <b>StarDojo-Lite</b>, 
                         comprising 100 core tasks from the full task collection, balancing coverage and practicality. 
                         This lite task set covers most of the representative activities in the early stage of the game. 
                     </p>
                 </div>
                 <br></br>
                 
-                <h2 class="title is-3" style="text-align: center;">Empirical Studies</h2>
+                <h2 class="title is-3" style="text-align: center;">SoTA Models in StarDojo-Lite</h2>
                 <p>
                 </p>
                 <!-- <h2 class="title is-4" style="text-align: center;">Major Results</h2> -->
@@ -279,13 +285,14 @@
                 <br></br>
                 <div class="content has-text-justified">
                     <p>
-                        Across all evaluated models, GPT-4.1 achieves the highest overall success rate of 12.7% across all tasks, 
-                        while other models perform below 11%. Among open-source models, Llama 4 Maverick demonstrates the strongest performance, 
+                        Across all evaluated models, <strong>GPT-4.1</strong> achieves the highest overall success rate of <strong>12.7%</strong> across all tasks, 
+                        while other models perform below <strong>11%</strong>. Among open-source models, <strong>Llama 4 Maverick</strong> demonstrates the strongest performance, 
                         benefiting from its larger model size. Most successful completions are limited to easy tasks, 
                         whereas all models struggle significantly with medium and hard tasks, 
                         achieving near-zero success rates due to increased task complexity and longer sequences of required actions. 
                         Models show some proficiency in farming and crafting tasks but exhibit considerable difficulty in exploration, 
-                        combat, and social interactions.
+                        combat, and social interactions. These results highlight the significant remaining space for improvement of MLLMs, 
+                        particularly in visual understanding, multimodal reasoning, low-level manipulation, and long-term planning.
                     </p>
                 </div>
                 <br></br>
