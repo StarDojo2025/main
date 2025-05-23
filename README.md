@@ -68,6 +68,11 @@ cd StarDojo
 source setup.sh
 ```
 
+For Windows, execute the command below instead.
+```bash
+.\setup.ps1
+```
+
 This command installs dependencies and prepares the shell environment for easy agent launching.
 
 ---
@@ -76,11 +81,13 @@ This command installs dependencies and prepares the shell environment for easy a
 
 After setup, run python files under the `env/` directory.
 
-| Mode                    | File                        | Description                      |
+| Mode                    | Command                        | Description                      |
 | ----------------------- | ------------------------------ | -------------------------------- |
-| 🧪 Single Task          | `llm_env.py`                      | Runs a single benchmark task     |
-| 🔁 Multi-task (serial)  | `llm_env_multi_tasks.py`          | Runs multiple tasks sequentially |
-| ⚡ Multi-task (parallel) | `llm_env_multi_tasks_parallel.py` | Runs multiple tasks in parallel  |
+| 🧪 Single Task          | `python llm_env.py`                      | Runs a single benchmark task     |
+| 🔁 Multi-task (serial)  | `python llm_env_multi_tasks.py`          | Runs multiple tasks sequentially |
+| ⚡ Multi-task (parallel) | `python llm_env_multi_tasks_parallel.py` | Runs multiple tasks in parallel  |
+
+Customize the tasks using `--task_params`, or `--task_name` and `--task_id` when running a single task.
 
 ---
 
