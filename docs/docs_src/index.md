@@ -9,7 +9,6 @@
 ### Benchmarking
 - [Running StarDojo](benchmarking/2_1_running.md)
 - [Configuration Files](benchmarking/2_2_config_files.md)
-- [Runtime Parameters](benchmarking/2_3_runtime_params.md)
 
 ### [Action Space](action_space.md)
 
