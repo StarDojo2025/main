@@ -1,0 +1,31 @@
+site_name: StarDojo Documentation
+theme:
+  name: material
+
+docs_dir: docs_src
+site_dir: docs
+
+nav:
+  - Home: index.md
+  
+  - Installation:
+      - Prerequisites: installation/1_1_prerequisites.md
+      - StarDojo Installation: installation/1_2_installation.md
+
+  - Benchmarking:
+      - Running StarDojo: benchmarking/2_1_running.md
+      - Configuration: benchmarking/2_2_config_files.md
+
+  - Action Space: action_space.md
+
+  - Observation Space: observation_space.md
+
+  - Summary: summary.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
