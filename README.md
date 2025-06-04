@@ -4,7 +4,7 @@ This project provides a benchmarking and testing environment for language model 
 
 Official Website: https://stardojo2025.github.io/stardojo
 
-Docs: [docs.md](./docs.md)
+Docs: https://stardojo2025.github.io/stardojo/docs
 
 ---
 
