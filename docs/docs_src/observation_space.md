@@ -102,7 +102,7 @@ The observation space in StarDojo provides a structured and comprehensive snapsh
 
 ---
 
-> ℹ️ **Note**: The default observation set is constrained as below, used when a lightweight input is desired:
+> **Note**: The default observation set is constrained as below, used when a lightweight input is desired:
 >
 > - **Health**: Current player health (int)  
 > - **Energy**: Current stamina level (float)  
