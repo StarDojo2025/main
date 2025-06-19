@@ -20,6 +20,8 @@ nav:
 
   - Observation Space: observation_space.md
 
+  - Tasks: tasks.md
+
   - Summary: summary.md
 
 plugins:
